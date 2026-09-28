@@ -91,7 +91,16 @@
             "Dart"
           ],
           "description": "CLI calculator with validation, operators and tests.",
-          "outcome": "Convert Week 1 concepts into demonstrable engineering evidence."
+          "outcome": "Convert Week 1 concepts into demonstrable engineering evidence.",
+          "tagline": "Terminal expression calculator with validation and unit tests",
+          "features": [
+            "Interactive REPL loop supporting standard arithmetic (+, -, *, /, %, ^)",
+            "Strict input parsing with error handling (division by zero, invalid characters)",
+            "Session history buffer with recall commands (history, ans, clear)",
+            "10+ unit tests with package:test verifying edge cases"
+          ],
+          "architecture": "Separation of concerns: Lexer/Parser, Evaluator, HistoryBuffer, and CLI Runner.",
+          "deliverable": "Working Dart CLI executable in bin/ with passing unit tests."
         }
       ],
       "category": "Dart Topic"
@@ -121,7 +130,16 @@
             "Dart"
           ],
           "description": "Frequency, unique values, min/max and collection transformations.",
-          "outcome": "Convert Week 2 concepts into demonstrable engineering evidence."
+          "outcome": "Convert Week 2 concepts into demonstrable engineering evidence.",
+          "tagline": "Data processing utility for List, Set, and Map transformations",
+          "features": [
+            "Parsing raw dataset (CSV/JSON strings) into strongly typed models",
+            "Filtering, mapping, sorting, and grouping using Dart higher-order methods (where, map, fold, reduce)",
+            "Duplicate detection and unique frequency counting using Set and Map",
+            "Performance benchmark measuring execution time across varying collection sizes"
+          ],
+          "architecture": "Data Transformer Service with functional pipelines and unit tests.",
+          "deliverable": "Reusable Dart utility package with benchmark script."
         }
       ],
       "category": "Dart Topic"
@@ -152,7 +170,16 @@
             "OOP"
           ],
           "description": "Books, members, loans and composition.",
-          "outcome": "Convert Week 3 concepts into demonstrable engineering evidence."
+          "outcome": "Convert Week 3 concepts into demonstrable engineering evidence.",
+          "tagline": "Domain-driven OOP model layer for a digital library system",
+          "features": [
+            "Class hierarchy with encapsulation, getters/setters, and named/factory constructors",
+            "Inheritance & Interfaces: Book, AudioBook, User, Member, Librarian, LoanRecord",
+            "Stateful business logic for borrowing, returning, and fine calculation",
+            "Immutable value objects with copyWith and equality overrides"
+          ],
+          "architecture": "Pure Dart domain model layer following OOP SOLID principles.",
+          "deliverable": "Fully typed domain model layer with 15+ automated unit tests."
         }
       ],
       "category": "Dart Topic"
@@ -183,7 +210,16 @@
             "Async"
           ],
           "description": "Concurrent fake network tasks with failure handling.",
-          "outcome": "Convert Week 4 concepts into demonstrable engineering evidence."
+          "outcome": "Convert Week 4 concepts into demonstrable engineering evidence.",
+          "tagline": "Concurrent task runner with Future chaining, timeout, and retry logic",
+          "features": [
+            "Async worker executing multiple concurrent simulated I/O tasks using Future.wait",
+            "Exponential backoff retry mechanism with configurable attempts and timeouts",
+            "Task queue with maximum concurrency limit (rate-limiting simulated workers)",
+            "Custom exception hierarchy (TimeoutException, NetworkFailureException)"
+          ],
+          "architecture": "Async Queue Engine using Dart Futures and custom error mappers.",
+          "deliverable": "Async console runner demonstrating resilience under simulated failures."
         }
       ],
       "category": "Dart Topic"
@@ -214,7 +250,16 @@
             "Streams"
           ],
           "description": "StreamController-based event monitor with filters.",
-          "outcome": "Convert Week 5 concepts into demonstrable engineering evidence."
+          "outcome": "Convert Week 5 concepts into demonstrable engineering evidence.",
+          "tagline": "Real-time telemetry event stream monitor using Dart Streams",
+          "features": [
+            "StreamController generating mock IoT/server telemetry data periodically",
+            "Stream transformations: debounce, throttle, buffer, where, and distinct",
+            "Broadcast stream subscriptions feeding multiple listeners (console logger, metrics aggregator)",
+            "Graceful stream lifecycle management with clean cancellation and disposal"
+          ],
+          "architecture": "Reactive event-pipeline with StreamControllers and StreamTransformers.",
+          "deliverable": "Live terminal event dashboard with automated stream lifecycle tests."
         }
       ],
       "category": "Dart Topic"
@@ -244,7 +289,16 @@
             "Dart"
           ],
           "description": "Income, expense, category and monthly summary engine.",
-          "outcome": "Convert Week 6 concepts into demonstrable engineering evidence."
+          "outcome": "Convert Week 6 concepts into demonstrable engineering evidence.",
+          "tagline": "Personal expense tracker with local JSON persistence",
+          "features": [
+            "CLI CRUD operations for income and expenses with category tagging",
+            "Monthly budget allocation and overspending alert warnings",
+            "Local file read/write serialization using dart:convert and dart:io",
+            "ASCII summary table generation with total breakdowns and savings rate"
+          ],
+          "architecture": "Layered architecture: CLI View, BudgetController, StorageRepository.",
+          "deliverable": "Complete CLI tool that stores and computes monthly budget balances."
         }
       ],
       "category": "Dart Topic"
@@ -351,7 +405,16 @@
             "DSA"
           ],
           "description": "Run common algorithms and print operation counts.",
-          "outcome": "Convert Week 7 concepts into demonstrable engineering evidence."
+          "outcome": "Convert Week 7 concepts into demonstrable engineering evidence.",
+          "tagline": "Visual benchmark and comparison tool for sorting & searching algorithms",
+          "features": [
+            "Implementations: Bubble, Insertion, Merge, Quick Sort and Binary Search",
+            "Step-by-step iteration counter and swap logger for Big-O analysis",
+            "Performance benchmark measuring runtime across 100 to 100,000 items",
+            "Automated correctness testing verifying against sorted arrays"
+          ],
+          "architecture": "Algorithmic suite with benchmarking runner and execution stopwatch.",
+          "deliverable": "Benchmark report comparing empirical runtimes against theoretical Big-O."
         }
       ],
       "category": "DSA Topic"
@@ -458,7 +521,16 @@
             "DSA"
           ],
           "description": "Compare hash lookup and linear search.",
-          "outcome": "Convert Week 8 concepts into demonstrable engineering evidence."
+          "outcome": "Convert Week 8 concepts into demonstrable engineering evidence.",
+          "tagline": "Custom Hash Map implementation from scratch with collision resolution",
+          "features": [
+            "Hash table implementation using array of buckets with separate chaining / probing",
+            "Custom hash code calculation and bucket distribution analysis",
+            "Methods: put(key, value), get(key), remove(key), containsKey(key), loadFactor",
+            "Dynamic resizing and rehashing when load factor exceeds threshold (0.75)"
+          ],
+          "architecture": "Low-level data structure module with collision metrics visualization.",
+          "deliverable": "Custom HashMap class with collision test suite."
         }
       ],
       "category": "DSA Topic"
@@ -565,7 +637,16 @@
             "DSA"
           ],
           "description": "Print active windows while solving subarray problems.",
-          "outcome": "Convert Week 9 concepts into demonstrable engineering evidence."
+          "outcome": "Convert Week 9 concepts into demonstrable engineering evidence.",
+          "tagline": "Step-by-step visualizer for Two Pointers and Sliding Window patterns",
+          "features": [
+            "Interactive runner for 2 Sum (Sorted), Max Subarray of Size K, Longest Substring Without Repeating Characters",
+            "ASCII visualization highlighting left and right pointer movements at each step",
+            "State tracker showing window sum, frequency map, and current optimum",
+            "Time & Space complexity annotations for each pattern"
+          ],
+          "architecture": "Pattern Engine with step-by-step execution hooks and ASCII renderer.",
+          "deliverable": "Interactive CLI demonstrating pointer migrations."
         }
       ],
       "category": "DSA Topic"
@@ -597,7 +678,16 @@
             "Stack"
           ],
           "description": "Editor-style undo/redo with two stacks.",
-          "outcome": "Convert Week 10 concepts into demonstrable engineering evidence."
+          "outcome": "Convert Week 10 concepts into demonstrable engineering evidence.",
+          "tagline": "Command pattern engine with infinite undo and redo stacks",
+          "features": [
+            "Stack-based history management supporting execute(), undo(), and redo()",
+            "Sample document editor commands: InsertText, DeleteText, FormatText",
+            "Stack overflow prevention with configurable maximum history limit",
+            "State preservation verifying exact document state across multiple undo/redo loops"
+          ],
+          "architecture": "Command Design Pattern with LIFO Stack data structures.",
+          "deliverable": "Tested undo/redo engine integrated into a mini text buffer."
         }
       ],
       "category": "DSA Topic"
@@ -704,7 +794,16 @@
             "DSA"
           ],
           "description": "CRUD, reverse and cycle detection playground.",
-          "outcome": "Convert Week 11 concepts into demonstrable engineering evidence."
+          "outcome": "Convert Week 11 concepts into demonstrable engineering evidence.",
+          "tagline": "Singly & Doubly Linked List library with advanced pointer operations",
+          "features": [
+            "Implementations: SinglyLinkedList, DoublyLinkedList with Node pointers",
+            "Operations: insertHead, insertTail, deleteNode, reverseIterative, reverseRecursive",
+            "Fast/Slow pointer algorithms: Detect cycle, Find middle element, Nth node from end",
+            "Comprehensive unit test coverage verifying memory pointer integrity"
+          ],
+          "architecture": "Pointer-based Data Structure library with generic type support.",
+          "deliverable": "Linked list library with full algorithmic test suite."
         }
       ],
       "category": "DSA Topic"
@@ -905,7 +1004,16 @@
             "Dio"
           ],
           "description": "REST API with loading, error, empty and success states.",
-          "outcome": "Convert Week 13 concepts into demonstrable engineering evidence."
+          "outcome": "Convert Week 13 concepts into demonstrable engineering evidence.",
+          "tagline": "Production HTTP client for Flutter using Dio with interceptors and caching",
+          "features": [
+            "Configured Dio client with base URL, connect/receive timeouts, and custom headers",
+            "Logging interceptor and centralized error mapper (HTTP 400, 401, 403, 404, 500)",
+            "Auto-retry interceptor for failed network requests with exponential backoff",
+            "Clean UI screen fetching, displaying, and pulling-to-refresh paginated REST API data"
+          ],
+          "architecture": "Data Layer API Client with Interceptor chain and Repository abstraction.",
+          "deliverable": "Reusable Flutter Dio network module with error handling UI."
         }
       ],
       "category": "DSA Topic"
@@ -1012,7 +1120,16 @@
             "Auth"
           ],
           "description": "Login/logout/refresh-token simulation.",
-          "outcome": "Convert Week 14 concepts into demonstrable engineering evidence."
+          "outcome": "Convert Week 14 concepts into demonstrable engineering evidence.",
+          "tagline": "Complete Flutter authentication module with JWT token lifecycle management",
+          "features": [
+            "Login, Register, and Forgot Password screens with client-side form validation",
+            "Secure storage of Access and Refresh tokens using flutter_secure_storage",
+            "Auth interceptor automatically attaching Bearer token and refreshing expired tokens",
+            "Global AuthState listener redirecting user to Login or Dashboard automatically"
+          ],
+          "architecture": "Feature-driven auth module with Bloc/Cubit and Secure Repository.",
+          "deliverable": "Production-ready Flutter Auth module ready to drop into any app."
         }
       ],
       "category": "DSA Topic"
@@ -1043,7 +1160,16 @@
             "Storage"
           ],
           "description": "Cached notes with offline read/write.",
-          "outcome": "Convert Week 15 concepts into demonstrable engineering evidence."
+          "outcome": "Convert Week 15 concepts into demonstrable engineering evidence.",
+          "tagline": "Offline-first notes app with local database synchronization",
+          "features": [
+            "CRUD notes with title, markdown body, tags, and pinned status",
+            "Local persistence with SQLite / Hive / Isar database",
+            "Optimistic UI updates for immediate responsiveness",
+            "Sync status indicators (Synced, Pending Sync, Offline mode)"
+          ],
+          "architecture": "Offline-first architecture with LocalDataSource, RemoteDataSource, and SyncEngine.",
+          "deliverable": "Working offline notes application with persistent local storage."
         }
       ],
       "category": "DSA Topic"
@@ -1074,7 +1200,16 @@
             "Testing"
           ],
           "description": "Unit, widget and integration tests for one feature.",
-          "outcome": "Convert Week 16 concepts into demonstrable engineering evidence."
+          "outcome": "Convert Week 16 concepts into demonstrable engineering evidence.",
+          "tagline": "Comprehensive test suite for Flutter apps (Unit, Widget, and Integration)",
+          "features": [
+            "Unit tests for Business Logic (Bloc/Cubit/StateNotifiers) using bloc_test / mockito",
+            "Widget tests verifying UI rendering, form submission, and error snackbars with WidgetTester",
+            "Integration test flow navigating from Login to Home and performing an action",
+            "Code coverage report generation with minimum 80% coverage threshold"
+          ],
+          "architecture": "Testing infrastructure following AAA (Arrange, Act, Assert) pattern.",
+          "deliverable": "Automated Flutter test suite with 25+ tests and coverage HTML report."
         }
       ],
       "category": "Flutter Topic"
@@ -1105,7 +1240,16 @@
             "DevTools"
           ],
           "description": "Create and fix rebuild/list/image performance problems.",
-          "outcome": "Convert Week 17 concepts into demonstrable engineering evidence."
+          "outcome": "Convert Week 17 concepts into demonstrable engineering evidence.",
+          "tagline": "Performance profiling and optimization case study for Flutter",
+          "features": [
+            "Profiling app performance using Flutter DevTools (CPU profiler, Timeline, Memory)",
+            "Fixing UI jank by eliminating unnecessary widget rebuilds with const constructors and RepaintBoundary",
+            "Optimizing large ListView performance using itemExtent and image memory caching",
+            "Before vs After frame budget benchmarks (target 60fps / 120fps)"
+          ],
+          "architecture": "Optimized rendering tree with granular state rebuild boundaries.",
+          "deliverable": "Optimized Flutter app with DevTools profiling documentation."
         }
       ],
       "category": "Flutter Topic"
@@ -1136,7 +1280,16 @@
             "FCM"
           ],
           "description": "Notifications that navigate into app content.",
-          "outcome": "Convert Week 18 concepts into demonstrable engineering evidence."
+          "outcome": "Convert Week 18 concepts into demonstrable engineering evidence.",
+          "tagline": "Firebase Cloud Messaging (FCM) & deep-linking routing system in Flutter",
+          "features": [
+            "Push notification listener handling Foreground, Background, and Terminated states",
+            "Declarative deep linking with GoRouter (app://product/123 -> opens ProductDetailsScreen)",
+            "Local notification banner display using flutter_local_notifications",
+            "Dynamic badge counter and notification history center"
+          ],
+          "architecture": "Notification service decoupled from UI routing via GoRouter navigation intent.",
+          "deliverable": "Flutter app handling external deep-links and push notifications."
         }
       ],
       "category": "Flutter Topic"
@@ -1187,7 +1340,16 @@
             "Architecture"
           ],
           "description": "Reusable feature module with repository/use-case/DI.",
-          "outcome": "Convert Week 20 concepts into demonstrable engineering evidence."
+          "outcome": "Convert Week 20 concepts into demonstrable engineering evidence.",
+          "tagline": "Enterprise-grade Feature-First Flutter starter template with Bloc and DI",
+          "features": [
+            "Feature-first directory structure (features/auth, features/dashboard, core/network, core/theme)",
+            "Clean Architecture layers per feature: Presentation, Domain (UseCases), Data",
+            "Dependency Injection with GetIt & Injectable for testable decoupling",
+            "Dark/Light theme switching, multi-flavor configs (dev, staging, prod), and centralized router"
+          ],
+          "architecture": "Feature-First Clean Architecture with BLoC state management and GetIt DI.",
+          "deliverable": "Production-ready reusable Flutter boilerplate repository."
         }
       ],
       "category": "Flutter Topic"
@@ -1274,7 +1436,17 @@
             "Testing"
           ],
           "description": "Auth, courses, purchase simulation, profile, cache and tests.",
-          "outcome": "Convert Week 24 concepts into demonstrable engineering evidence."
+          "outcome": "Convert Week 24 concepts into demonstrable engineering evidence.",
+          "tagline": "Full-featured Online Learning / Course Mobile App (Flutter Capstone)",
+          "features": [
+            "Course catalog with category filtering, search, and sorting",
+            "Course details screen with video lesson player, outline, and downloadable resources",
+            "User enrollment, progress tracking, and quiz assessment system",
+            "Offline caching for saved lessons and smooth dark/light mode UI",
+            "Full unit and widget test suite covering critical user flows"
+          ],
+          "architecture": "Production Clean Architecture + BLoC + Dio + Hive + GoRouter.",
+          "deliverable": "Complete, polished Flutter portfolio application with APK/IPA build."
         }
       ],
       "category": "Flutter Topic"
@@ -1304,7 +1476,16 @@
             "Node.js"
           ],
           "description": "CRUD API with validation and clean errors.",
-          "outcome": "Convert Week 25 concepts into demonstrable engineering evidence."
+          "outcome": "Convert Week 25 concepts into demonstrable engineering evidence.",
+          "tagline": "RESTful expense tracking API built with Node.js and Express",
+          "features": [
+            "CRUD endpoints for expenses, categories, and monthly budgets",
+            "Query filtering by date range, category, and payment method with pagination",
+            "Input validation and sanitization using Zod / Joi",
+            "Centralized error-handling middleware with structured JSON responses"
+          ],
+          "architecture": "Layered Express architecture: Routes -> Controllers -> Services -> Repositories.",
+          "deliverable": "Running REST API with Postman collection / OpenAPI docs."
         }
       ],
       "category": "Flutter Topic"
@@ -1352,7 +1533,16 @@
             "Node.js"
           ],
           "description": "Experiments with timers, promises and microtasks.",
-          "outcome": "Convert Week 27 concepts into demonstrable engineering evidence."
+          "outcome": "Convert Week 27 concepts into demonstrable engineering evidence.",
+          "tagline": "Interactive experiments demonstrating Node.js Event Loop and libuv internals",
+          "features": [
+            "Code benchmarks comparing Microtasks (process.nextTick, Promise) vs Macrotasks (setTimeout, setImmediate)",
+            "Stream-based large file chunk processor preventing high memory usage",
+            "Worker Threads demonstration for CPU-intensive hashing and cryptography tasks",
+            "Detailed ASCII execution order logger illustrating the 6 event loop phases"
+          ],
+          "architecture": "Node.js low-level runtime experimentation suite.",
+          "deliverable": "Documented lab repository demonstrating event-loop execution orders."
         }
       ],
       "category": "Flutter Topic"
@@ -1382,7 +1572,16 @@
             "Express"
           ],
           "description": "Controllers, services, repositories and validation.",
-          "outcome": "Convert Week 28 concepts into demonstrable engineering evidence."
+          "outcome": "Convert Week 28 concepts into demonstrable engineering evidence.",
+          "tagline": "Full REST API for a multi-user blogging platform with relations",
+          "features": [
+            "User auth (JWT), article publishing, tag categorization, and comments system",
+            "Slug generation, pagination, search queries, and reading time estimation",
+            "Middleware pipeline: RequestLogger, AuthGuard, RoleChecker, ErrorHandler",
+            "Automated integration tests using Supertest and Jest"
+          ],
+          "architecture": "3-Tier Express REST API with DTO validation and Service layers.",
+          "deliverable": "Complete Express backend with 15+ tested API endpoints."
         }
       ],
       "category": "Dart Topic"
@@ -1412,7 +1611,16 @@
             "MySQL"
           ],
           "description": "E-commerce schema plus 50 query exercises.",
-          "outcome": "Convert Week 29 concepts into demonstrable engineering evidence."
+          "outcome": "Convert Week 29 concepts into demonstrable engineering evidence.",
+          "tagline": "Relational database schema with 50+ complex SQL queries and normalization",
+          "features": [
+            "Normalized database schema (3NF) for E-Commerce: users, orders, items, products, categories",
+            "Primary, Foreign, and Composite keys with ON DELETE CASCADE constraints",
+            "Complex SQL queries utilizing INNER/LEFT JOINs, Subqueries, CTEs, and Window Functions",
+            "Aggregation reports calculating Customer Lifetime Value (LTV), Monthly Recurring Revenue (MRR)"
+          ],
+          "architecture": "Relational Database Schema + Seed Scripts + Analytical Queries.",
+          "deliverable": "SQL schema file (.sql) with migration scripts and query benchmarks."
         }
       ],
       "category": "Flutter Topic"
@@ -1460,7 +1668,16 @@
             "MySQL"
           ],
           "description": "EXPLAIN slow queries and add targeted indexes.",
-          "outcome": "Convert Week 31 concepts into demonstrable engineering evidence."
+          "outcome": "Convert Week 31 concepts into demonstrable engineering evidence.",
+          "tagline": "Database performance optimization and query plan analysis lab",
+          "features": [
+            "Seeding 1,000,000 mock records to simulate production data scale",
+            "Analyzing slow queries using EXPLAIN / EXPLAIN ANALYZE execution plans",
+            "Adding B-Tree and Composite indexes to eliminate Full Table Scans (ALL -> Ref/Const)",
+            "Benchmarking query latency before vs after indexing (e.g. 850ms -> 4ms)"
+          ],
+          "architecture": "Database indexing strategy with performance comparison reports.",
+          "deliverable": "SQL performance report documenting before/after execution plans."
         }
       ],
       "category": "Backend Topic"
@@ -1491,7 +1708,16 @@
             "MySQL"
           ],
           "description": "Atomic order checkout with rollback.",
-          "outcome": "Convert Week 32 concepts into demonstrable engineering evidence."
+          "outcome": "Convert Week 32 concepts into demonstrable engineering evidence.",
+          "tagline": "ACID transaction-safe e-commerce checkout service preventing race conditions",
+          "features": [
+            "Atomic checkout workflow: Deduct inventory, Charge wallet balance, Create order record",
+            "Database transactions with COMMIT and ROLLBACK on any failure",
+            "Pessimistic locking (SELECT FOR UPDATE) to prevent negative inventory during flash sales",
+            "Deadlock simulation and automatic transaction retry mechanism"
+          ],
+          "architecture": "Transaction-safe Service Layer with strict concurrency control.",
+          "deliverable": "Node.js service with automated concurrency test verifying race-condition immunity."
         }
       ],
       "category": "Backend Topic"
@@ -1522,7 +1748,16 @@
             "JWT"
           ],
           "description": "Access/refresh tokens, roles and validation.",
-          "outcome": "Convert Week 33 concepts into demonstrable engineering evidence."
+          "outcome": "Convert Week 33 concepts into demonstrable engineering evidence.",
+          "tagline": "Enterprise Auth Microservice with JWT, Refresh Tokens, and RBAC",
+          "features": [
+            "Secure password hashing using Argon2 / Bcrypt with configurable work factor",
+            "Access token (15m expiry) + Refresh token (7d expiry) with database token rotation",
+            "Role-Based Access Control (RBAC) middleware (Admin, Manager, User permissions)",
+            "Brute-force protection with IP-based rate limiting and account lockout"
+          ],
+          "architecture": "Standalone Auth Service with cryptographic signing and RBAC guards.",
+          "deliverable": "Production-grade auth backend with token rotation and security tests."
         }
       ],
       "category": "Backend Topic"
@@ -1553,7 +1788,16 @@
             "Redis"
           ],
           "description": "Cache-aside reads, TTL and invalidation.",
-          "outcome": "Convert Week 34 concepts into demonstrable engineering evidence."
+          "outcome": "Convert Week 34 concepts into demonstrable engineering evidence.",
+          "tagline": "High-performance Redis caching layer with cache-aside and TTL strategies",
+          "features": [
+            "Cache-Aside (Lazy Loading) pattern for fast product catalog lookups",
+            "Automatic cache invalidation on database updates / writes",
+            "Cache Stampede / Thundering Herd prevention using mutex locks",
+            "Sliding window rate limiter implemented using Redis sorted sets (ZADD)"
+          ],
+          "architecture": "Caching middleware & Redis client abstraction with fallback to DB.",
+          "deliverable": "Node.js application demonstrating 90%+ latency reduction via Redis."
         }
       ],
       "category": "Backend Topic"
@@ -1584,7 +1828,16 @@
             "Socket.IO"
           ],
           "description": "Rooms, presence and one-to-one messaging.",
-          "outcome": "Convert Week 35 concepts into demonstrable engineering evidence."
+          "outcome": "Convert Week 35 concepts into demonstrable engineering evidence.",
+          "tagline": "Scalable Real-time Chat Server using Socket.IO and WebSockets",
+          "features": [
+            "Real-time bi-directional messaging with room joining and private direct messaging",
+            "User online/offline presence tracking and typing indicator broadcasts",
+            "Message delivery acknowledgments (Sent, Delivered, Read receipts)",
+            "Persistent chat history storage with pagination on initial room join"
+          ],
+          "architecture": "Event-driven WebSocket Server with room multiplexing.",
+          "deliverable": "Running WebSocket server with HTML/JS test client."
         }
       ],
       "category": "Backend Topic"
@@ -1615,7 +1868,16 @@
             "Redis"
           ],
           "description": "Async jobs, retries and worker processing.",
-          "outcome": "Convert Week 36 concepts into demonstrable engineering evidence."
+          "outcome": "Convert Week 36 concepts into demonstrable engineering evidence.",
+          "tagline": "Asynchronous Background Job Queue with Redis and BullMQ",
+          "features": [
+            "Producer/Consumer architecture for async heavy tasks (PDF generation, Email sending)",
+            "Automatic job retries with exponential backoff on transient failures",
+            "Dead Letter Queue (DLQ) for inspecting and replaying permanently failed jobs",
+            "Real-time job progress tracking and status querying endpoint"
+          ],
+          "architecture": "Background Worker Architecture with BullMQ & Redis queues.",
+          "deliverable": "Worker process handling background task queues with monitoring dashboard."
         }
       ],
       "category": "Backend Topic"
@@ -1667,7 +1929,17 @@
             "Socket.IO"
           ],
           "description": "Auth, SQL, cache, realtime and background jobs.",
-          "outcome": "Convert Week 38 concepts into demonstrable engineering evidence."
+          "outcome": "Convert Week 38 concepts into demonstrable engineering evidence.",
+          "tagline": "Production Full-Stack Backend API (Backend Capstone)",
+          "features": [
+            "Modular Monolith backend for an on-demand service platform",
+            "Auth, Payments, Orders, Reviews, and Notification modules",
+            "MySQL relational persistence + Redis caching and rate-limiting",
+            "Real-time updates via WebSockets + Async background jobs with BullMQ",
+            "Structured Winston logging, Swagger OpenAPI docs, and Docker Compose setup"
+          ],
+          "architecture": "Production Layered Architecture + MySQL + Redis + WebSockets + Docker.",
+          "deliverable": "Production-grade backend system with Docker Compose and complete API docs."
         }
       ],
       "category": "Backend Topic"
@@ -1733,7 +2005,16 @@
             "Kotlin"
           ],
           "description": "Native CRUD app with idiomatic Kotlin.",
-          "outcome": "Convert Week 41 concepts into demonstrable engineering evidence."
+          "outcome": "Convert Week 41 concepts into demonstrable engineering evidence.",
+          "tagline": "Modern habit tracking CLI & domain model built in Kotlin",
+          "features": [
+            "Domain models utilizing Kotlin data classes, sealed classes, and enum classes",
+            "Habit streak calculations, frequency rules, and completion logs",
+            "Functional transformations using Kotlin standard library (map, filter, groupBy, associateBy)",
+            "Unit tests with JUnit 5 and AssertJ verifying streak algorithms"
+          ],
+          "architecture": "Idiomatic Kotlin domain layer following Clean Code principles.",
+          "deliverable": "Tested Kotlin habit engine with interactive console interface."
         }
       ],
       "category": "Backend Topic"
@@ -1782,7 +2063,16 @@
             "Coroutines"
           ],
           "description": "Concurrent downloads with cancellation.",
-          "outcome": "Convert Week 43 concepts into demonstrable engineering evidence."
+          "outcome": "Convert Week 43 concepts into demonstrable engineering evidence.",
+          "tagline": "High-performance concurrent file downloader using Kotlin Coroutines & Flow",
+          "features": [
+            "Concurrent downloads with CoroutineScope, Dispatchers.IO, and async/await",
+            "Progress tracking via Kotlin Flow emitting download percentages and speed in real-time",
+            "Structured concurrency with graceful cancellation on user abort",
+            "Error handling using supervisorScope and catch operator"
+          ],
+          "architecture": "Reactive Coroutine pipeline with Flow streams and structured concurrency.",
+          "deliverable": "CLI / Kotlin app downloading multiple files concurrently with live progress."
         }
       ],
       "category": "Backend Topic"
@@ -1814,7 +2104,16 @@
             "Compose"
           ],
           "description": "State, navigation and Material UI.",
-          "outcome": "Convert Week 44 concepts into demonstrable engineering evidence."
+          "outcome": "Convert Week 44 concepts into demonstrable engineering evidence.",
+          "tagline": "Modern declarative Android user profile UI built with Jetpack Compose",
+          "features": [
+            "Declarative composables: Avatar, StatsRow, Bio, SkillChips, and SettingsList",
+            "State hoisting using remember, rememberSaveable, and mutableStateOf",
+            "Dynamic theme support (Material 3 Dark/Light themes and Dynamic Color)",
+            "Smooth animations for state changes and expandable bio sections"
+          ],
+          "architecture": "Jetpack Compose Material 3 UI with state hoisting.",
+          "deliverable": "Android application showcase screen running on Compose."
         }
       ],
       "category": "Backend Topic"
@@ -1861,7 +2160,16 @@
             "ViewModel"
           ],
           "description": "UDF + ViewModel state-driven app.",
-          "outcome": "Convert Week 46 concepts into demonstrable engineering evidence."
+          "outcome": "Convert Week 46 concepts into demonstrable engineering evidence.",
+          "tagline": "Expense tracking Android application with MVVM and StateFlow",
+          "features": [
+            "Unidirectional Data Flow (UDF): View -> Event -> ViewModel -> UI State -> View",
+            "LazyColumn list with category icons, swipe-to-delete, and animated insertion",
+            "StateFlow and SharedFlow emitting immutable UI state and one-off snackbar events",
+            "Search and filter bar updating list in real-time via debounced StateFlow"
+          ],
+          "architecture": "MVVM Architecture with Jetpack Compose and ViewModel state containers.",
+          "deliverable": "Working Android app demonstrating clean MVVM & UDF patterns."
         }
       ],
       "category": "Android Topic"
@@ -1892,7 +2200,16 @@
             "Compose"
           ],
           "description": "Offline notes with DAO and reactive state.",
-          "outcome": "Convert Week 47 concepts into demonstrable engineering evidence."
+          "outcome": "Convert Week 47 concepts into demonstrable engineering evidence.",
+          "tagline": "Offline note-taking Android application with Room SQLite Database",
+          "features": [
+            "Room Database setup: Note Entity, NoteDao, and AppDatabase with migrations",
+            "Reactive queries returning Flow<List<Note>> updating UI automatically on DB changes",
+            "Database schema migrations (v1 -> v2) with automated migration tests",
+            "Full text search (FTS) queries and note tagging relations"
+          ],
+          "architecture": "Room Persistence Layer with Repository pattern and Kotlin Flow.",
+          "deliverable": "Offline Android notes application with tested Room database."
         }
       ],
       "category": "Android Topic"
@@ -1923,7 +2240,16 @@
             "OkHttp"
           ],
           "description": "Interceptors, serialization and error mapping.",
-          "outcome": "Convert Week 48 concepts into demonstrable engineering evidence."
+          "outcome": "Convert Week 48 concepts into demonstrable engineering evidence.",
+          "tagline": "Android network client with Retrofit 2, OkHttp, and Kotlinx Serialization",
+          "features": [
+            "Configured Retrofit interface with Coroutines suspend functions",
+            "OkHttp interceptors: Auth header injection, Chucker HTTP inspector, and logging",
+            "Network response wrapper: NetworkResult.Success, NetworkResult.Error, NetworkResult.Loading",
+            "Handling offline scenarios with custom connectivity interceptor"
+          ],
+          "architecture": "Remote Data Source with Retrofit, OkHttp, and Repository pattern.",
+          "deliverable": "Android remote data module fetching live REST API data."
         }
       ],
       "category": "Android Topic"
@@ -1955,7 +2281,16 @@
             "Architecture"
           ],
           "description": "Refactor into data/domain/presentation.",
-          "outcome": "Convert Week 49 concepts into demonstrable engineering evidence."
+          "outcome": "Convert Week 49 concepts into demonstrable engineering evidence.",
+          "tagline": "Clean Architecture Android template with Hilt Dependency Injection",
+          "features": [
+            "Hilt modules: AppModule, NetworkModule, DatabaseModule, RepositoryModule",
+            "Clean Architecture layers: Presentation (Compose), Domain (UseCases), Data (Repo/Sources)",
+            "Interface segregation allowing easy swapping of mock and production data sources",
+            "Unit tests with MockK and CoroutineTestRule verifying UseCases in isolation"
+          ],
+          "architecture": "Enterprise Clean Architecture with Hilt Dependency Injection.",
+          "deliverable": "Clean Architecture Android template repository."
         }
       ],
       "category": "Android Topic"
@@ -2025,7 +2360,17 @@
             "Hilt"
           ],
           "description": "Complete native app with offline data and API.",
-          "outcome": "Convert Week 52 concepts into demonstrable engineering evidence."
+          "outcome": "Convert Week 52 concepts into demonstrable engineering evidence.",
+          "tagline": "Production Native Android Mobile Application (Android Capstone)",
+          "features": [
+            "Full-featured Android app (E-Commerce / Social / Productivity)",
+            "Jetpack Compose UI + Material 3 Design + Navigation Component",
+            "Room offline caching + Retrofit REST API integration with Flow",
+            "Hilt Dependency Injection + MVVM + Clean Architecture UseCases",
+            "WorkManager background sync + Push Notifications + Unit/UI test suite"
+          ],
+          "architecture": "Production Clean Architecture + Compose + Room + Retrofit + Hilt + WorkManager.",
+          "deliverable": "Complete, installable Android APK with clean architecture codebase."
         }
       ],
       "category": "Android Topic"
@@ -2198,7 +2543,16 @@
             "Graphs"
           ],
           "description": "BFS, DFS and connected-component explorer.",
-          "outcome": "Convert Week 61 concepts into demonstrable engineering evidence."
+          "outcome": "Convert Week 61 concepts into demonstrable engineering evidence.",
+          "tagline": "Interactive Graph Algorithms visualizer & pathfinding playground",
+          "features": [
+            "Graph representations: Adjacency List and Adjacency Matrix for Directed/Undirected graphs",
+            "Graph Traversals: Breadth-First Search (BFS) and Depth-First Search (DFS)",
+            "Connected components detection, Cycle detection, and Bipartite graph checker",
+            "ASCII / Terminal graph step visualizer demonstrating node visit orders"
+          ],
+          "architecture": "Graph Algorithm engine with generic Node/Edge data structures.",
+          "deliverable": "Tested Graph library with 15+ algorithmic verification tests."
         }
       ],
       "category": "CS Core Topic"
@@ -2265,7 +2619,16 @@
             "Graphs"
           ],
           "description": "Weighted graph simulator with Dijkstra.",
-          "outcome": "Convert Week 64 concepts into demonstrable engineering evidence."
+          "outcome": "Convert Week 64 concepts into demonstrable engineering evidence.",
+          "tagline": "Shortest Path and Topological Sorting Simulator",
+          "features": [
+            "Dijkstra Shortest Path algorithm with Priority Queue (Min-Heap)",
+            "Bellman-Ford algorithm with negative cycle detection",
+            "Topological Sort (Kahn Algorithm BFS & DFS Post-Order) for DAG dependency resolution",
+            "Real-world mapping example (e.g. Build task dependency resolver)"
+          ],
+          "architecture": "Pathfinding & DAG resolver engine with benchmark comparisons.",
+          "deliverable": "Pathfinding simulator resolving route optimizations."
         }
       ],
       "category": "CS Core Topic"
@@ -2654,7 +3017,16 @@
             "DP"
           ],
           "description": "Classic DP implementations with state/transition notes.",
-          "outcome": "Convert Week 68 concepts into demonstrable engineering evidence."
+          "outcome": "Convert Week 68 concepts into demonstrable engineering evidence.",
+          "tagline": "Dynamic Programming pattern handbook with top-down and bottom-up solutions",
+          "features": [
+            "Top-Down Memoization and Bottom-Up Tabulation for classic DP patterns",
+            "Patterns: 0/1 Knapsack, Unbounded Knapsack, Longest Common Subsequence (LCS), Longest Increasing Subsequence (LIS)",
+            "Space optimization techniques (reducing O(N*W) space to O(W))",
+            "Step-by-step state transition documentation for each problem archetype"
+          ],
+          "architecture": "Algorithmic DP reference suite with comprehensive automated tests.",
+          "deliverable": "Tested DP solutions notebook with complexity proofs."
         }
       ],
       "category": "DSA Topic"
@@ -3038,7 +3410,16 @@
             "Redis"
           ],
           "description": "Prototype plus scalable architecture.",
-          "outcome": "Convert Week 72 concepts into demonstrable engineering evidence."
+          "outcome": "Convert Week 72 concepts into demonstrable engineering evidence.",
+          "tagline": "High-scale URL Shortener System Design (TinyURL) implementation",
+          "features": [
+            "Base62 encoding and unique ID generation (Snowflake / Pre-generated Key Generation Service)",
+            "Redis cache layer for hot URL redirects achieving sub-10ms response time",
+            "Database schema with custom alias support, expiration timestamps, and analytics counters",
+            "System Design document with capacity estimation (QPS, storage, bandwidth calculations)"
+          ],
+          "architecture": "Distributed URL Shortener with Key Generation Service, Redis Cache, and MySQL.",
+          "deliverable": "Working URL shortener prototype + complete architecture blueprint."
         }
       ],
       "category": "DSA Topic"
@@ -3066,7 +3447,16 @@
             "WebSocket"
           ],
           "description": "Capacity, persistence, fan-out and failure modes.",
-          "outcome": "Convert Week 73 concepts into demonstrable engineering evidence."
+          "outcome": "Convert Week 73 concepts into demonstrable engineering evidence.",
+          "tagline": "Large-scale real-time chat system architecture (WhatsApp / Slack scale)",
+          "features": [
+            "WebSocket connection gateway with session connection manager",
+            "Message fanout service for group chats with Redis Pub/Sub",
+            "Message ordering and delivery guarantee (at-least-once with idempotency keys)",
+            "System Design document addressing 50M concurrent connections, storage sharding, and push notification triggers"
+          ],
+          "architecture": "Distributed WebSocket Gateway + Redis Pub/Sub + Message Store.",
+          "deliverable": "System design architecture document and working gateway prototype."
         }
       ],
       "category": "System Design Topic"
@@ -3097,7 +3487,16 @@
             "Redis"
           ],
           "description": "Feed generation, caching and pagination.",
-          "outcome": "Convert Week 74 concepts into demonstrable engineering evidence."
+          "outcome": "Convert Week 74 concepts into demonstrable engineering evidence.",
+          "tagline": "Scalable Social Media Newsfeed System Design (Twitter / Instagram feed)",
+          "features": [
+            "Fanout-on-Write (Push model) for regular users vs Fanout-on-Read (Pull model) for celebrities",
+            "Feed ranking algorithm (recency, engagement score, user affinities)",
+            "Redis sorted sets caching user timelines for instantaneous scroll loading",
+            "System Design document covering storage partitioning, media CDN, and pagination cursors"
+          ],
+          "architecture": "Hybrid Fanout Architecture + Redis Feed Cache + Analytical Aggregators.",
+          "deliverable": "System design specification with feed generation prototype."
         }
       ],
       "category": "System Design Topic"
@@ -3129,7 +3528,16 @@
             "Systems"
           ],
           "description": "Location, matching, queues and data flows.",
-          "outcome": "Convert Week 75 concepts into demonstrable engineering evidence."
+          "outcome": "Convert Week 75 concepts into demonstrable engineering evidence.",
+          "tagline": "Real-time On-Demand Delivery & Driver Matching Platform (Uber / DoorDash)",
+          "features": [
+            "Geospatial indexing using Uber H3 / Geohash for finding nearby active drivers",
+            "Driver location heartbeat stream processing with Redis geospatial commands (GEOADD, GEORADIUS)",
+            "Order matching state machine (Created -> Matching -> Accepted -> PickedUp -> Delivered)",
+            "System Design blueprint detailing surge pricing, driver dispatching, and live tracking"
+          ],
+          "architecture": "Geospatial Dispatch Engine + Distributed State Machine + Realtime Gateway.",
+          "deliverable": "System design blueprint + geospatial driver matching prototype."
         }
       ],
       "category": "System Design Topic"
@@ -3233,7 +3641,16 @@
             "MySQL"
           ],
           "description": "Containerized reproducible backend stack.",
-          "outcome": "Convert Week 80 concepts into demonstrable engineering evidence."
+          "outcome": "Convert Week 80 concepts into demonstrable engineering evidence.",
+          "tagline": "Containerized full-stack application with Docker and Docker Compose",
+          "features": [
+            "Multi-stage Dockerfile producing minimal, secure production image (<100MB)",
+            "Docker Compose orchestration: Node.js App, MySQL Database, Redis, and Nginx Reverse Proxy",
+            "Persistent Docker volumes for database storage and isolated bridge networks",
+            "Healthcheck scripts verifying container readiness before traffic routing"
+          ],
+          "architecture": "Micro-service containerization with multi-stage builds and isolated networking.",
+          "deliverable": "Complete docker-compose.yml configuration ready for one-command deploy."
         }
       ],
       "category": "System Design Topic"
@@ -3263,7 +3680,16 @@
             "CI/CD"
           ],
           "description": "Automated lint/test/build pipeline.",
-          "outcome": "Convert Week 81 concepts into demonstrable engineering evidence."
+          "outcome": "Convert Week 81 concepts into demonstrable engineering evidence.",
+          "tagline": "Automated Continuous Integration and Continuous Deployment (CI/CD) pipeline",
+          "features": [
+            "GitHub Actions workflow triggered on PR and Push to main branch",
+            "Automated pipeline stages: Lint check, Static analysis, Unit/Integration tests, Build artifact",
+            "Docker image build and automated push to container registry (Docker Hub / GHCR)",
+            "Secret management with environment-specific variables and deployment notifications"
+          ],
+          "architecture": "Production GitHub Actions CI/CD Pipeline.",
+          "deliverable": "Working .github/workflows CI/CD pipeline configuration."
         }
       ],
       "category": "DevOps & Production Topic"
@@ -3331,7 +3757,16 @@
             "Observability"
           ],
           "description": "Logs, health checks and basic metrics.",
-          "outcome": "Convert Week 84 concepts into demonstrable engineering evidence."
+          "outcome": "Convert Week 84 concepts into demonstrable engineering evidence.",
+          "tagline": "Production Observability stack with Prometheus, Grafana, and OpenTelemetry",
+          "features": [
+            "Application metrics collection: Request throughput, HTTP error rate, p95/p99 latency",
+            "Centralized structured JSON logging with correlation IDs for request tracing",
+            "Prometheus metrics endpoint (/metrics) scraped by Prometheus server",
+            "Grafana dashboard visualizing Golden Signals (Latency, Traffic, Errors, Saturation)"
+          ],
+          "architecture": "Observability stack with Metrics Exporters, Prometheus, and Grafana.",
+          "deliverable": "Observable API with Grafana dashboard configuration."
         }
       ],
       "category": "DevOps & Production Topic"
@@ -3380,7 +3815,16 @@
             "OWASP"
           ],
           "description": "Fix common web vulnerabilities in a deliberately unsafe API.",
-          "outcome": "Convert Week 86 concepts into demonstrable engineering evidence."
+          "outcome": "Convert Week 86 concepts into demonstrable engineering evidence.",
+          "tagline": "Security auditing and vulnerability remediation lab based on OWASP Top 10",
+          "features": [
+            "Remediating SQL Injection using parameterized queries and ORM escaping",
+            "Preventing Cross-Site Scripting (XSS) and Cross-Site Request Forgery (CSRF)",
+            "Implementing Helmet security headers (CSP, HSTS, X-Frame-Options, X-Content-Type-Options)",
+            "Rate-limiting, CORS whitelisting, and automated security scanning with npm audit / Snyk"
+          ],
+          "architecture": "Hardened security middleware pipeline following OWASP recommendations.",
+          "deliverable": "Security report documenting vulnerability tests and mitigations."
         }
       ],
       "category": "DevOps & Production Topic"
@@ -3430,7 +3874,16 @@
             "Performance"
           ],
           "description": "Benchmark, identify bottleneck, optimize and compare.",
-          "outcome": "Convert Week 88 concepts into demonstrable engineering evidence."
+          "outcome": "Convert Week 88 concepts into demonstrable engineering evidence.",
+          "tagline": "High-concurrency Load Testing and Performance Benchmark Lab",
+          "features": [
+            "Simulating high concurrent traffic (1,000 to 10,000 virtual users) with k6 / Autocannon",
+            "Identifying system bottlenecks (CPU spikes, DB connection pool starvation, memory leaks)",
+            "Applying performance optimizations (Node clustering, DB connection pooling, caching)",
+            "Generating detailed performance report documenting throughput, error rates, and p99 latency"
+          ],
+          "architecture": "Load testing test-harness with automated metric assertions.",
+          "deliverable": "Performance audit report with k6 test scripts and benchmark graphs."
         }
       ],
       "category": "DevOps & Production Topic"
@@ -3500,7 +3953,16 @@
             "Redis"
           ],
           "description": "Refactor old capstone with tests, docs and observability.",
-          "outcome": "Convert Week 91 concepts into demonstrable engineering evidence."
+          "outcome": "Convert Week 91 concepts into demonstrable engineering evidence.",
+          "tagline": "Engineering Capstone Refactoring & Production Hardening",
+          "features": [
+            "Full integration of Flutter Mobile Client + Node.js Backend + MySQL + Redis",
+            "Refactoring code to enforce SOLID principles, DRY, and Clean Architecture standards",
+            "End-to-end integration tests verifying end-to-end user checkout / booking flows",
+            "Production deployment with Docker, Nginx SSL reverse proxy, and monitoring"
+          ],
+          "architecture": "Enterprise Full-Stack Architecture with Mobile, Backend, Database, and DevOps.",
+          "deliverable": "Polished, deployed flagship portfolio application with live demo URL."
         }
       ],
       "category": "DevOps & Production Topic"
@@ -3715,7 +4177,16 @@
             "DSA"
           ],
           "description": "Pattern-based solutions with explanations and tests.",
-          "outcome": "Convert Week 94 concepts into demonstrable engineering evidence."
+          "outcome": "Convert Week 94 concepts into demonstrable engineering evidence.",
+          "tagline": "Curated Interview Coding Repository with 100+ patterns & test cases",
+          "features": [
+            "Organized coding problems categorized by pattern (Two Pointers, Trees, Graphs, DP, etc.)",
+            "Clean, idiomatic solutions with complete time and space complexity annotations",
+            "Unit test suites for every solution verifying boundary test cases",
+            "Quick-reference cheat sheet for common algorithms and edge-case pitfalls"
+          ],
+          "architecture": "Structured Algorithms & Data Structures repository.",
+          "deliverable": "GitHub repository serving as interview preparation portfolio."
         }
       ],
       "category": "DSA Topic"
@@ -3930,7 +4401,16 @@
             "Design"
           ],
           "description": "Five concise architecture case studies.",
-          "outcome": "Convert Week 97 concepts into demonstrable engineering evidence."
+          "outcome": "Convert Week 97 concepts into demonstrable engineering evidence.",
+          "tagline": "Comprehensive System Design Interview Notebook with diagrams & capacity models",
+          "features": [
+            "Detailed designs for 10 classic systems (URL Shortener, Chat, Feed, Uber, YouTube, etc.)",
+            "Back-of-the-envelope capacity estimations (Traffic, Storage, Bandwidth, Memory)",
+            "Architecture diagrams detailing load balancers, caching layers, DB partitions, and queues",
+            "Trade-off evaluations: SQL vs NoSQL, Strong vs Eventual Consistency, Push vs Pull models"
+          ],
+          "architecture": "System Design knowledge repository with architectural diagrams.",
+          "deliverable": "Published System Design guide with architectural blueprints."
         }
       ],
       "category": "System Design Topic"
@@ -3997,7 +4477,16 @@
             "Documentation"
           ],
           "description": "Architecture diagrams, screenshots, tests and deployment docs.",
-          "outcome": "Convert Week 100 concepts into demonstrable engineering evidence."
+          "outcome": "Convert Week 100 concepts into demonstrable engineering evidence.",
+          "tagline": "Final Engineering Portfolio & GitHub Showcase Polish",
+          "features": [
+            "Professional developer portfolio website highlighting top capstone projects",
+            "Comprehensive README documentation with architecture diagrams, demo GIFs, and setup guides",
+            "Clean GitHub profile with pinned repositories, CI status badges, and release tags",
+            "Engineering case studies articulating problems solved, technical challenges, and performance impact"
+          ],
+          "architecture": "Developer Portfolio & Case Study Showcase.",
+          "deliverable": "Live portfolio website and polished GitHub profile ready for job applications."
         }
       ],
       "category": "Career & Interview Topic"
@@ -4382,7 +4871,16 @@
         "Dart"
       ],
       "description": "CLI calculator with validation, operators and tests.",
-      "outcome": "Convert Week 1 concepts into demonstrable engineering evidence."
+      "outcome": "Convert Week 1 concepts into demonstrable engineering evidence.",
+      "tagline": "Terminal expression calculator with validation and unit tests",
+      "features": [
+        "Interactive REPL loop supporting standard arithmetic (+, -, *, /, %, ^)",
+        "Strict input parsing with error handling (division by zero, invalid characters)",
+        "Session history buffer with recall commands (history, ans, clear)",
+        "10+ unit tests with package:test verifying edge cases"
+      ],
+      "architecture": "Separation of concerns: Lexer/Parser, Evaluator, HistoryBuffer, and CLI Runner.",
+      "deliverable": "Working Dart CLI executable in bin/ with passing unit tests."
     },
     {
       "id": "p002",
@@ -4393,7 +4891,16 @@
         "Dart"
       ],
       "description": "Frequency, unique values, min/max and collection transformations.",
-      "outcome": "Convert Week 2 concepts into demonstrable engineering evidence."
+      "outcome": "Convert Week 2 concepts into demonstrable engineering evidence.",
+      "tagline": "Data processing utility for List, Set, and Map transformations",
+      "features": [
+        "Parsing raw dataset (CSV/JSON strings) into strongly typed models",
+        "Filtering, mapping, sorting, and grouping using Dart higher-order methods (where, map, fold, reduce)",
+        "Duplicate detection and unique frequency counting using Set and Map",
+        "Performance benchmark measuring execution time across varying collection sizes"
+      ],
+      "architecture": "Data Transformer Service with functional pipelines and unit tests.",
+      "deliverable": "Reusable Dart utility package with benchmark script."
     },
     {
       "id": "p003",
@@ -4405,7 +4912,16 @@
         "OOP"
       ],
       "description": "Books, members, loans and composition.",
-      "outcome": "Convert Week 3 concepts into demonstrable engineering evidence."
+      "outcome": "Convert Week 3 concepts into demonstrable engineering evidence.",
+      "tagline": "Domain-driven OOP model layer for a digital library system",
+      "features": [
+        "Class hierarchy with encapsulation, getters/setters, and named/factory constructors",
+        "Inheritance & Interfaces: Book, AudioBook, User, Member, Librarian, LoanRecord",
+        "Stateful business logic for borrowing, returning, and fine calculation",
+        "Immutable value objects with copyWith and equality overrides"
+      ],
+      "architecture": "Pure Dart domain model layer following OOP SOLID principles.",
+      "deliverable": "Fully typed domain model layer with 15+ automated unit tests."
     },
     {
       "id": "p004",
@@ -4417,7 +4933,16 @@
         "Async"
       ],
       "description": "Concurrent fake network tasks with failure handling.",
-      "outcome": "Convert Week 4 concepts into demonstrable engineering evidence."
+      "outcome": "Convert Week 4 concepts into demonstrable engineering evidence.",
+      "tagline": "Concurrent task runner with Future chaining, timeout, and retry logic",
+      "features": [
+        "Async worker executing multiple concurrent simulated I/O tasks using Future.wait",
+        "Exponential backoff retry mechanism with configurable attempts and timeouts",
+        "Task queue with maximum concurrency limit (rate-limiting simulated workers)",
+        "Custom exception hierarchy (TimeoutException, NetworkFailureException)"
+      ],
+      "architecture": "Async Queue Engine using Dart Futures and custom error mappers.",
+      "deliverable": "Async console runner demonstrating resilience under simulated failures."
     },
     {
       "id": "p005",
@@ -4429,7 +4954,16 @@
         "Streams"
       ],
       "description": "StreamController-based event monitor with filters.",
-      "outcome": "Convert Week 5 concepts into demonstrable engineering evidence."
+      "outcome": "Convert Week 5 concepts into demonstrable engineering evidence.",
+      "tagline": "Real-time telemetry event stream monitor using Dart Streams",
+      "features": [
+        "StreamController generating mock IoT/server telemetry data periodically",
+        "Stream transformations: debounce, throttle, buffer, where, and distinct",
+        "Broadcast stream subscriptions feeding multiple listeners (console logger, metrics aggregator)",
+        "Graceful stream lifecycle management with clean cancellation and disposal"
+      ],
+      "architecture": "Reactive event-pipeline with StreamControllers and StreamTransformers.",
+      "deliverable": "Live terminal event dashboard with automated stream lifecycle tests."
     },
     {
       "id": "p006",
@@ -4440,7 +4974,16 @@
         "Dart"
       ],
       "description": "Income, expense, category and monthly summary engine.",
-      "outcome": "Convert Week 6 concepts into demonstrable engineering evidence."
+      "outcome": "Convert Week 6 concepts into demonstrable engineering evidence.",
+      "tagline": "Personal expense tracker with local JSON persistence",
+      "features": [
+        "CLI CRUD operations for income and expenses with category tagging",
+        "Monthly budget allocation and overspending alert warnings",
+        "Local file read/write serialization using dart:convert and dart:io",
+        "ASCII summary table generation with total breakdowns and savings rate"
+      ],
+      "architecture": "Layered architecture: CLI View, BudgetController, StorageRepository.",
+      "deliverable": "Complete CLI tool that stores and computes monthly budget balances."
     },
     {
       "id": "p007",
@@ -4452,7 +4995,16 @@
         "DSA"
       ],
       "description": "Run common algorithms and print operation counts.",
-      "outcome": "Convert Week 7 concepts into demonstrable engineering evidence."
+      "outcome": "Convert Week 7 concepts into demonstrable engineering evidence.",
+      "tagline": "Visual benchmark and comparison tool for sorting & searching algorithms",
+      "features": [
+        "Implementations: Bubble, Insertion, Merge, Quick Sort and Binary Search",
+        "Step-by-step iteration counter and swap logger for Big-O analysis",
+        "Performance benchmark measuring runtime across 100 to 100,000 items",
+        "Automated correctness testing verifying against sorted arrays"
+      ],
+      "architecture": "Algorithmic suite with benchmarking runner and execution stopwatch.",
+      "deliverable": "Benchmark report comparing empirical runtimes against theoretical Big-O."
     },
     {
       "id": "p008",
@@ -4464,7 +5016,16 @@
         "DSA"
       ],
       "description": "Compare hash lookup and linear search.",
-      "outcome": "Convert Week 8 concepts into demonstrable engineering evidence."
+      "outcome": "Convert Week 8 concepts into demonstrable engineering evidence.",
+      "tagline": "Custom Hash Map implementation from scratch with collision resolution",
+      "features": [
+        "Hash table implementation using array of buckets with separate chaining / probing",
+        "Custom hash code calculation and bucket distribution analysis",
+        "Methods: put(key, value), get(key), remove(key), containsKey(key), loadFactor",
+        "Dynamic resizing and rehashing when load factor exceeds threshold (0.75)"
+      ],
+      "architecture": "Low-level data structure module with collision metrics visualization.",
+      "deliverable": "Custom HashMap class with collision test suite."
     },
     {
       "id": "p009",
@@ -4476,7 +5037,16 @@
         "DSA"
       ],
       "description": "Print active windows while solving subarray problems.",
-      "outcome": "Convert Week 9 concepts into demonstrable engineering evidence."
+      "outcome": "Convert Week 9 concepts into demonstrable engineering evidence.",
+      "tagline": "Step-by-step visualizer for Two Pointers and Sliding Window patterns",
+      "features": [
+        "Interactive runner for 2 Sum (Sorted), Max Subarray of Size K, Longest Substring Without Repeating Characters",
+        "ASCII visualization highlighting left and right pointer movements at each step",
+        "State tracker showing window sum, frequency map, and current optimum",
+        "Time & Space complexity annotations for each pattern"
+      ],
+      "architecture": "Pattern Engine with step-by-step execution hooks and ASCII renderer.",
+      "deliverable": "Interactive CLI demonstrating pointer migrations."
     },
     {
       "id": "p010",
@@ -4488,7 +5058,16 @@
         "Stack"
       ],
       "description": "Editor-style undo/redo with two stacks.",
-      "outcome": "Convert Week 10 concepts into demonstrable engineering evidence."
+      "outcome": "Convert Week 10 concepts into demonstrable engineering evidence.",
+      "tagline": "Command pattern engine with infinite undo and redo stacks",
+      "features": [
+        "Stack-based history management supporting execute(), undo(), and redo()",
+        "Sample document editor commands: InsertText, DeleteText, FormatText",
+        "Stack overflow prevention with configurable maximum history limit",
+        "State preservation verifying exact document state across multiple undo/redo loops"
+      ],
+      "architecture": "Command Design Pattern with LIFO Stack data structures.",
+      "deliverable": "Tested undo/redo engine integrated into a mini text buffer."
     },
     {
       "id": "p011",
@@ -4500,7 +5079,16 @@
         "DSA"
       ],
       "description": "CRUD, reverse and cycle detection playground.",
-      "outcome": "Convert Week 11 concepts into demonstrable engineering evidence."
+      "outcome": "Convert Week 11 concepts into demonstrable engineering evidence.",
+      "tagline": "Singly & Doubly Linked List library with advanced pointer operations",
+      "features": [
+        "Implementations: SinglyLinkedList, DoublyLinkedList with Node pointers",
+        "Operations: insertHead, insertTail, deleteNode, reverseIterative, reverseRecursive",
+        "Fast/Slow pointer algorithms: Detect cycle, Find middle element, Nth node from end",
+        "Comprehensive unit test coverage verifying memory pointer integrity"
+      ],
+      "architecture": "Pointer-based Data Structure library with generic type support.",
+      "deliverable": "Linked list library with full algorithmic test suite."
     },
     {
       "id": "p012",
@@ -4512,7 +5100,16 @@
         "Dio"
       ],
       "description": "REST API with loading, error, empty and success states.",
-      "outcome": "Convert Week 13 concepts into demonstrable engineering evidence."
+      "outcome": "Convert Week 13 concepts into demonstrable engineering evidence.",
+      "tagline": "Production HTTP client for Flutter using Dio with interceptors and caching",
+      "features": [
+        "Configured Dio client with base URL, connect/receive timeouts, and custom headers",
+        "Logging interceptor and centralized error mapper (HTTP 400, 401, 403, 404, 500)",
+        "Auto-retry interceptor for failed network requests with exponential backoff",
+        "Clean UI screen fetching, displaying, and pulling-to-refresh paginated REST API data"
+      ],
+      "architecture": "Data Layer API Client with Interceptor chain and Repository abstraction.",
+      "deliverable": "Reusable Flutter Dio network module with error handling UI."
     },
     {
       "id": "p013",
@@ -4524,7 +5121,16 @@
         "Auth"
       ],
       "description": "Login/logout/refresh-token simulation.",
-      "outcome": "Convert Week 14 concepts into demonstrable engineering evidence."
+      "outcome": "Convert Week 14 concepts into demonstrable engineering evidence.",
+      "tagline": "Complete Flutter authentication module with JWT token lifecycle management",
+      "features": [
+        "Login, Register, and Forgot Password screens with client-side form validation",
+        "Secure storage of Access and Refresh tokens using flutter_secure_storage",
+        "Auth interceptor automatically attaching Bearer token and refreshing expired tokens",
+        "Global AuthState listener redirecting user to Login or Dashboard automatically"
+      ],
+      "architecture": "Feature-driven auth module with Bloc/Cubit and Secure Repository.",
+      "deliverable": "Production-ready Flutter Auth module ready to drop into any app."
     },
     {
       "id": "p014",
@@ -4536,7 +5142,16 @@
         "Storage"
       ],
       "description": "Cached notes with offline read/write.",
-      "outcome": "Convert Week 15 concepts into demonstrable engineering evidence."
+      "outcome": "Convert Week 15 concepts into demonstrable engineering evidence.",
+      "tagline": "Offline-first notes app with local database synchronization",
+      "features": [
+        "CRUD notes with title, markdown body, tags, and pinned status",
+        "Local persistence with SQLite / Hive / Isar database",
+        "Optimistic UI updates for immediate responsiveness",
+        "Sync status indicators (Synced, Pending Sync, Offline mode)"
+      ],
+      "architecture": "Offline-first architecture with LocalDataSource, RemoteDataSource, and SyncEngine.",
+      "deliverable": "Working offline notes application with persistent local storage."
     },
     {
       "id": "p015",
@@ -4548,7 +5163,16 @@
         "Testing"
       ],
       "description": "Unit, widget and integration tests for one feature.",
-      "outcome": "Convert Week 16 concepts into demonstrable engineering evidence."
+      "outcome": "Convert Week 16 concepts into demonstrable engineering evidence.",
+      "tagline": "Comprehensive test suite for Flutter apps (Unit, Widget, and Integration)",
+      "features": [
+        "Unit tests for Business Logic (Bloc/Cubit/StateNotifiers) using bloc_test / mockito",
+        "Widget tests verifying UI rendering, form submission, and error snackbars with WidgetTester",
+        "Integration test flow navigating from Login to Home and performing an action",
+        "Code coverage report generation with minimum 80% coverage threshold"
+      ],
+      "architecture": "Testing infrastructure following AAA (Arrange, Act, Assert) pattern.",
+      "deliverable": "Automated Flutter test suite with 25+ tests and coverage HTML report."
     },
     {
       "id": "p016",
@@ -4560,7 +5184,16 @@
         "DevTools"
       ],
       "description": "Create and fix rebuild/list/image performance problems.",
-      "outcome": "Convert Week 17 concepts into demonstrable engineering evidence."
+      "outcome": "Convert Week 17 concepts into demonstrable engineering evidence.",
+      "tagline": "Performance profiling and optimization case study for Flutter",
+      "features": [
+        "Profiling app performance using Flutter DevTools (CPU profiler, Timeline, Memory)",
+        "Fixing UI jank by eliminating unnecessary widget rebuilds with const constructors and RepaintBoundary",
+        "Optimizing large ListView performance using itemExtent and image memory caching",
+        "Before vs After frame budget benchmarks (target 60fps / 120fps)"
+      ],
+      "architecture": "Optimized rendering tree with granular state rebuild boundaries.",
+      "deliverable": "Optimized Flutter app with DevTools profiling documentation."
     },
     {
       "id": "p017",
@@ -4572,7 +5205,16 @@
         "FCM"
       ],
       "description": "Notifications that navigate into app content.",
-      "outcome": "Convert Week 18 concepts into demonstrable engineering evidence."
+      "outcome": "Convert Week 18 concepts into demonstrable engineering evidence.",
+      "tagline": "Firebase Cloud Messaging (FCM) & deep-linking routing system in Flutter",
+      "features": [
+        "Push notification listener handling Foreground, Background, and Terminated states",
+        "Declarative deep linking with GoRouter (app://product/123 -> opens ProductDetailsScreen)",
+        "Local notification banner display using flutter_local_notifications",
+        "Dynamic badge counter and notification history center"
+      ],
+      "architecture": "Notification service decoupled from UI routing via GoRouter navigation intent.",
+      "deliverable": "Flutter app handling external deep-links and push notifications."
     },
     {
       "id": "p018",
@@ -4586,7 +5228,16 @@
         "Architecture"
       ],
       "description": "Reusable feature module with repository/use-case/DI.",
-      "outcome": "Convert Week 20 concepts into demonstrable engineering evidence."
+      "outcome": "Convert Week 20 concepts into demonstrable engineering evidence.",
+      "tagline": "Enterprise-grade Feature-First Flutter starter template with Bloc and DI",
+      "features": [
+        "Feature-first directory structure (features/auth, features/dashboard, core/network, core/theme)",
+        "Clean Architecture layers per feature: Presentation, Domain (UseCases), Data",
+        "Dependency Injection with GetIt & Injectable for testable decoupling",
+        "Dark/Light theme switching, multi-flavor configs (dev, staging, prod), and centralized router"
+      ],
+      "architecture": "Feature-First Clean Architecture with BLoC state management and GetIt DI.",
+      "deliverable": "Production-ready reusable Flutter boilerplate repository."
     },
     {
       "id": "p019",
@@ -4600,7 +5251,17 @@
         "Testing"
       ],
       "description": "Auth, courses, purchase simulation, profile, cache and tests.",
-      "outcome": "Convert Week 24 concepts into demonstrable engineering evidence."
+      "outcome": "Convert Week 24 concepts into demonstrable engineering evidence.",
+      "tagline": "Full-featured Online Learning / Course Mobile App (Flutter Capstone)",
+      "features": [
+        "Course catalog with category filtering, search, and sorting",
+        "Course details screen with video lesson player, outline, and downloadable resources",
+        "User enrollment, progress tracking, and quiz assessment system",
+        "Offline caching for saved lessons and smooth dark/light mode UI",
+        "Full unit and widget test suite covering critical user flows"
+      ],
+      "architecture": "Production Clean Architecture + BLoC + Dio + Hive + GoRouter.",
+      "deliverable": "Complete, polished Flutter portfolio application with APK/IPA build."
     },
     {
       "id": "p020",
@@ -4611,7 +5272,16 @@
         "Node.js"
       ],
       "description": "CRUD API with validation and clean errors.",
-      "outcome": "Convert Week 25 concepts into demonstrable engineering evidence."
+      "outcome": "Convert Week 25 concepts into demonstrable engineering evidence.",
+      "tagline": "RESTful expense tracking API built with Node.js and Express",
+      "features": [
+        "CRUD endpoints for expenses, categories, and monthly budgets",
+        "Query filtering by date range, category, and payment method with pagination",
+        "Input validation and sanitization using Zod / Joi",
+        "Centralized error-handling middleware with structured JSON responses"
+      ],
+      "architecture": "Layered Express architecture: Routes -> Controllers -> Services -> Repositories.",
+      "deliverable": "Running REST API with Postman collection / OpenAPI docs."
     },
     {
       "id": "p021",
@@ -4622,7 +5292,16 @@
         "Node.js"
       ],
       "description": "Experiments with timers, promises and microtasks.",
-      "outcome": "Convert Week 27 concepts into demonstrable engineering evidence."
+      "outcome": "Convert Week 27 concepts into demonstrable engineering evidence.",
+      "tagline": "Interactive experiments demonstrating Node.js Event Loop and libuv internals",
+      "features": [
+        "Code benchmarks comparing Microtasks (process.nextTick, Promise) vs Macrotasks (setTimeout, setImmediate)",
+        "Stream-based large file chunk processor preventing high memory usage",
+        "Worker Threads demonstration for CPU-intensive hashing and cryptography tasks",
+        "Detailed ASCII execution order logger illustrating the 6 event loop phases"
+      ],
+      "architecture": "Node.js low-level runtime experimentation suite.",
+      "deliverable": "Documented lab repository demonstrating event-loop execution orders."
     },
     {
       "id": "p022",
@@ -4633,7 +5312,16 @@
         "Express"
       ],
       "description": "Controllers, services, repositories and validation.",
-      "outcome": "Convert Week 28 concepts into demonstrable engineering evidence."
+      "outcome": "Convert Week 28 concepts into demonstrable engineering evidence.",
+      "tagline": "Full REST API for a multi-user blogging platform with relations",
+      "features": [
+        "User auth (JWT), article publishing, tag categorization, and comments system",
+        "Slug generation, pagination, search queries, and reading time estimation",
+        "Middleware pipeline: RequestLogger, AuthGuard, RoleChecker, ErrorHandler",
+        "Automated integration tests using Supertest and Jest"
+      ],
+      "architecture": "3-Tier Express REST API with DTO validation and Service layers.",
+      "deliverable": "Complete Express backend with 15+ tested API endpoints."
     },
     {
       "id": "p023",
@@ -4644,7 +5332,16 @@
         "MySQL"
       ],
       "description": "E-commerce schema plus 50 query exercises.",
-      "outcome": "Convert Week 29 concepts into demonstrable engineering evidence."
+      "outcome": "Convert Week 29 concepts into demonstrable engineering evidence.",
+      "tagline": "Relational database schema with 50+ complex SQL queries and normalization",
+      "features": [
+        "Normalized database schema (3NF) for E-Commerce: users, orders, items, products, categories",
+        "Primary, Foreign, and Composite keys with ON DELETE CASCADE constraints",
+        "Complex SQL queries utilizing INNER/LEFT JOINs, Subqueries, CTEs, and Window Functions",
+        "Aggregation reports calculating Customer Lifetime Value (LTV), Monthly Recurring Revenue (MRR)"
+      ],
+      "architecture": "Relational Database Schema + Seed Scripts + Analytical Queries.",
+      "deliverable": "SQL schema file (.sql) with migration scripts and query benchmarks."
     },
     {
       "id": "p024",
@@ -4655,7 +5352,16 @@
         "MySQL"
       ],
       "description": "EXPLAIN slow queries and add targeted indexes.",
-      "outcome": "Convert Week 31 concepts into demonstrable engineering evidence."
+      "outcome": "Convert Week 31 concepts into demonstrable engineering evidence.",
+      "tagline": "Database performance optimization and query plan analysis lab",
+      "features": [
+        "Seeding 1,000,000 mock records to simulate production data scale",
+        "Analyzing slow queries using EXPLAIN / EXPLAIN ANALYZE execution plans",
+        "Adding B-Tree and Composite indexes to eliminate Full Table Scans (ALL -> Ref/Const)",
+        "Benchmarking query latency before vs after indexing (e.g. 850ms -> 4ms)"
+      ],
+      "architecture": "Database indexing strategy with performance comparison reports.",
+      "deliverable": "SQL performance report documenting before/after execution plans."
     },
     {
       "id": "p025",
@@ -4667,7 +5373,16 @@
         "MySQL"
       ],
       "description": "Atomic order checkout with rollback.",
-      "outcome": "Convert Week 32 concepts into demonstrable engineering evidence."
+      "outcome": "Convert Week 32 concepts into demonstrable engineering evidence.",
+      "tagline": "ACID transaction-safe e-commerce checkout service preventing race conditions",
+      "features": [
+        "Atomic checkout workflow: Deduct inventory, Charge wallet balance, Create order record",
+        "Database transactions with COMMIT and ROLLBACK on any failure",
+        "Pessimistic locking (SELECT FOR UPDATE) to prevent negative inventory during flash sales",
+        "Deadlock simulation and automatic transaction retry mechanism"
+      ],
+      "architecture": "Transaction-safe Service Layer with strict concurrency control.",
+      "deliverable": "Node.js service with automated concurrency test verifying race-condition immunity."
     },
     {
       "id": "p026",
@@ -4679,7 +5394,16 @@
         "JWT"
       ],
       "description": "Access/refresh tokens, roles and validation.",
-      "outcome": "Convert Week 33 concepts into demonstrable engineering evidence."
+      "outcome": "Convert Week 33 concepts into demonstrable engineering evidence.",
+      "tagline": "Enterprise Auth Microservice with JWT, Refresh Tokens, and RBAC",
+      "features": [
+        "Secure password hashing using Argon2 / Bcrypt with configurable work factor",
+        "Access token (15m expiry) + Refresh token (7d expiry) with database token rotation",
+        "Role-Based Access Control (RBAC) middleware (Admin, Manager, User permissions)",
+        "Brute-force protection with IP-based rate limiting and account lockout"
+      ],
+      "architecture": "Standalone Auth Service with cryptographic signing and RBAC guards.",
+      "deliverable": "Production-grade auth backend with token rotation and security tests."
     },
     {
       "id": "p027",
@@ -4691,7 +5415,16 @@
         "Redis"
       ],
       "description": "Cache-aside reads, TTL and invalidation.",
-      "outcome": "Convert Week 34 concepts into demonstrable engineering evidence."
+      "outcome": "Convert Week 34 concepts into demonstrable engineering evidence.",
+      "tagline": "High-performance Redis caching layer with cache-aside and TTL strategies",
+      "features": [
+        "Cache-Aside (Lazy Loading) pattern for fast product catalog lookups",
+        "Automatic cache invalidation on database updates / writes",
+        "Cache Stampede / Thundering Herd prevention using mutex locks",
+        "Sliding window rate limiter implemented using Redis sorted sets (ZADD)"
+      ],
+      "architecture": "Caching middleware & Redis client abstraction with fallback to DB.",
+      "deliverable": "Node.js application demonstrating 90%+ latency reduction via Redis."
     },
     {
       "id": "p028",
@@ -4703,7 +5436,16 @@
         "Socket.IO"
       ],
       "description": "Rooms, presence and one-to-one messaging.",
-      "outcome": "Convert Week 35 concepts into demonstrable engineering evidence."
+      "outcome": "Convert Week 35 concepts into demonstrable engineering evidence.",
+      "tagline": "Scalable Real-time Chat Server using Socket.IO and WebSockets",
+      "features": [
+        "Real-time bi-directional messaging with room joining and private direct messaging",
+        "User online/offline presence tracking and typing indicator broadcasts",
+        "Message delivery acknowledgments (Sent, Delivered, Read receipts)",
+        "Persistent chat history storage with pagination on initial room join"
+      ],
+      "architecture": "Event-driven WebSocket Server with room multiplexing.",
+      "deliverable": "Running WebSocket server with HTML/JS test client."
     },
     {
       "id": "p029",
@@ -4715,7 +5457,16 @@
         "Redis"
       ],
       "description": "Async jobs, retries and worker processing.",
-      "outcome": "Convert Week 36 concepts into demonstrable engineering evidence."
+      "outcome": "Convert Week 36 concepts into demonstrable engineering evidence.",
+      "tagline": "Asynchronous Background Job Queue with Redis and BullMQ",
+      "features": [
+        "Producer/Consumer architecture for async heavy tasks (PDF generation, Email sending)",
+        "Automatic job retries with exponential backoff on transient failures",
+        "Dead Letter Queue (DLQ) for inspecting and replaying permanently failed jobs",
+        "Real-time job progress tracking and status querying endpoint"
+      ],
+      "architecture": "Background Worker Architecture with BullMQ & Redis queues.",
+      "deliverable": "Worker process handling background task queues with monitoring dashboard."
     },
     {
       "id": "p030",
@@ -4730,7 +5481,17 @@
         "Socket.IO"
       ],
       "description": "Auth, SQL, cache, realtime and background jobs.",
-      "outcome": "Convert Week 38 concepts into demonstrable engineering evidence."
+      "outcome": "Convert Week 38 concepts into demonstrable engineering evidence.",
+      "tagline": "Production Full-Stack Backend API (Backend Capstone)",
+      "features": [
+        "Modular Monolith backend for an on-demand service platform",
+        "Auth, Payments, Orders, Reviews, and Notification modules",
+        "MySQL relational persistence + Redis caching and rate-limiting",
+        "Real-time updates via WebSockets + Async background jobs with BullMQ",
+        "Structured Winston logging, Swagger OpenAPI docs, and Docker Compose setup"
+      ],
+      "architecture": "Production Layered Architecture + MySQL + Redis + WebSockets + Docker.",
+      "deliverable": "Production-grade backend system with Docker Compose and complete API docs."
     },
     {
       "id": "p031",
@@ -4741,7 +5502,16 @@
         "Kotlin"
       ],
       "description": "Native CRUD app with idiomatic Kotlin.",
-      "outcome": "Convert Week 41 concepts into demonstrable engineering evidence."
+      "outcome": "Convert Week 41 concepts into demonstrable engineering evidence.",
+      "tagline": "Modern habit tracking CLI & domain model built in Kotlin",
+      "features": [
+        "Domain models utilizing Kotlin data classes, sealed classes, and enum classes",
+        "Habit streak calculations, frequency rules, and completion logs",
+        "Functional transformations using Kotlin standard library (map, filter, groupBy, associateBy)",
+        "Unit tests with JUnit 5 and AssertJ verifying streak algorithms"
+      ],
+      "architecture": "Idiomatic Kotlin domain layer following Clean Code principles.",
+      "deliverable": "Tested Kotlin habit engine with interactive console interface."
     },
     {
       "id": "p032",
@@ -4753,7 +5523,16 @@
         "Coroutines"
       ],
       "description": "Concurrent downloads with cancellation.",
-      "outcome": "Convert Week 43 concepts into demonstrable engineering evidence."
+      "outcome": "Convert Week 43 concepts into demonstrable engineering evidence.",
+      "tagline": "High-performance concurrent file downloader using Kotlin Coroutines & Flow",
+      "features": [
+        "Concurrent downloads with CoroutineScope, Dispatchers.IO, and async/await",
+        "Progress tracking via Kotlin Flow emitting download percentages and speed in real-time",
+        "Structured concurrency with graceful cancellation on user abort",
+        "Error handling using supervisorScope and catch operator"
+      ],
+      "architecture": "Reactive Coroutine pipeline with Flow streams and structured concurrency.",
+      "deliverable": "CLI / Kotlin app downloading multiple files concurrently with live progress."
     },
     {
       "id": "p033",
@@ -4765,7 +5544,16 @@
         "Compose"
       ],
       "description": "State, navigation and Material UI.",
-      "outcome": "Convert Week 44 concepts into demonstrable engineering evidence."
+      "outcome": "Convert Week 44 concepts into demonstrable engineering evidence.",
+      "tagline": "Modern declarative Android user profile UI built with Jetpack Compose",
+      "features": [
+        "Declarative composables: Avatar, StatsRow, Bio, SkillChips, and SettingsList",
+        "State hoisting using remember, rememberSaveable, and mutableStateOf",
+        "Dynamic theme support (Material 3 Dark/Light themes and Dynamic Color)",
+        "Smooth animations for state changes and expandable bio sections"
+      ],
+      "architecture": "Jetpack Compose Material 3 UI with state hoisting.",
+      "deliverable": "Android application showcase screen running on Compose."
     },
     {
       "id": "p034",
@@ -4777,7 +5565,16 @@
         "ViewModel"
       ],
       "description": "UDF + ViewModel state-driven app.",
-      "outcome": "Convert Week 46 concepts into demonstrable engineering evidence."
+      "outcome": "Convert Week 46 concepts into demonstrable engineering evidence.",
+      "tagline": "Expense tracking Android application with MVVM and StateFlow",
+      "features": [
+        "Unidirectional Data Flow (UDF): View -> Event -> ViewModel -> UI State -> View",
+        "LazyColumn list with category icons, swipe-to-delete, and animated insertion",
+        "StateFlow and SharedFlow emitting immutable UI state and one-off snackbar events",
+        "Search and filter bar updating list in real-time via debounced StateFlow"
+      ],
+      "architecture": "MVVM Architecture with Jetpack Compose and ViewModel state containers.",
+      "deliverable": "Working Android app demonstrating clean MVVM & UDF patterns."
     },
     {
       "id": "p035",
@@ -4789,7 +5586,16 @@
         "Compose"
       ],
       "description": "Offline notes with DAO and reactive state.",
-      "outcome": "Convert Week 47 concepts into demonstrable engineering evidence."
+      "outcome": "Convert Week 47 concepts into demonstrable engineering evidence.",
+      "tagline": "Offline note-taking Android application with Room SQLite Database",
+      "features": [
+        "Room Database setup: Note Entity, NoteDao, and AppDatabase with migrations",
+        "Reactive queries returning Flow<List<Note>> updating UI automatically on DB changes",
+        "Database schema migrations (v1 -> v2) with automated migration tests",
+        "Full text search (FTS) queries and note tagging relations"
+      ],
+      "architecture": "Room Persistence Layer with Repository pattern and Kotlin Flow.",
+      "deliverable": "Offline Android notes application with tested Room database."
     },
     {
       "id": "p036",
@@ -4801,7 +5607,16 @@
         "OkHttp"
       ],
       "description": "Interceptors, serialization and error mapping.",
-      "outcome": "Convert Week 48 concepts into demonstrable engineering evidence."
+      "outcome": "Convert Week 48 concepts into demonstrable engineering evidence.",
+      "tagline": "Android network client with Retrofit 2, OkHttp, and Kotlinx Serialization",
+      "features": [
+        "Configured Retrofit interface with Coroutines suspend functions",
+        "OkHttp interceptors: Auth header injection, Chucker HTTP inspector, and logging",
+        "Network response wrapper: NetworkResult.Success, NetworkResult.Error, NetworkResult.Loading",
+        "Handling offline scenarios with custom connectivity interceptor"
+      ],
+      "architecture": "Remote Data Source with Retrofit, OkHttp, and Repository pattern.",
+      "deliverable": "Android remote data module fetching live REST API data."
     },
     {
       "id": "p037",
@@ -4814,7 +5629,16 @@
         "Architecture"
       ],
       "description": "Refactor into data/domain/presentation.",
-      "outcome": "Convert Week 49 concepts into demonstrable engineering evidence."
+      "outcome": "Convert Week 49 concepts into demonstrable engineering evidence.",
+      "tagline": "Clean Architecture Android template with Hilt Dependency Injection",
+      "features": [
+        "Hilt modules: AppModule, NetworkModule, DatabaseModule, RepositoryModule",
+        "Clean Architecture layers: Presentation (Compose), Domain (UseCases), Data (Repo/Sources)",
+        "Interface segregation allowing easy swapping of mock and production data sources",
+        "Unit tests with MockK and CoroutineTestRule verifying UseCases in isolation"
+      ],
+      "architecture": "Enterprise Clean Architecture with Hilt Dependency Injection.",
+      "deliverable": "Clean Architecture Android template repository."
     },
     {
       "id": "p038",
@@ -4829,7 +5653,17 @@
         "Hilt"
       ],
       "description": "Complete native app with offline data and API.",
-      "outcome": "Convert Week 52 concepts into demonstrable engineering evidence."
+      "outcome": "Convert Week 52 concepts into demonstrable engineering evidence.",
+      "tagline": "Production Native Android Mobile Application (Android Capstone)",
+      "features": [
+        "Full-featured Android app (E-Commerce / Social / Productivity)",
+        "Jetpack Compose UI + Material 3 Design + Navigation Component",
+        "Room offline caching + Retrofit REST API integration with Flow",
+        "Hilt Dependency Injection + MVVM + Clean Architecture UseCases",
+        "WorkManager background sync + Push Notifications + Unit/UI test suite"
+      ],
+      "architecture": "Production Clean Architecture + Compose + Room + Retrofit + Hilt + WorkManager.",
+      "deliverable": "Complete, installable Android APK with clean architecture codebase."
     },
     {
       "id": "p039",
@@ -4841,7 +5675,16 @@
         "Graphs"
       ],
       "description": "BFS, DFS and connected-component explorer.",
-      "outcome": "Convert Week 61 concepts into demonstrable engineering evidence."
+      "outcome": "Convert Week 61 concepts into demonstrable engineering evidence.",
+      "tagline": "Interactive Graph Algorithms visualizer & pathfinding playground",
+      "features": [
+        "Graph representations: Adjacency List and Adjacency Matrix for Directed/Undirected graphs",
+        "Graph Traversals: Breadth-First Search (BFS) and Depth-First Search (DFS)",
+        "Connected components detection, Cycle detection, and Bipartite graph checker",
+        "ASCII / Terminal graph step visualizer demonstrating node visit orders"
+      ],
+      "architecture": "Graph Algorithm engine with generic Node/Edge data structures.",
+      "deliverable": "Tested Graph library with 15+ algorithmic verification tests."
     },
     {
       "id": "p040",
@@ -4853,7 +5696,16 @@
         "Graphs"
       ],
       "description": "Weighted graph simulator with Dijkstra.",
-      "outcome": "Convert Week 64 concepts into demonstrable engineering evidence."
+      "outcome": "Convert Week 64 concepts into demonstrable engineering evidence.",
+      "tagline": "Shortest Path and Topological Sorting Simulator",
+      "features": [
+        "Dijkstra Shortest Path algorithm with Priority Queue (Min-Heap)",
+        "Bellman-Ford algorithm with negative cycle detection",
+        "Topological Sort (Kahn Algorithm BFS & DFS Post-Order) for DAG dependency resolution",
+        "Real-world mapping example (e.g. Build task dependency resolver)"
+      ],
+      "architecture": "Pathfinding & DAG resolver engine with benchmark comparisons.",
+      "deliverable": "Pathfinding simulator resolving route optimizations."
     },
     {
       "id": "p041",
@@ -4865,7 +5717,16 @@
         "DP"
       ],
       "description": "Classic DP implementations with state/transition notes.",
-      "outcome": "Convert Week 68 concepts into demonstrable engineering evidence."
+      "outcome": "Convert Week 68 concepts into demonstrable engineering evidence.",
+      "tagline": "Dynamic Programming pattern handbook with top-down and bottom-up solutions",
+      "features": [
+        "Top-Down Memoization and Bottom-Up Tabulation for classic DP patterns",
+        "Patterns: 0/1 Knapsack, Unbounded Knapsack, Longest Common Subsequence (LCS), Longest Increasing Subsequence (LIS)",
+        "Space optimization techniques (reducing O(N*W) space to O(W))",
+        "Step-by-step state transition documentation for each problem archetype"
+      ],
+      "architecture": "Algorithmic DP reference suite with comprehensive automated tests.",
+      "deliverable": "Tested DP solutions notebook with complexity proofs."
     },
     {
       "id": "p042",
@@ -4878,7 +5739,16 @@
         "Redis"
       ],
       "description": "Prototype plus scalable architecture.",
-      "outcome": "Convert Week 72 concepts into demonstrable engineering evidence."
+      "outcome": "Convert Week 72 concepts into demonstrable engineering evidence.",
+      "tagline": "High-scale URL Shortener System Design (TinyURL) implementation",
+      "features": [
+        "Base62 encoding and unique ID generation (Snowflake / Pre-generated Key Generation Service)",
+        "Redis cache layer for hot URL redirects achieving sub-10ms response time",
+        "Database schema with custom alias support, expiration timestamps, and analytics counters",
+        "System Design document with capacity estimation (QPS, storage, bandwidth calculations)"
+      ],
+      "architecture": "Distributed URL Shortener with Key Generation Service, Redis Cache, and MySQL.",
+      "deliverable": "Working URL shortener prototype + complete architecture blueprint."
     },
     {
       "id": "p043",
@@ -4889,7 +5759,16 @@
         "WebSocket"
       ],
       "description": "Capacity, persistence, fan-out and failure modes.",
-      "outcome": "Convert Week 73 concepts into demonstrable engineering evidence."
+      "outcome": "Convert Week 73 concepts into demonstrable engineering evidence.",
+      "tagline": "Large-scale real-time chat system architecture (WhatsApp / Slack scale)",
+      "features": [
+        "WebSocket connection gateway with session connection manager",
+        "Message fanout service for group chats with Redis Pub/Sub",
+        "Message ordering and delivery guarantee (at-least-once with idempotency keys)",
+        "System Design document addressing 50M concurrent connections, storage sharding, and push notification triggers"
+      ],
+      "architecture": "Distributed WebSocket Gateway + Redis Pub/Sub + Message Store.",
+      "deliverable": "System design architecture document and working gateway prototype."
     },
     {
       "id": "p044",
@@ -4900,7 +5779,16 @@
         "Redis"
       ],
       "description": "Feed generation, caching and pagination.",
-      "outcome": "Convert Week 74 concepts into demonstrable engineering evidence."
+      "outcome": "Convert Week 74 concepts into demonstrable engineering evidence.",
+      "tagline": "Scalable Social Media Newsfeed System Design (Twitter / Instagram feed)",
+      "features": [
+        "Fanout-on-Write (Push model) for regular users vs Fanout-on-Read (Pull model) for celebrities",
+        "Feed ranking algorithm (recency, engagement score, user affinities)",
+        "Redis sorted sets caching user timelines for instantaneous scroll loading",
+        "System Design document covering storage partitioning, media CDN, and pagination cursors"
+      ],
+      "architecture": "Hybrid Fanout Architecture + Redis Feed Cache + Analytical Aggregators.",
+      "deliverable": "System design specification with feed generation prototype."
     },
     {
       "id": "p045",
@@ -4912,7 +5800,16 @@
         "Systems"
       ],
       "description": "Location, matching, queues and data flows.",
-      "outcome": "Convert Week 75 concepts into demonstrable engineering evidence."
+      "outcome": "Convert Week 75 concepts into demonstrable engineering evidence.",
+      "tagline": "Real-time On-Demand Delivery & Driver Matching Platform (Uber / DoorDash)",
+      "features": [
+        "Geospatial indexing using Uber H3 / Geohash for finding nearby active drivers",
+        "Driver location heartbeat stream processing with Redis geospatial commands (GEOADD, GEORADIUS)",
+        "Order matching state machine (Created -> Matching -> Accepted -> PickedUp -> Delivered)",
+        "System Design blueprint detailing surge pricing, driver dispatching, and live tracking"
+      ],
+      "architecture": "Geospatial Dispatch Engine + Distributed State Machine + Realtime Gateway.",
+      "deliverable": "System design blueprint + geospatial driver matching prototype."
     },
     {
       "id": "p046",
@@ -4925,7 +5822,16 @@
         "MySQL"
       ],
       "description": "Containerized reproducible backend stack.",
-      "outcome": "Convert Week 80 concepts into demonstrable engineering evidence."
+      "outcome": "Convert Week 80 concepts into demonstrable engineering evidence.",
+      "tagline": "Containerized full-stack application with Docker and Docker Compose",
+      "features": [
+        "Multi-stage Dockerfile producing minimal, secure production image (<100MB)",
+        "Docker Compose orchestration: Node.js App, MySQL Database, Redis, and Nginx Reverse Proxy",
+        "Persistent Docker volumes for database storage and isolated bridge networks",
+        "Healthcheck scripts verifying container readiness before traffic routing"
+      ],
+      "architecture": "Micro-service containerization with multi-stage builds and isolated networking.",
+      "deliverable": "Complete docker-compose.yml configuration ready for one-command deploy."
     },
     {
       "id": "p047",
@@ -4936,7 +5842,16 @@
         "CI/CD"
       ],
       "description": "Automated lint/test/build pipeline.",
-      "outcome": "Convert Week 81 concepts into demonstrable engineering evidence."
+      "outcome": "Convert Week 81 concepts into demonstrable engineering evidence.",
+      "tagline": "Automated Continuous Integration and Continuous Deployment (CI/CD) pipeline",
+      "features": [
+        "GitHub Actions workflow triggered on PR and Push to main branch",
+        "Automated pipeline stages: Lint check, Static analysis, Unit/Integration tests, Build artifact",
+        "Docker image build and automated push to container registry (Docker Hub / GHCR)",
+        "Secret management with environment-specific variables and deployment notifications"
+      ],
+      "architecture": "Production GitHub Actions CI/CD Pipeline.",
+      "deliverable": "Working .github/workflows CI/CD pipeline configuration."
     },
     {
       "id": "p048",
@@ -4948,7 +5863,16 @@
         "Observability"
       ],
       "description": "Logs, health checks and basic metrics.",
-      "outcome": "Convert Week 84 concepts into demonstrable engineering evidence."
+      "outcome": "Convert Week 84 concepts into demonstrable engineering evidence.",
+      "tagline": "Production Observability stack with Prometheus, Grafana, and OpenTelemetry",
+      "features": [
+        "Application metrics collection: Request throughput, HTTP error rate, p95/p99 latency",
+        "Centralized structured JSON logging with correlation IDs for request tracing",
+        "Prometheus metrics endpoint (/metrics) scraped by Prometheus server",
+        "Grafana dashboard visualizing Golden Signals (Latency, Traffic, Errors, Saturation)"
+      ],
+      "architecture": "Observability stack with Metrics Exporters, Prometheus, and Grafana.",
+      "deliverable": "Observable API with Grafana dashboard configuration."
     },
     {
       "id": "p049",
@@ -4960,7 +5884,16 @@
         "OWASP"
       ],
       "description": "Fix common web vulnerabilities in a deliberately unsafe API.",
-      "outcome": "Convert Week 86 concepts into demonstrable engineering evidence."
+      "outcome": "Convert Week 86 concepts into demonstrable engineering evidence.",
+      "tagline": "Security auditing and vulnerability remediation lab based on OWASP Top 10",
+      "features": [
+        "Remediating SQL Injection using parameterized queries and ORM escaping",
+        "Preventing Cross-Site Scripting (XSS) and Cross-Site Request Forgery (CSRF)",
+        "Implementing Helmet security headers (CSP, HSTS, X-Frame-Options, X-Content-Type-Options)",
+        "Rate-limiting, CORS whitelisting, and automated security scanning with npm audit / Snyk"
+      ],
+      "architecture": "Hardened security middleware pipeline following OWASP recommendations.",
+      "deliverable": "Security report documenting vulnerability tests and mitigations."
     },
     {
       "id": "p050",
@@ -4972,7 +5905,16 @@
         "Performance"
       ],
       "description": "Benchmark, identify bottleneck, optimize and compare.",
-      "outcome": "Convert Week 88 concepts into demonstrable engineering evidence."
+      "outcome": "Convert Week 88 concepts into demonstrable engineering evidence.",
+      "tagline": "High-concurrency Load Testing and Performance Benchmark Lab",
+      "features": [
+        "Simulating high concurrent traffic (1,000 to 10,000 virtual users) with k6 / Autocannon",
+        "Identifying system bottlenecks (CPU spikes, DB connection pool starvation, memory leaks)",
+        "Applying performance optimizations (Node clustering, DB connection pooling, caching)",
+        "Generating detailed performance report documenting throughput, error rates, and p99 latency"
+      ],
+      "architecture": "Load testing test-harness with automated metric assertions.",
+      "deliverable": "Performance audit report with k6 test scripts and benchmark graphs."
     },
     {
       "id": "p051",
@@ -4986,7 +5928,16 @@
         "Redis"
       ],
       "description": "Refactor old capstone with tests, docs and observability.",
-      "outcome": "Convert Week 91 concepts into demonstrable engineering evidence."
+      "outcome": "Convert Week 91 concepts into demonstrable engineering evidence.",
+      "tagline": "Engineering Capstone Refactoring & Production Hardening",
+      "features": [
+        "Full integration of Flutter Mobile Client + Node.js Backend + MySQL + Redis",
+        "Refactoring code to enforce SOLID principles, DRY, and Clean Architecture standards",
+        "End-to-end integration tests verifying end-to-end user checkout / booking flows",
+        "Production deployment with Docker, Nginx SSL reverse proxy, and monitoring"
+      ],
+      "architecture": "Enterprise Full-Stack Architecture with Mobile, Backend, Database, and DevOps.",
+      "deliverable": "Polished, deployed flagship portfolio application with live demo URL."
     },
     {
       "id": "p052",
@@ -4997,7 +5948,16 @@
         "DSA"
       ],
       "description": "Pattern-based solutions with explanations and tests.",
-      "outcome": "Convert Week 94 concepts into demonstrable engineering evidence."
+      "outcome": "Convert Week 94 concepts into demonstrable engineering evidence.",
+      "tagline": "Curated Interview Coding Repository with 100+ patterns & test cases",
+      "features": [
+        "Organized coding problems categorized by pattern (Two Pointers, Trees, Graphs, DP, etc.)",
+        "Clean, idiomatic solutions with complete time and space complexity annotations",
+        "Unit test suites for every solution verifying boundary test cases",
+        "Quick-reference cheat sheet for common algorithms and edge-case pitfalls"
+      ],
+      "architecture": "Structured Algorithms & Data Structures repository.",
+      "deliverable": "GitHub repository serving as interview preparation portfolio."
     },
     {
       "id": "p053",
@@ -5009,7 +5969,16 @@
         "Design"
       ],
       "description": "Five concise architecture case studies.",
-      "outcome": "Convert Week 97 concepts into demonstrable engineering evidence."
+      "outcome": "Convert Week 97 concepts into demonstrable engineering evidence.",
+      "tagline": "Comprehensive System Design Interview Notebook with diagrams & capacity models",
+      "features": [
+        "Detailed designs for 10 classic systems (URL Shortener, Chat, Feed, Uber, YouTube, etc.)",
+        "Back-of-the-envelope capacity estimations (Traffic, Storage, Bandwidth, Memory)",
+        "Architecture diagrams detailing load balancers, caching layers, DB partitions, and queues",
+        "Trade-off evaluations: SQL vs NoSQL, Strong vs Eventual Consistency, Push vs Pull models"
+      ],
+      "architecture": "System Design knowledge repository with architectural diagrams.",
+      "deliverable": "Published System Design guide with architectural blueprints."
     },
     {
       "id": "p054",
@@ -5021,7 +5990,16 @@
         "Documentation"
       ],
       "description": "Architecture diagrams, screenshots, tests and deployment docs.",
-      "outcome": "Convert Week 100 concepts into demonstrable engineering evidence."
+      "outcome": "Convert Week 100 concepts into demonstrable engineering evidence.",
+      "tagline": "Final Engineering Portfolio & GitHub Showcase Polish",
+      "features": [
+        "Professional developer portfolio website highlighting top capstone projects",
+        "Comprehensive README documentation with architecture diagrams, demo GIFs, and setup guides",
+        "Clean GitHub profile with pinned repositories, CI status badges, and release tags",
+        "Engineering case studies articulating problems solved, technical challenges, and performance impact"
+      ],
+      "architecture": "Developer Portfolio & Case Study Showcase.",
+      "deliverable": "Live portfolio website and polished GitHub profile ready for job applications."
     }
   ]
 }
