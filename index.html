@@ -1,61 +1,102 @@
 <!doctype html>
 <html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#0b1020">
-<title>Rafi — 2-Year Engineering Roadmap</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
-</head>
-<body>
-<div class="app-shell">
-  <aside class="sidebar" id="sidebar">
-    <div class="brand">
-      <div class="brand-mark">R</div>
-      <div><strong>Rafi Roadmap</strong><span>Software Engineering OS</span></div>
-    </div>
-    <nav>
-      <button class="nav-item active" data-view="dashboard"><span>⌂</span> Dashboard</button>
-      <button class="nav-item" data-view="roadmap"><span>▦</span> 24-Month Roadmap</button>
-      <button class="nav-item" data-view="weeks"><span>☷</span> Weekly Planner</button>
-      <button class="nav-item" data-view="practice"><span>★</span> DSA Practice</button>
-      <button class="nav-item" data-view="projects"><span>◆</span> Projects</button>
-      <button class="nav-item" data-view="dependencies"><span>↗</span> Dependencies</button>
-      <button class="nav-item" data-view="principles"><span>◎</span> Rules & Strategy</button>
-    </nav>
-    <div class="sidebar-footer">
-      <div class="offday"><span class="dot"></span><div><b>Friday is protected</b><small>Family + personal day</small></div></div>
-      <div id="storageStatus" class="storage-status"></div>
-      <button id="saveBtn" class="ghost">Save progress.json</button>
-      <button id="importBtn" class="ghost">Import progress.json</button>
-      <input type="file" id="importFile" accept=".json" style="display:none">
-      <button id="resetProgress" class="ghost danger">Reset progress</button>
-    </div>
-  </aside>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#0b1020" />
+    <title>Engineering Roadmap</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" id="sidebar">
+        <div class="brand">
+          <div class="brand-mark">R</div>
+          <div>
+            <strong>Rafi Roadmap</strong><span>Software Engineering OS</span>
+          </div>
+        </div>
+        <nav>
+          <button class="nav-item active" data-view="dashboard">
+            <span>⌂</span> Dashboard
+          </button>
+          <button class="nav-item" data-view="roadmap">
+            <span>▦</span> 24-Month Roadmap
+          </button>
+          <button class="nav-item" data-view="weeks">
+            <span>☷</span> Weekly Planner
+          </button>
+          <button class="nav-item" data-view="practice">
+            <span>★</span> DSA Practice
+          </button>
+          <button class="nav-item" data-view="projects">
+            <span>◆</span> Projects
+          </button>
+          <button class="nav-item" data-view="dependencies">
+            <span>↗</span> Dependencies
+          </button>
+          <button class="nav-item" data-view="principles">
+            <span>◎</span> Rules & Strategy
+          </button>
+        </nav>
+        <div class="sidebar-footer">
+          <div class="offday">
+            <span class="dot"></span>
+            <div>
+              <b>Friday is protected</b><small>Family + personal day</small>
+            </div>
+          </div>
+          <div id="storageStatus" class="storage-status"></div>
+          <button id="saveBtn" class="ghost">Save progress.json</button>
+          <button id="importBtn" class="ghost">Import progress.json</button>
+          <input
+            type="file"
+            id="importFile"
+            accept=".json"
+            style="display: none"
+          />
+          <button id="resetProgress" class="ghost danger">
+            Reset progress
+          </button>
+        </div>
+      </aside>
 
-  <main class="main">
-    <header class="topbar">
-      <button id="menuBtn" class="icon-btn mobile-only">☰</button>
-      <div class="breadcrumb"><span>Rafi</span><b>/</b><span id="crumb">Dashboard</span></div>
-      <div class="top-actions">
-        <div class="search-wrap"><span>⌕</span><input id="globalSearch" placeholder="Search topics, weeks, concepts…"></div>
-        <button id="themeBtn" class="icon-btn" title="Toggle theme">☾</button>
-      </div>
-    </header>
+      <main class="main">
+        <header class="topbar">
+          <button id="menuBtn" class="icon-btn mobile-only">☰</button>
+          <div class="breadcrumb">
+            <span>Rafi</span><b>/</b><span id="crumb">Dashboard</span>
+          </div>
+          <div class="top-actions">
+            <div class="search-wrap">
+              <span>⌕</span
+              ><input
+                id="globalSearch"
+                placeholder="Search topics, weeks, concepts…"
+              />
+            </div>
+            <button id="themeBtn" class="icon-btn" title="Toggle theme">
+              ☾
+            </button>
+          </div>
+        </header>
 
-    <section id="dashboardView" class="view active"></section>
-    <section id="roadmapView" class="view"></section>
-    <section id="weeksView" class="view"></section>
-    <section id="practiceView" class="view"></section>
-    <section id="projectsView" class="view"></section>
-    <section id="dependenciesView" class="view"></section>
-    <section id="principlesView" class="view"></section>
-  </main>
-</div>
-<div id="modalRoot"></div>
-<script src="app.js"></script>
-</body>
+        <section id="dashboardView" class="view active"></section>
+        <section id="roadmapView" class="view"></section>
+        <section id="weeksView" class="view"></section>
+        <section id="practiceView" class="view"></section>
+        <section id="projectsView" class="view"></section>
+        <section id="dependenciesView" class="view"></section>
+        <section id="principlesView" class="view"></section>
+      </main>
+    </div>
+    <div id="modalRoot"></div>
+    <script src="app.js"></script>
+  </body>
 </html>
