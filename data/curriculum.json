@@ -2,9 +2,9 @@
   "meta": {
     "title": "Rafi's 2-Year Software Engineering Roadmap",
     "duration": "24 months / 104 weeks",
-    "studyDays": "Saturday–Thursday",
+    "studyDays": "Saturday\u2013Thursday",
     "offDay": "Friday",
-    "dailyTarget": "90–120 minutes",
+    "dailyTarget": "90\u2013120 minutes",
     "fridayPolicy": "No study tasks. Personal + family day.",
     "principles": [
       "Depth over tool collecting",
@@ -21,49 +21,49 @@
     [
       "Phase 1",
       "Foundation Reset",
-      "Months 1–3",
+      "Months 1\u20133",
       "Programming fundamentals, Dart, OOP, math and DSA foundations."
     ],
     [
       "Phase 2",
       "Flutter Engineering",
-      "Months 4–6",
+      "Months 4\u20136",
       "Flutter internals, networking, testing, performance and production architecture."
     ],
     [
       "Phase 3",
       "Backend & Data",
-      "Months 7–9",
+      "Months 7\u20139",
       "JavaScript/Node.js, Express, SQL, databases, Redis and backend architecture."
     ],
     [
       "Phase 4",
       "Native Android",
-      "Months 10–12",
+      "Months 10\u201312",
       "Kotlin, Android fundamentals, Compose, Coroutines, Room, Retrofit and Clean Architecture."
     ],
     [
       "Phase 5",
       "Computer Science Core",
-      "Months 13–15",
+      "Months 13\u201315",
       "Networking, operating systems, advanced DSA and engineering fundamentals."
     ],
     [
       "Phase 6",
       "System Design",
-      "Months 16–18",
+      "Months 16\u201318",
       "Dynamic programming, distributed systems and system design."
     ],
     [
       "Phase 7",
       "Engineering Depth",
-      "Months 19–21",
+      "Months 19\u201321",
       "Cloud, Docker, Linux, security, observability and production engineering."
     ],
     [
       "Phase 8",
       "Interview & Career",
-      "Months 22–24",
+      "Months 22\u201324",
       "Interview readiness, projects, system design drills, DSA revision and applications."
     ]
   ],
@@ -87,11 +87,14 @@
           "week": 1,
           "title": "Dart CLI Calculator",
           "type": "Mini",
-          "stack": ["Dart"],
+          "stack": [
+            "Dart"
+          ],
           "description": "CLI calculator with validation, operators and tests.",
           "outcome": "Convert Week 1 concepts into demonstrable engineering evidence."
         }
-      ]
+      ],
+      "category": "Dart Topic"
     },
     {
       "week": 2,
@@ -103,7 +106,9 @@
       "deliverable": "Collection utility program",
       "phase": "Phase 1",
       "focus": "Dart",
-      "prereqWeeks": [1],
+      "prereqWeeks": [
+        1
+      ],
       "questions": [],
       "problemTopic": null,
       "projects": [
@@ -112,11 +117,14 @@
           "week": 2,
           "title": "Collection Analyzer",
           "type": "Mini",
-          "stack": ["Dart"],
+          "stack": [
+            "Dart"
+          ],
           "description": "Frequency, unique values, min/max and collection transformations.",
           "outcome": "Convert Week 2 concepts into demonstrable engineering evidence."
         }
-      ]
+      ],
+      "category": "Dart Topic"
     },
     {
       "week": 3,
@@ -125,10 +133,12 @@
       "title": "OOP I",
       "topics": "Classes; objects; constructors; named constructors; factory; encapsulation; getters/setters",
       "prereq": "Functions & Collections",
-      "deliverable": "Model layer with 8–10 classes",
+      "deliverable": "Model layer with 8\u201310 classes",
       "phase": "Phase 1",
       "focus": "OOP",
-      "prereqWeeks": [2],
+      "prereqWeeks": [
+        2
+      ],
       "questions": [],
       "problemTopic": null,
       "projects": [
@@ -137,11 +147,15 @@
           "week": 3,
           "title": "Library Domain Model",
           "type": "Mini",
-          "stack": ["Dart", "OOP"],
+          "stack": [
+            "Dart",
+            "OOP"
+          ],
           "description": "Books, members, loans and composition.",
           "outcome": "Convert Week 3 concepts into demonstrable engineering evidence."
         }
-      ]
+      ],
+      "category": "Dart Topic"
     },
     {
       "week": 4,
@@ -153,96 +167,26 @@
       "deliverable": "Async console app",
       "phase": "Phase 1",
       "focus": "Dart/OOP",
-      "prereqWeeks": [3],
-      "questions": [
-        {
-          "platform": "Codeforces",
-          "name": "Data structure practice",
-          "url": "https://codeforces.com/problemset?tags=data+structures"
-        },
-        {
-          "platform": "Codeforces",
-          "name": "Heap practice",
-          "url": "https://codeforces.com/problemset?tags=data+structures"
-        },
-        {
-          "platform": "Codeforces",
-          "name": "Priority queue practice",
-          "url": "https://codeforces.com/problemset?tags=data+structures"
-        },
-        {
-          "platform": "Codeforces",
-          "name": "Tree practice",
-          "url": "https://codeforces.com/problemset?tags=trees"
-        },
-        {
-          "platform": "Codeforces",
-          "name": "Segment/data structures practice",
-          "url": "https://codeforces.com/problemset?tags=data+structures"
-        },
-        {
-          "platform": "HackerRank",
-          "name": "QHEAP1",
-          "url": "https://www.hackerrank.com/challenges/qheap1/problem"
-        },
-        {
-          "platform": "HackerRank",
-          "name": "Jesse and Cookies",
-          "url": "https://www.hackerrank.com/challenges/jesse-and-cookies/problem"
-        },
-        {
-          "platform": "HackerRank",
-          "name": "BST Lowest Common Ancestor",
-          "url": "https://www.hackerrank.com/challenges/binary-search-tree-lowest-common-ancestor/problem"
-        },
-        {
-          "platform": "HackerRank",
-          "name": "BST Insertion",
-          "url": "https://www.hackerrank.com/challenges/binary-search-tree-insertion/problem"
-        },
-        {
-          "platform": "HackerRank",
-          "name": "Is This a BST",
-          "url": "https://www.hackerrank.com/challenges/is-binary-search-tree/problem"
-        },
-        {
-          "platform": "LeetCode",
-          "name": "Kth Largest Element",
-          "url": "https://leetcode.com/problems/kth-largest-element-in-an-array/"
-        },
-        {
-          "platform": "LeetCode",
-          "name": "Top K Frequent Elements",
-          "url": "https://leetcode.com/problems/top-k-frequent-elements/"
-        },
-        {
-          "platform": "LeetCode",
-          "name": "Kth Smallest Element in a BST",
-          "url": "https://leetcode.com/problems/kth-smallest-element-in-a-bst/"
-        },
-        {
-          "platform": "LeetCode",
-          "name": "Validate BST",
-          "url": "https://leetcode.com/problems/validate-binary-search-tree/"
-        },
-        {
-          "platform": "LeetCode",
-          "name": "Lowest Common Ancestor of BST",
-          "url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/"
-        }
+      "prereqWeeks": [
+        3
       ],
-      "problemTopic": "BST & Heap",
+      "questions": [],
+      "problemTopic": null,
       "projects": [
         {
           "id": "p004",
           "week": 4,
           "title": "Async Task Runner",
           "type": "Mini",
-          "stack": ["Dart", "Async"],
+          "stack": [
+            "Dart",
+            "Async"
+          ],
           "description": "Concurrent fake network tasks with failure handling.",
           "outcome": "Convert Week 4 concepts into demonstrable engineering evidence."
         }
-      ]
+      ],
+      "category": "Dart Topic"
     },
     {
       "week": 5,
@@ -254,7 +198,9 @@
       "deliverable": "50-question self-test",
       "phase": "Phase 1",
       "focus": "Review",
-      "prereqWeeks": [4],
+      "prereqWeeks": [
+        4
+      ],
       "questions": [],
       "problemTopic": null,
       "projects": [
@@ -263,11 +209,15 @@
           "week": 5,
           "title": "Event Stream Monitor",
           "type": "Mini",
-          "stack": ["Dart", "Streams"],
+          "stack": [
+            "Dart",
+            "Streams"
+          ],
           "description": "StreamController-based event monitor with filters.",
           "outcome": "Convert Week 5 concepts into demonstrable engineering evidence."
         }
-      ]
+      ],
+      "category": "Dart Topic"
     },
     {
       "week": 6,
@@ -279,7 +229,9 @@
       "deliverable": "Mini event-stream app",
       "phase": "Phase 1",
       "focus": "Dart",
-      "prereqWeeks": [4],
+      "prereqWeeks": [
+        4
+      ],
       "questions": [],
       "problemTopic": null,
       "projects": [
@@ -288,11 +240,14 @@
           "week": 6,
           "title": "Personal Budget CLI",
           "type": "Mini",
-          "stack": ["Dart"],
+          "stack": [
+            "Dart"
+          ],
           "description": "Income, expense, category and monthly summary engine.",
           "outcome": "Convert Week 6 concepts into demonstrable engineering evidence."
         }
-      ]
+      ],
+      "category": "Dart Topic"
     },
     {
       "week": 7,
@@ -304,7 +259,9 @@
       "deliverable": "50 manual calculation drills",
       "phase": "Phase 1",
       "focus": "Math",
-      "prereqWeeks": [1],
+      "prereqWeeks": [
+        1
+      ],
       "questions": [
         {
           "platform": "Codeforces",
@@ -389,23 +346,29 @@
           "week": 7,
           "title": "Algorithm Playground",
           "type": "Mini",
-          "stack": ["Dart", "DSA"],
+          "stack": [
+            "Dart",
+            "DSA"
+          ],
           "description": "Run common algorithms and print operation counts.",
           "outcome": "Convert Week 7 concepts into demonstrable engineering evidence."
         }
-      ]
+      ],
+      "category": "DSA Topic"
     },
     {
       "week": 8,
       "month": 2,
       "weekInMonth": 3,
       "title": "Complexity",
-      "topics": "Algorithms; time/space complexity; Big-O; O(1); O(log n); O(n); O(n log n); O(n²)",
+      "topics": "Algorithms; time/space complexity; Big-O; O(1); O(log n); O(n); O(n log n); O(n\u00b2)",
       "prereq": "Problem Solving Math",
       "deliverable": "Complexity notes for 20 snippets",
       "phase": "Phase 1",
       "focus": "DSA",
-      "prereqWeeks": [7],
+      "prereqWeeks": [
+        7
+      ],
       "questions": [
         {
           "platform": "Codeforces",
@@ -490,11 +453,15 @@
           "week": 8,
           "title": "Hash Index Simulator",
           "type": "Mini",
-          "stack": ["Dart", "DSA"],
+          "stack": [
+            "Dart",
+            "DSA"
+          ],
           "description": "Compare hash lookup and linear search.",
           "outcome": "Convert Week 8 concepts into demonstrable engineering evidence."
         }
-      ]
+      ],
+      "category": "DSA Topic"
     },
     {
       "week": 9,
@@ -503,10 +470,12 @@
       "title": "Arrays & Strings",
       "topics": "Traversal; search; insert/delete; reverse; min/max; frequency; palindrome; anagram",
       "prereq": "Complexity",
-      "deliverable": "15–20 easy problems",
+      "deliverable": "15\u201320 easy problems",
       "phase": "Phase 1",
       "focus": "DSA",
-      "prereqWeeks": [8],
+      "prereqWeeks": [
+        8
+      ],
       "questions": [
         {
           "platform": "Codeforces",
@@ -591,11 +560,15 @@
           "week": 9,
           "title": "Sliding Window Visualizer",
           "type": "Mini",
-          "stack": ["Dart", "DSA"],
+          "stack": [
+            "Dart",
+            "DSA"
+          ],
           "description": "Print active windows while solving subarray problems.",
           "outcome": "Convert Week 9 concepts into demonstrable engineering evidence."
         }
-      ]
+      ],
+      "category": "DSA Topic"
     },
     {
       "week": 10,
@@ -607,96 +580,27 @@
       "deliverable": "10 mixed timed problems",
       "phase": "Phase 1",
       "focus": "Review",
-      "prereqWeeks": [9, 11],
-      "questions": [
-        {
-          "platform": "Codeforces",
-          "name": "Registration System",
-          "url": "https://codeforces.com/problemset/problem/4/C"
-        },
-        {
-          "platform": "Codeforces",
-          "name": "Distinct Split",
-          "url": "https://codeforces.com/problemset/problem/1791/C"
-        },
-        {
-          "platform": "Codeforces",
-          "name": "Helpful Maths",
-          "url": "https://codeforces.com/problemset/problem/339/A"
-        },
-        {
-          "platform": "Codeforces",
-          "name": "Letter",
-          "url": "https://codeforces.com/problemset/problem/43/A"
-        },
-        {
-          "platform": "Codeforces",
-          "name": "Books",
-          "url": "https://codeforces.com/problemset/problem/279/B"
-        },
-        {
-          "platform": "HackerRank",
-          "name": "Ice Cream Parlor",
-          "url": "https://www.hackerrank.com/challenges/ctci-ice-cream-parlor/problem"
-        },
-        {
-          "platform": "HackerRank",
-          "name": "Count Triplets",
-          "url": "https://www.hackerrank.com/challenges/count-triplets-1/problem"
-        },
-        {
-          "platform": "HackerRank",
-          "name": "Frequency Queries",
-          "url": "https://www.hackerrank.com/challenges/frequency-queries/problem"
-        },
-        {
-          "platform": "HackerRank",
-          "name": "Two Strings",
-          "url": "https://www.hackerrank.com/challenges/two-strings/problem"
-        },
-        {
-          "platform": "HackerRank",
-          "name": "Ransom Note",
-          "url": "https://www.hackerrank.com/challenges/ctci-ransom-note/problem"
-        },
-        {
-          "platform": "LeetCode",
-          "name": "Two Sum",
-          "url": "https://leetcode.com/problems/two-sum/"
-        },
-        {
-          "platform": "LeetCode",
-          "name": "Group Anagrams",
-          "url": "https://leetcode.com/problems/group-anagrams/"
-        },
-        {
-          "platform": "LeetCode",
-          "name": "Top K Frequent Elements",
-          "url": "https://leetcode.com/problems/top-k-frequent-elements/"
-        },
-        {
-          "platform": "LeetCode",
-          "name": "Longest Consecutive Sequence",
-          "url": "https://leetcode.com/problems/longest-consecutive-sequence/"
-        },
-        {
-          "platform": "LeetCode",
-          "name": "Subarray Sum Equals K",
-          "url": "https://leetcode.com/problems/subarray-sum-equals-k/"
-        }
+      "prereqWeeks": [
+        9,
+        11
       ],
-      "problemTopic": "Hashing",
+      "questions": [],
+      "problemTopic": null,
       "projects": [
         {
           "id": "p010",
           "week": 10,
           "title": "Undo/Redo Engine",
           "type": "Mini",
-          "stack": ["Dart", "Stack"],
+          "stack": [
+            "Dart",
+            "Stack"
+          ],
           "description": "Editor-style undo/redo with two stacks.",
           "outcome": "Convert Week 10 concepts into demonstrable engineering evidence."
         }
-      ]
+      ],
+      "category": "DSA Topic"
     },
     {
       "week": 11,
@@ -708,7 +612,9 @@
       "deliverable": "15 hash-based problems",
       "phase": "Phase 1",
       "focus": "DSA",
-      "prereqWeeks": [9],
+      "prereqWeeks": [
+        9
+      ],
       "questions": [
         {
           "platform": "Codeforces",
@@ -793,11 +699,15 @@
           "week": 11,
           "title": "Linked List Playground",
           "type": "Mini",
-          "stack": ["Dart", "DSA"],
+          "stack": [
+            "Dart",
+            "DSA"
+          ],
           "description": "CRUD, reverse and cycle detection playground.",
           "outcome": "Convert Week 11 concepts into demonstrable engineering evidence."
         }
-      ]
+      ],
+      "category": "DSA Topic"
     },
     {
       "week": 12,
@@ -809,7 +719,9 @@
       "deliverable": "15 mixed problems",
       "phase": "Phase 1",
       "focus": "DSA",
-      "prereqWeeks": [11],
+      "prereqWeeks": [
+        11
+      ],
       "questions": [
         {
           "platform": "Codeforces",
@@ -888,7 +800,8 @@
         }
       ],
       "problemTopic": "Two Pointers & Sliding Window",
-      "projects": []
+      "projects": [],
+      "category": "DSA Topic"
     },
     {
       "week": 13,
@@ -900,7 +813,9 @@
       "deliverable": "10 stack/queue problems",
       "phase": "Phase 1",
       "focus": "DSA",
-      "prereqWeeks": [12],
+      "prereqWeeks": [
+        12
+      ],
       "questions": [
         {
           "platform": "Codeforces",
@@ -985,11 +900,15 @@
           "week": 13,
           "title": "Flutter API Explorer",
           "type": "Mini",
-          "stack": ["Flutter", "Dio"],
+          "stack": [
+            "Flutter",
+            "Dio"
+          ],
           "description": "REST API with loading, error, empty and success states.",
           "outcome": "Convert Week 13 concepts into demonstrable engineering evidence."
         }
-      ]
+      ],
+      "category": "DSA Topic"
     },
     {
       "week": 14,
@@ -1001,7 +920,9 @@
       "deliverable": "10 linked-list + recursion problems",
       "phase": "Phase 1",
       "focus": "DSA",
-      "prereqWeeks": [13],
+      "prereqWeeks": [
+        13
+      ],
       "questions": [
         {
           "platform": "Codeforces",
@@ -1086,11 +1007,15 @@
           "week": 14,
           "title": "Auth Flow Lab",
           "type": "Mini",
-          "stack": ["Flutter", "Auth"],
+          "stack": [
+            "Flutter",
+            "Auth"
+          ],
           "description": "Login/logout/refresh-token simulation.",
           "outcome": "Convert Week 14 concepts into demonstrable engineering evidence."
         }
-      ]
+      ],
+      "category": "DSA Topic"
     },
     {
       "week": 15,
@@ -1102,96 +1027,26 @@
       "deliverable": "10 mixed timed problems",
       "phase": "Phase 1",
       "focus": "Review",
-      "prereqWeeks": [14],
-      "questions": [
-        {
-          "platform": "Codeforces",
-          "name": "Books",
-          "url": "https://codeforces.com/problemset/problem/279/B"
-        },
-        {
-          "platform": "Codeforces",
-          "name": "Kuriyama Mirai's Stones",
-          "url": "https://codeforces.com/problemset/problem/433/B"
-        },
-        {
-          "platform": "Codeforces",
-          "name": "Number of Segments with Small Sum",
-          "url": "https://codeforces.com/problemset/problem/616/D"
-        },
-        {
-          "platform": "Codeforces",
-          "name": "Array Cloning Technique",
-          "url": "https://codeforces.com/problemset/problem/1665/B"
-        },
-        {
-          "platform": "Codeforces",
-          "name": "Yet Another Problem On a Subsequence",
-          "url": "https://codeforces.com/problemset/problem/1301/A"
-        },
-        {
-          "platform": "HackerRank",
-          "name": "Subarray Division",
-          "url": "https://www.hackerrank.com/challenges/the-birthday-bar/problem"
-        },
-        {
-          "platform": "HackerRank",
-          "name": "Max Min",
-          "url": "https://www.hackerrank.com/challenges/angry-children/problem"
-        },
-        {
-          "platform": "HackerRank",
-          "name": "Minimum Swaps 2",
-          "url": "https://www.hackerrank.com/challenges/minimum-swaps-2/problem"
-        },
-        {
-          "platform": "HackerRank",
-          "name": "Special String Again",
-          "url": "https://www.hackerrank.com/challenges/special-palindrome-again/problem"
-        },
-        {
-          "platform": "HackerRank",
-          "name": "Max Array Sum",
-          "url": "https://www.hackerrank.com/challenges/max-array-sum/problem"
-        },
-        {
-          "platform": "LeetCode",
-          "name": "Longest Substring Without Repeating Characters",
-          "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/"
-        },
-        {
-          "platform": "LeetCode",
-          "name": "Longest Repeating Character Replacement",
-          "url": "https://leetcode.com/problems/longest-repeating-character-replacement/"
-        },
-        {
-          "platform": "LeetCode",
-          "name": "Permutation in String",
-          "url": "https://leetcode.com/problems/permutation-in-string/"
-        },
-        {
-          "platform": "LeetCode",
-          "name": "Minimum Size Subarray Sum",
-          "url": "https://leetcode.com/problems/minimum-size-subarray-sum/"
-        },
-        {
-          "platform": "LeetCode",
-          "name": "Longest Subarray of 1s After Deleting One Element",
-          "url": "https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/"
-        }
+      "prereqWeeks": [
+        14
       ],
-      "problemTopic": "Two Pointers & Sliding Window",
+      "questions": [],
+      "problemTopic": null,
       "projects": [
         {
           "id": "p014",
           "week": 15,
           "title": "Offline Notes",
           "type": "Mini",
-          "stack": ["Flutter", "Storage"],
+          "stack": [
+            "Flutter",
+            "Storage"
+          ],
           "description": "Cached notes with offline read/write.",
           "outcome": "Convert Week 15 concepts into demonstrable engineering evidence."
         }
-      ]
+      ],
+      "category": "DSA Topic"
     },
     {
       "week": 16,
@@ -1203,7 +1058,9 @@
       "deliverable": "Explain rendering pipeline in notes",
       "phase": "Phase 2",
       "focus": "Flutter",
-      "prereqWeeks": [1],
+      "prereqWeeks": [
+        1
+      ],
       "questions": [],
       "problemTopic": null,
       "projects": [
@@ -1212,11 +1069,15 @@
           "week": 16,
           "title": "Flutter Testing Lab",
           "type": "Mini",
-          "stack": ["Flutter", "Testing"],
+          "stack": [
+            "Flutter",
+            "Testing"
+          ],
           "description": "Unit, widget and integration tests for one feature.",
           "outcome": "Convert Week 16 concepts into demonstrable engineering evidence."
         }
-      ]
+      ],
+      "category": "Flutter Topic"
     },
     {
       "week": 17,
@@ -1228,7 +1089,9 @@
       "deliverable": "Lifecycle demo app",
       "phase": "Phase 2",
       "focus": "Flutter",
-      "prereqWeeks": [16],
+      "prereqWeeks": [
+        16
+      ],
       "questions": [],
       "problemTopic": null,
       "projects": [
@@ -1237,11 +1100,15 @@
           "week": 17,
           "title": "Flutter Performance Lab",
           "type": "Mini",
-          "stack": ["Flutter", "DevTools"],
+          "stack": [
+            "Flutter",
+            "DevTools"
+          ],
           "description": "Create and fix rebuild/list/image performance problems.",
           "outcome": "Convert Week 17 concepts into demonstrable engineering evidence."
         }
-      ]
+      ],
+      "category": "Flutter Topic"
     },
     {
       "week": 18,
@@ -1253,7 +1120,9 @@
       "deliverable": "Architecture comparison document",
       "phase": "Phase 2",
       "focus": "Flutter",
-      "prereqWeeks": [17],
+      "prereqWeeks": [
+        17
+      ],
       "questions": [],
       "problemTopic": null,
       "projects": [
@@ -1262,11 +1131,15 @@
           "week": 18,
           "title": "Notification Deep-Link Demo",
           "type": "Mini",
-          "stack": ["Flutter", "FCM"],
+          "stack": [
+            "Flutter",
+            "FCM"
+          ],
           "description": "Notifications that navigate into app content.",
           "outcome": "Convert Week 18 concepts into demonstrable engineering evidence."
         }
-      ]
+      ],
+      "category": "Flutter Topic"
     },
     {
       "week": 19,
@@ -1278,10 +1151,13 @@
       "deliverable": "Async-heavy Flutter demo",
       "phase": "Phase 2",
       "focus": "Flutter",
-      "prereqWeeks": [6],
+      "prereqWeeks": [
+        6
+      ],
       "questions": [],
       "problemTopic": null,
-      "projects": []
+      "projects": [],
+      "category": "Flutter Topic"
     },
     {
       "week": 20,
@@ -1293,7 +1169,9 @@
       "deliverable": "Explain 10 Flutter concepts aloud",
       "phase": "Phase 2",
       "focus": "Review",
-      "prereqWeeks": [26],
+      "prereqWeeks": [
+        26
+      ],
       "questions": [],
       "problemTopic": null,
       "projects": [
@@ -1302,11 +1180,17 @@
           "week": 20,
           "title": "Feature-First Flutter Starter",
           "type": "Architecture",
-          "stack": ["Flutter", "Bloc", "Clean", "Architecture"],
+          "stack": [
+            "Flutter",
+            "Bloc",
+            "Clean",
+            "Architecture"
+          ],
           "description": "Reusable feature module with repository/use-case/DI.",
           "outcome": "Convert Week 20 concepts into demonstrable engineering evidence."
         }
-      ]
+      ],
+      "category": "Flutter Topic"
     },
     {
       "week": 21,
@@ -1318,10 +1202,13 @@
       "deliverable": "Reusable API client",
       "phase": "Phase 2",
       "focus": "Flutter",
-      "prereqWeeks": [19],
+      "prereqWeeks": [
+        19
+      ],
       "questions": [],
       "problemTopic": null,
-      "projects": []
+      "projects": [],
+      "category": "Flutter Topic"
     },
     {
       "week": 22,
@@ -1333,10 +1220,13 @@
       "deliverable": "Auth module",
       "phase": "Phase 2",
       "focus": "Flutter",
-      "prereqWeeks": [21],
+      "prereqWeeks": [
+        21
+      ],
       "questions": [],
       "problemTopic": null,
-      "projects": []
+      "projects": [],
+      "category": "Flutter Topic"
     },
     {
       "week": 23,
@@ -1348,10 +1238,13 @@
       "deliverable": "Paginated offline-aware screen",
       "phase": "Phase 2",
       "focus": "Flutter",
-      "prereqWeeks": [22],
+      "prereqWeeks": [
+        22
+      ],
       "questions": [],
       "problemTopic": null,
-      "projects": []
+      "projects": [],
+      "category": "Flutter Topic"
     },
     {
       "week": 24,
@@ -1363,7 +1256,9 @@
       "deliverable": "Test suite with 25+ tests",
       "phase": "Phase 2",
       "focus": "Testing",
-      "prereqWeeks": [18],
+      "prereqWeeks": [
+        18
+      ],
       "questions": [],
       "problemTopic": null,
       "projects": [
@@ -1372,11 +1267,17 @@
           "week": 24,
           "title": "Course App Capstone",
           "type": "Major",
-          "stack": ["Flutter", "Bloc", "Dio", "Testing"],
+          "stack": [
+            "Flutter",
+            "Bloc",
+            "Dio",
+            "Testing"
+          ],
           "description": "Auth, courses, purchase simulation, profile, cache and tests.",
           "outcome": "Convert Week 24 concepts into demonstrable engineering evidence."
         }
-      ]
+      ],
+      "category": "Flutter Topic"
     },
     {
       "week": 25,
@@ -1388,7 +1289,9 @@
       "deliverable": "Add tests to old project",
       "phase": "Phase 2",
       "focus": "Review",
-      "prereqWeeks": [24],
+      "prereqWeeks": [
+        24
+      ],
       "questions": [],
       "problemTopic": null,
       "projects": [
@@ -1397,11 +1300,14 @@
           "week": 25,
           "title": "JavaScript Expense API",
           "type": "Mini",
-          "stack": ["Node.js"],
+          "stack": [
+            "Node.js"
+          ],
           "description": "CRUD API with validation and clean errors.",
           "outcome": "Convert Week 25 concepts into demonstrable engineering evidence."
         }
-      ]
+      ],
+      "category": "Flutter Topic"
     },
     {
       "week": 26,
@@ -1413,10 +1319,13 @@
       "deliverable": "Profile and optimize one screen",
       "phase": "Phase 2",
       "focus": "Flutter",
-      "prereqWeeks": [16],
+      "prereqWeeks": [
+        16
+      ],
       "questions": [],
       "problemTopic": null,
-      "projects": []
+      "projects": [],
+      "category": "Flutter Topic"
     },
     {
       "week": 27,
@@ -1428,7 +1337,9 @@
       "deliverable": "Dev/staging/prod setup",
       "phase": "Phase 2",
       "focus": "Flutter",
-      "prereqWeeks": [22],
+      "prereqWeeks": [
+        22
+      ],
       "questions": [],
       "problemTopic": null,
       "projects": [
@@ -1437,11 +1348,14 @@
           "week": 27,
           "title": "Node Event Loop Lab",
           "type": "Mini",
-          "stack": ["Node.js"],
+          "stack": [
+            "Node.js"
+          ],
           "description": "Experiments with timers, promises and microtasks.",
           "outcome": "Convert Week 27 concepts into demonstrable engineering evidence."
         }
-      ]
+      ],
+      "category": "Flutter Topic"
     },
     {
       "week": 28,
@@ -1453,7 +1367,9 @@
       "deliverable": "Reusable Dart utilities package",
       "phase": "Phase 2",
       "focus": "Dart",
-      "prereqWeeks": [4],
+      "prereqWeeks": [
+        4
+      ],
       "questions": [],
       "problemTopic": null,
       "projects": [
@@ -1462,11 +1378,14 @@
           "week": 28,
           "title": "Express Blog API",
           "type": "Mini",
-          "stack": ["Express"],
+          "stack": [
+            "Express"
+          ],
           "description": "Controllers, services, repositories and validation.",
           "outcome": "Convert Week 28 concepts into demonstrable engineering evidence."
         }
-      ]
+      ],
+      "category": "Dart Topic"
     },
     {
       "week": 29,
@@ -1478,7 +1397,9 @@
       "deliverable": "Project architecture + auth flow",
       "phase": "Phase 2",
       "focus": "Project",
-      "prereqWeeks": [27],
+      "prereqWeeks": [
+        27
+      ],
       "questions": [],
       "problemTopic": null,
       "projects": [
@@ -1487,11 +1408,14 @@
           "week": 29,
           "title": "SQL Practice Database",
           "type": "Mini",
-          "stack": ["MySQL"],
+          "stack": [
+            "MySQL"
+          ],
           "description": "E-commerce schema plus 50 query exercises.",
           "outcome": "Convert Week 29 concepts into demonstrable engineering evidence."
         }
-      ]
+      ],
+      "category": "Flutter Topic"
     },
     {
       "week": 30,
@@ -1503,10 +1427,13 @@
       "deliverable": "Release candidate build",
       "phase": "Phase 2",
       "focus": "Project",
-      "prereqWeeks": [29],
+      "prereqWeeks": [
+        29
+      ],
       "questions": [],
       "problemTopic": null,
-      "projects": []
+      "projects": [],
+      "category": "Flutter Topic"
     },
     {
       "week": 31,
@@ -1518,7 +1445,9 @@
       "deliverable": "JS fundamentals exercises",
       "phase": "Phase 3",
       "focus": "JavaScript",
-      "prereqWeeks": [1],
+      "prereqWeeks": [
+        1
+      ],
       "questions": [],
       "problemTopic": null,
       "projects": [
@@ -1527,11 +1456,14 @@
           "week": 31,
           "title": "Query Optimization Lab",
           "type": "Mini",
-          "stack": ["MySQL"],
+          "stack": [
+            "MySQL"
+          ],
           "description": "EXPLAIN slow queries and add targeted indexes.",
           "outcome": "Convert Week 31 concepts into demonstrable engineering evidence."
         }
-      ]
+      ],
+      "category": "Backend Topic"
     },
     {
       "week": 32,
@@ -1543,7 +1475,9 @@
       "deliverable": "Async JS experiments",
       "phase": "Phase 3",
       "focus": "JavaScript",
-      "prereqWeeks": [31],
+      "prereqWeeks": [
+        31
+      ],
       "questions": [],
       "problemTopic": null,
       "projects": [
@@ -1552,11 +1486,15 @@
           "week": 32,
           "title": "Transaction Checkout",
           "type": "Mini",
-          "stack": ["Node", "MySQL"],
+          "stack": [
+            "Node",
+            "MySQL"
+          ],
           "description": "Atomic order checkout with rollback.",
           "outcome": "Convert Week 32 concepts into demonstrable engineering evidence."
         }
-      ]
+      ],
+      "category": "Backend Topic"
     },
     {
       "week": 33,
@@ -1568,7 +1506,9 @@
       "deliverable": "CLI/file-processing utility",
       "phase": "Phase 3",
       "focus": "Node.js",
-      "prereqWeeks": [32],
+      "prereqWeeks": [
+        32
+      ],
       "questions": [],
       "problemTopic": null,
       "projects": [
@@ -1577,11 +1517,15 @@
           "week": 33,
           "title": "Secure Auth Service",
           "type": "Mini",
-          "stack": ["Node", "JWT"],
+          "stack": [
+            "Node",
+            "JWT"
+          ],
           "description": "Access/refresh tokens, roles and validation.",
           "outcome": "Convert Week 33 concepts into demonstrable engineering evidence."
         }
-      ]
+      ],
+      "category": "Backend Topic"
     },
     {
       "week": 34,
@@ -1593,7 +1537,9 @@
       "deliverable": "Layered REST API",
       "phase": "Phase 3",
       "focus": "Backend",
-      "prereqWeeks": [33],
+      "prereqWeeks": [
+        33
+      ],
       "questions": [],
       "problemTopic": null,
       "projects": [
@@ -1602,11 +1548,15 @@
           "week": 34,
           "title": "Redis Cache Layer",
           "type": "Mini",
-          "stack": ["Node", "Redis"],
+          "stack": [
+            "Node",
+            "Redis"
+          ],
           "description": "Cache-aside reads, TTL and invalidation.",
           "outcome": "Convert Week 34 concepts into demonstrable engineering evidence."
         }
-      ]
+      ],
+      "category": "Backend Topic"
     },
     {
       "week": 35,
@@ -1618,7 +1568,9 @@
       "deliverable": "Refactor backend",
       "phase": "Phase 3",
       "focus": "Review",
-      "prereqWeeks": [34],
+      "prereqWeeks": [
+        34
+      ],
       "questions": [],
       "problemTopic": null,
       "projects": [
@@ -1627,11 +1579,15 @@
           "week": 35,
           "title": "Realtime Chat Server",
           "type": "Mini",
-          "stack": ["Node", "Socket.IO"],
+          "stack": [
+            "Node",
+            "Socket.IO"
+          ],
           "description": "Rooms, presence and one-to-one messaging.",
           "outcome": "Convert Week 35 concepts into demonstrable engineering evidence."
         }
-      ]
+      ],
+      "category": "Backend Topic"
     },
     {
       "week": 36,
@@ -1643,7 +1599,9 @@
       "deliverable": "50 SQL queries",
       "phase": "Phase 3",
       "focus": "SQL",
-      "prereqWeeks": [34],
+      "prereqWeeks": [
+        34
+      ],
       "questions": [],
       "problemTopic": null,
       "projects": [
@@ -1652,11 +1610,15 @@
           "week": 36,
           "title": "Job Queue Worker",
           "type": "Mini",
-          "stack": ["Node", "Redis"],
+          "stack": [
+            "Node",
+            "Redis"
+          ],
           "description": "Async jobs, retries and worker processing.",
           "outcome": "Convert Week 36 concepts into demonstrable engineering evidence."
         }
-      ]
+      ],
+      "category": "Backend Topic"
     },
     {
       "week": 37,
@@ -1668,10 +1630,13 @@
       "deliverable": "ERD for capstone",
       "phase": "Phase 3",
       "focus": "Database",
-      "prereqWeeks": [36],
+      "prereqWeeks": [
+        36
+      ],
       "questions": [],
       "problemTopic": null,
-      "projects": []
+      "projects": [],
+      "category": "Backend Topic"
     },
     {
       "week": 38,
@@ -1683,7 +1648,9 @@
       "deliverable": "Optimize 10 slow queries",
       "phase": "Phase 3",
       "focus": "Database",
-      "prereqWeeks": [37],
+      "prereqWeeks": [
+        37
+      ],
       "questions": [],
       "problemTopic": null,
       "projects": [
@@ -1692,11 +1659,18 @@
           "week": 38,
           "title": "Backend Capstone",
           "type": "Major",
-          "stack": ["Node", "Express", "MySQL", "Redis", "Socket.IO"],
+          "stack": [
+            "Node",
+            "Express",
+            "MySQL",
+            "Redis",
+            "Socket.IO"
+          ],
           "description": "Auth, SQL, cache, realtime and background jobs.",
           "outcome": "Convert Week 38 concepts into demonstrable engineering evidence."
         }
-      ]
+      ],
+      "category": "Backend Topic"
     },
     {
       "week": 39,
@@ -1708,10 +1682,13 @@
       "deliverable": "Transaction demo",
       "phase": "Phase 3",
       "focus": "Database",
-      "prereqWeeks": [38],
+      "prereqWeeks": [
+        38
+      ],
       "questions": [],
       "problemTopic": null,
-      "projects": []
+      "projects": [],
+      "category": "Backend Topic"
     },
     {
       "week": 40,
@@ -1723,10 +1700,13 @@
       "deliverable": "50 mixed SQL questions",
       "phase": "Phase 3",
       "focus": "Review",
-      "prereqWeeks": [39],
+      "prereqWeeks": [
+        39
+      ],
       "questions": [],
       "problemTopic": null,
-      "projects": []
+      "projects": [],
+      "category": "Backend Topic"
     },
     {
       "week": 41,
@@ -1738,96 +1718,25 @@
       "deliverable": "Secure auth module",
       "phase": "Phase 3",
       "focus": "Backend",
-      "prereqWeeks": [34],
-      "questions": [
-        {
-          "platform": "Codeforces",
-          "name": "Registration System",
-          "url": "https://codeforces.com/problemset/problem/4/C"
-        },
-        {
-          "platform": "Codeforces",
-          "name": "Distinct Split",
-          "url": "https://codeforces.com/problemset/problem/1791/C"
-        },
-        {
-          "platform": "Codeforces",
-          "name": "Helpful Maths",
-          "url": "https://codeforces.com/problemset/problem/339/A"
-        },
-        {
-          "platform": "Codeforces",
-          "name": "Letter",
-          "url": "https://codeforces.com/problemset/problem/43/A"
-        },
-        {
-          "platform": "Codeforces",
-          "name": "Books",
-          "url": "https://codeforces.com/problemset/problem/279/B"
-        },
-        {
-          "platform": "HackerRank",
-          "name": "Ice Cream Parlor",
-          "url": "https://www.hackerrank.com/challenges/ctci-ice-cream-parlor/problem"
-        },
-        {
-          "platform": "HackerRank",
-          "name": "Count Triplets",
-          "url": "https://www.hackerrank.com/challenges/count-triplets-1/problem"
-        },
-        {
-          "platform": "HackerRank",
-          "name": "Frequency Queries",
-          "url": "https://www.hackerrank.com/challenges/frequency-queries/problem"
-        },
-        {
-          "platform": "HackerRank",
-          "name": "Two Strings",
-          "url": "https://www.hackerrank.com/challenges/two-strings/problem"
-        },
-        {
-          "platform": "HackerRank",
-          "name": "Ransom Note",
-          "url": "https://www.hackerrank.com/challenges/ctci-ransom-note/problem"
-        },
-        {
-          "platform": "LeetCode",
-          "name": "Two Sum",
-          "url": "https://leetcode.com/problems/two-sum/"
-        },
-        {
-          "platform": "LeetCode",
-          "name": "Group Anagrams",
-          "url": "https://leetcode.com/problems/group-anagrams/"
-        },
-        {
-          "platform": "LeetCode",
-          "name": "Top K Frequent Elements",
-          "url": "https://leetcode.com/problems/top-k-frequent-elements/"
-        },
-        {
-          "platform": "LeetCode",
-          "name": "Longest Consecutive Sequence",
-          "url": "https://leetcode.com/problems/longest-consecutive-sequence/"
-        },
-        {
-          "platform": "LeetCode",
-          "name": "Subarray Sum Equals K",
-          "url": "https://leetcode.com/problems/subarray-sum-equals-k/"
-        }
+      "prereqWeeks": [
+        34
       ],
-      "problemTopic": "Hashing",
+      "questions": [],
+      "problemTopic": null,
       "projects": [
         {
           "id": "p031",
           "week": 41,
           "title": "Kotlin Habit Tracker",
           "type": "Mini",
-          "stack": ["Kotlin"],
+          "stack": [
+            "Kotlin"
+          ],
           "description": "Native CRUD app with idiomatic Kotlin.",
           "outcome": "Convert Week 41 concepts into demonstrable engineering evidence."
         }
-      ]
+      ],
+      "category": "Backend Topic"
     },
     {
       "week": 42,
@@ -1839,10 +1748,13 @@
       "deliverable": "Cache layer",
       "phase": "Phase 3",
       "focus": "Backend",
-      "prereqWeeks": [39],
+      "prereqWeeks": [
+        39
+      ],
       "questions": [],
       "problemTopic": null,
-      "projects": []
+      "projects": [],
+      "category": "Backend Topic"
     },
     {
       "week": 43,
@@ -1854,7 +1766,9 @@
       "deliverable": "Realtime chat + job worker",
       "phase": "Phase 3",
       "focus": "Backend",
-      "prereqWeeks": [42],
+      "prereqWeeks": [
+        42
+      ],
       "questions": [],
       "problemTopic": null,
       "projects": [
@@ -1863,11 +1777,15 @@
           "week": 43,
           "title": "Coroutine Downloader",
           "type": "Mini",
-          "stack": ["Kotlin", "Coroutines"],
+          "stack": [
+            "Kotlin",
+            "Coroutines"
+          ],
           "description": "Concurrent downloads with cancellation.",
           "outcome": "Convert Week 43 concepts into demonstrable engineering evidence."
         }
-      ]
+      ],
+      "category": "Backend Topic"
     },
     {
       "week": 44,
@@ -1879,7 +1797,10 @@
       "deliverable": "Production-style backend",
       "phase": "Phase 3",
       "focus": "Project",
-      "prereqWeeks": [41, 43],
+      "prereqWeeks": [
+        41,
+        43
+      ],
       "questions": [],
       "problemTopic": null,
       "projects": [
@@ -1888,11 +1809,15 @@
           "week": 44,
           "title": "Compose Profile App",
           "type": "Mini",
-          "stack": ["Kotlin", "Compose"],
+          "stack": [
+            "Kotlin",
+            "Compose"
+          ],
           "description": "State, navigation and Material UI.",
           "outcome": "Convert Week 44 concepts into demonstrable engineering evidence."
         }
-      ]
+      ],
+      "category": "Backend Topic"
     },
     {
       "week": 45,
@@ -1907,7 +1832,8 @@
       "prereqWeeks": [],
       "questions": [],
       "problemTopic": null,
-      "projects": []
+      "projects": [],
+      "category": "Android Topic"
     },
     {
       "week": 46,
@@ -1919,7 +1845,9 @@
       "deliverable": "Kotlin utility project",
       "phase": "Phase 4",
       "focus": "Android",
-      "prereqWeeks": [45],
+      "prereqWeeks": [
+        45
+      ],
       "questions": [],
       "problemTopic": null,
       "projects": [
@@ -1928,11 +1856,15 @@
           "week": 46,
           "title": "Compose Expense Tracker",
           "type": "Mini",
-          "stack": ["Compose", "ViewModel"],
+          "stack": [
+            "Compose",
+            "ViewModel"
+          ],
           "description": "UDF + ViewModel state-driven app.",
           "outcome": "Convert Week 46 concepts into demonstrable engineering evidence."
         }
-      ]
+      ],
+      "category": "Android Topic"
     },
     {
       "week": 47,
@@ -1944,7 +1876,9 @@
       "deliverable": "Coroutine/Flow demo",
       "phase": "Phase 4",
       "focus": "Android",
-      "prereqWeeks": [46],
+      "prereqWeeks": [
+        46
+      ],
       "questions": [],
       "problemTopic": null,
       "projects": [
@@ -1953,11 +1887,15 @@
           "week": 47,
           "title": "Room Notes",
           "type": "Mini",
-          "stack": ["Room", "Compose"],
+          "stack": [
+            "Room",
+            "Compose"
+          ],
           "description": "Offline notes with DAO and reactive state.",
           "outcome": "Convert Week 47 concepts into demonstrable engineering evidence."
         }
-      ]
+      ],
+      "category": "Android Topic"
     },
     {
       "week": 48,
@@ -1969,7 +1907,9 @@
       "deliverable": "Multi-screen Android app",
       "phase": "Phase 4",
       "focus": "Android",
-      "prereqWeeks": [47],
+      "prereqWeeks": [
+        47
+      ],
       "questions": [],
       "problemTopic": null,
       "projects": [
@@ -1978,11 +1918,15 @@
           "week": 48,
           "title": "Retrofit API Client",
           "type": "Mini",
-          "stack": ["Retrofit", "OkHttp"],
+          "stack": [
+            "Retrofit",
+            "OkHttp"
+          ],
           "description": "Interceptors, serialization and error mapping.",
           "outcome": "Convert Week 48 concepts into demonstrable engineering evidence."
         }
-      ]
+      ],
+      "category": "Android Topic"
     },
     {
       "week": 49,
@@ -1994,7 +1938,9 @@
       "deliverable": "Compose UI screens",
       "phase": "Phase 4",
       "focus": "Android",
-      "prereqWeeks": [48],
+      "prereqWeeks": [
+        48
+      ],
       "questions": [],
       "problemTopic": null,
       "projects": [
@@ -2003,11 +1949,16 @@
           "week": 49,
           "title": "Hilt Clean App",
           "type": "Architecture",
-          "stack": ["Hilt", "Clean", "Architecture"],
+          "stack": [
+            "Hilt",
+            "Clean",
+            "Architecture"
+          ],
           "description": "Refactor into data/domain/presentation.",
           "outcome": "Convert Week 49 concepts into demonstrable engineering evidence."
         }
-      ]
+      ],
+      "category": "Android Topic"
     },
     {
       "week": 50,
@@ -2019,10 +1970,13 @@
       "deliverable": "Navigation flow",
       "phase": "Phase 4",
       "focus": "Android",
-      "prereqWeeks": [49],
+      "prereqWeeks": [
+        49
+      ],
       "questions": [],
       "problemTopic": null,
-      "projects": []
+      "projects": [],
+      "category": "Android Topic"
     },
     {
       "week": 51,
@@ -2034,10 +1988,13 @@
       "deliverable": "MVVM screen",
       "phase": "Phase 4",
       "focus": "Android",
-      "prereqWeeks": [50],
+      "prereqWeeks": [
+        50
+      ],
       "questions": [],
       "problemTopic": null,
-      "projects": []
+      "projects": [],
+      "category": "Android Topic"
     },
     {
       "week": 52,
@@ -2049,7 +2006,9 @@
       "deliverable": "Offline Room feature",
       "phase": "Phase 4",
       "focus": "Android",
-      "prereqWeeks": [51],
+      "prereqWeeks": [
+        51
+      ],
       "questions": [],
       "problemTopic": null,
       "projects": [
@@ -2058,11 +2017,18 @@
           "week": 52,
           "title": "Native Android Capstone",
           "type": "Major",
-          "stack": ["Kotlin", "Compose", "Room", "Retrofit", "Hilt"],
+          "stack": [
+            "Kotlin",
+            "Compose",
+            "Room",
+            "Retrofit",
+            "Hilt"
+          ],
           "description": "Complete native app with offline data and API.",
           "outcome": "Convert Week 52 concepts into demonstrable engineering evidence."
         }
-      ]
+      ],
+      "category": "Android Topic"
     },
     {
       "week": 53,
@@ -2074,10 +2040,13 @@
       "deliverable": "Remote data module",
       "phase": "Phase 4",
       "focus": "Android",
-      "prereqWeeks": [52],
+      "prereqWeeks": [
+        52
+      ],
       "questions": [],
       "problemTopic": null,
-      "projects": []
+      "projects": [],
+      "category": "Android Topic"
     },
     {
       "week": 54,
@@ -2089,10 +2058,13 @@
       "deliverable": "Clean architecture setup",
       "phase": "Phase 4",
       "focus": "Android",
-      "prereqWeeks": [53],
+      "prereqWeeks": [
+        53
+      ],
       "questions": [],
       "problemTopic": null,
-      "projects": []
+      "projects": [],
+      "category": "Android Topic"
     },
     {
       "week": 55,
@@ -2104,10 +2076,13 @@
       "deliverable": "Production features",
       "phase": "Phase 4",
       "focus": "Android",
-      "prereqWeeks": [54],
+      "prereqWeeks": [
+        54
+      ],
       "questions": [],
       "problemTopic": null,
-      "projects": []
+      "projects": [],
+      "category": "Android Topic"
     },
     {
       "week": 56,
@@ -2119,10 +2094,13 @@
       "deliverable": "Complete Android app",
       "phase": "Phase 4",
       "focus": "Project",
-      "prereqWeeks": [55],
+      "prereqWeeks": [
+        55
+      ],
       "questions": [],
       "problemTopic": null,
-      "projects": []
+      "projects": [],
+      "category": "Android Topic"
     },
     {
       "week": 57,
@@ -2134,10 +2112,13 @@
       "deliverable": "Network request flow notes",
       "phase": "Phase 5",
       "focus": "Networking",
-      "prereqWeeks": [44],
+      "prereqWeeks": [
+        44
+      ],
       "questions": [],
       "problemTopic": null,
-      "projects": []
+      "projects": [],
+      "category": "CS Core Topic"
     },
     {
       "week": 58,
@@ -2149,10 +2130,13 @@
       "deliverable": "TCP/UDP comparison lab",
       "phase": "Phase 5",
       "focus": "Networking",
-      "prereqWeeks": [57],
+      "prereqWeeks": [
+        57
+      ],
       "questions": [],
       "problemTopic": null,
-      "projects": []
+      "projects": [],
+      "category": "CS Core Topic"
     },
     {
       "week": 59,
@@ -2164,10 +2148,13 @@
       "deliverable": "HTTP lifecycle document",
       "phase": "Phase 5",
       "focus": "Networking",
-      "prereqWeeks": [58],
+      "prereqWeeks": [
+        58
+      ],
       "questions": [],
       "problemTopic": null,
-      "projects": []
+      "projects": [],
+      "category": "CS Core Topic"
     },
     {
       "week": 60,
@@ -2179,10 +2166,13 @@
       "deliverable": "HTTPS request analysis",
       "phase": "Phase 5",
       "focus": "Networking",
-      "prereqWeeks": [59],
+      "prereqWeeks": [
+        59
+      ],
       "questions": [],
       "problemTopic": null,
-      "projects": []
+      "projects": [],
+      "category": "CS Core Topic"
     },
     {
       "week": 61,
@@ -2203,11 +2193,15 @@
           "week": 61,
           "title": "Graph Explorer",
           "type": "DSA Project",
-          "stack": ["Dart", "Graphs"],
+          "stack": [
+            "Dart",
+            "Graphs"
+          ],
           "description": "BFS, DFS and connected-component explorer.",
           "outcome": "Convert Week 61 concepts into demonstrable engineering evidence."
         }
-      ]
+      ],
+      "category": "CS Core Topic"
     },
     {
       "week": 62,
@@ -2219,86 +2213,13 @@
       "deliverable": "Memory model notes",
       "phase": "Phase 5",
       "focus": "OS",
-      "prereqWeeks": [61],
-      "questions": [
-        {
-          "platform": "Codeforces",
-          "name": "Data structure practice",
-          "url": "https://codeforces.com/problemset?tags=data+structures"
-        },
-        {
-          "platform": "Codeforces",
-          "name": "Heap practice",
-          "url": "https://codeforces.com/problemset?tags=data+structures"
-        },
-        {
-          "platform": "Codeforces",
-          "name": "Priority queue practice",
-          "url": "https://codeforces.com/problemset?tags=data+structures"
-        },
-        {
-          "platform": "Codeforces",
-          "name": "Tree practice",
-          "url": "https://codeforces.com/problemset?tags=trees"
-        },
-        {
-          "platform": "Codeforces",
-          "name": "Segment/data structures practice",
-          "url": "https://codeforces.com/problemset?tags=data+structures"
-        },
-        {
-          "platform": "HackerRank",
-          "name": "QHEAP1",
-          "url": "https://www.hackerrank.com/challenges/qheap1/problem"
-        },
-        {
-          "platform": "HackerRank",
-          "name": "Jesse and Cookies",
-          "url": "https://www.hackerrank.com/challenges/jesse-and-cookies/problem"
-        },
-        {
-          "platform": "HackerRank",
-          "name": "BST Lowest Common Ancestor",
-          "url": "https://www.hackerrank.com/challenges/binary-search-tree-lowest-common-ancestor/problem"
-        },
-        {
-          "platform": "HackerRank",
-          "name": "BST Insertion",
-          "url": "https://www.hackerrank.com/challenges/binary-search-tree-insertion/problem"
-        },
-        {
-          "platform": "HackerRank",
-          "name": "Is This a BST",
-          "url": "https://www.hackerrank.com/challenges/is-binary-search-tree/problem"
-        },
-        {
-          "platform": "LeetCode",
-          "name": "Kth Largest Element",
-          "url": "https://leetcode.com/problems/kth-largest-element-in-an-array/"
-        },
-        {
-          "platform": "LeetCode",
-          "name": "Top K Frequent Elements",
-          "url": "https://leetcode.com/problems/top-k-frequent-elements/"
-        },
-        {
-          "platform": "LeetCode",
-          "name": "Kth Smallest Element in a BST",
-          "url": "https://leetcode.com/problems/kth-smallest-element-in-a-bst/"
-        },
-        {
-          "platform": "LeetCode",
-          "name": "Validate BST",
-          "url": "https://leetcode.com/problems/validate-binary-search-tree/"
-        },
-        {
-          "platform": "LeetCode",
-          "name": "Lowest Common Ancestor of BST",
-          "url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/"
-        }
+      "prereqWeeks": [
+        61
       ],
-      "problemTopic": "BST & Heap",
-      "projects": []
+      "questions": [],
+      "problemTopic": null,
+      "projects": [],
+      "category": "CS Core Topic"
     },
     {
       "week": 63,
@@ -2310,10 +2231,13 @@
       "deliverable": "Concurrency demos",
       "phase": "Phase 5",
       "focus": "OS",
-      "prereqWeeks": [62],
+      "prereqWeeks": [
+        62
+      ],
       "questions": [],
       "problemTopic": null,
-      "projects": []
+      "projects": [],
+      "category": "CS Core Topic"
     },
     {
       "week": 64,
@@ -2325,7 +2249,9 @@
       "deliverable": "Linux command lab",
       "phase": "Phase 5",
       "focus": "OS/Linux",
-      "prereqWeeks": [63],
+      "prereqWeeks": [
+        63
+      ],
       "questions": [],
       "problemTopic": null,
       "projects": [
@@ -2334,11 +2260,15 @@
           "week": 64,
           "title": "Shortest Path Simulator",
           "type": "DSA Project",
-          "stack": ["Dart", "Graphs"],
+          "stack": [
+            "Dart",
+            "Graphs"
+          ],
           "description": "Weighted graph simulator with Dijkstra.",
           "outcome": "Convert Week 64 concepts into demonstrable engineering evidence."
         }
-      ]
+      ],
+      "category": "CS Core Topic"
     },
     {
       "week": 65,
@@ -2350,7 +2280,9 @@
       "deliverable": "15 tree problems",
       "phase": "Phase 5",
       "focus": "DSA",
-      "prereqWeeks": [14],
+      "prereqWeeks": [
+        14
+      ],
       "questions": [
         {
           "platform": "Codeforces",
@@ -2429,7 +2361,8 @@
         }
       ],
       "problemTopic": "Trees",
-      "projects": []
+      "projects": [],
+      "category": "DSA Topic"
     },
     {
       "week": 66,
@@ -2441,7 +2374,9 @@
       "deliverable": "15 BST/heap problems",
       "phase": "Phase 5",
       "focus": "DSA",
-      "prereqWeeks": [65],
+      "prereqWeeks": [
+        65
+      ],
       "questions": [
         {
           "platform": "Codeforces",
@@ -2520,7 +2455,8 @@
         }
       ],
       "problemTopic": "BST & Heap",
-      "projects": []
+      "projects": [],
+      "category": "DSA Topic"
     },
     {
       "week": 67,
@@ -2532,7 +2468,9 @@
       "deliverable": "15 graph problems",
       "phase": "Phase 5",
       "focus": "DSA",
-      "prereqWeeks": [65],
+      "prereqWeeks": [
+        65
+      ],
       "questions": [
         {
           "platform": "Codeforces",
@@ -2611,7 +2549,8 @@
         }
       ],
       "problemTopic": "Graphs",
-      "projects": []
+      "projects": [],
+      "category": "DSA Topic"
     },
     {
       "week": 68,
@@ -2623,7 +2562,9 @@
       "deliverable": "10 graph problems",
       "phase": "Phase 5",
       "focus": "DSA",
-      "prereqWeeks": [67],
+      "prereqWeeks": [
+        67
+      ],
       "questions": [
         {
           "platform": "Codeforces",
@@ -2708,11 +2649,15 @@
           "week": 68,
           "title": "DP Pattern Notebook",
           "type": "DSA Project",
-          "stack": ["Dart", "DP"],
+          "stack": [
+            "Dart",
+            "DP"
+          ],
           "description": "Classic DP implementations with state/transition notes.",
           "outcome": "Convert Week 68 concepts into demonstrable engineering evidence."
         }
-      ]
+      ],
+      "category": "DSA Topic"
     },
     {
       "week": 69,
@@ -2803,7 +2748,8 @@
         }
       ],
       "problemTopic": "Greedy & Intervals",
-      "projects": []
+      "projects": [],
+      "category": "DSA Topic"
     },
     {
       "week": 70,
@@ -2819,48 +2765,43 @@
       "questions": [
         {
           "platform": "Codeforces",
-          "name": "Recursion practice",
+          "name": "Brute force practice",
+          "url": "https://codeforces.com/problemset?tags=brute+force"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "DFS practice",
           "url": "https://codeforces.com/problemset?tags=dfs+and+similar"
         },
         {
           "platform": "Codeforces",
-          "name": "Linked list tag practice",
-          "url": "https://codeforces.com/problemset?tags=linked+list"
-        },
-        {
-          "platform": "Codeforces",
-          "name": "Construct the String",
-          "url": "https://codeforces.com/problemset/problem/1335/A"
-        },
-        {
-          "platform": "Codeforces",
-          "name": "Sequence practice",
+          "name": "Constructive practice",
           "url": "https://codeforces.com/problemset?tags=constructive+algorithms"
         },
         {
           "platform": "Codeforces",
-          "name": "DFS recursion practice",
+          "name": "Brute force 2",
+          "url": "https://codeforces.com/problemset?tags=brute+force"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "DFS 2",
           "url": "https://codeforces.com/problemset?tags=dfs+and+similar"
         },
         {
           "platform": "HackerRank",
-          "name": "Print in Reverse",
-          "url": "https://www.hackerrank.com/challenges/print-the-elements-of-a-linked-list-in-reverse/problem"
+          "name": "Password Cracker",
+          "url": "https://www.hackerrank.com/challenges/password-cracker/problem"
         },
         {
           "platform": "HackerRank",
-          "name": "Reverse a linked list",
-          "url": "https://www.hackerrank.com/challenges/reverse-a-linked-list/problem"
+          "name": "Crossword Puzzle",
+          "url": "https://www.hackerrank.com/challenges/crossword-puzzle/problem"
         },
         {
           "platform": "HackerRank",
-          "name": "Get Node Value",
-          "url": "https://www.hackerrank.com/challenges/get-the-value-of-the-node-at-a-specific-position-from-the-tail/problem"
-        },
-        {
-          "platform": "HackerRank",
-          "name": "Compare two linked lists",
-          "url": "https://www.hackerrank.com/challenges/compare-two-linked-lists/problem"
+          "name": "K Factorization",
+          "url": "https://www.hackerrank.com/challenges/k-factorization/problem"
         },
         {
           "platform": "HackerRank",
@@ -2868,33 +2809,39 @@
           "url": "https://www.hackerrank.com/challenges/recursive-digit-sum/problem"
         },
         {
-          "platform": "LeetCode",
-          "name": "Reverse Linked List",
-          "url": "https://leetcode.com/problems/reverse-linked-list/"
+          "platform": "HackerRank",
+          "name": "Special Multiple",
+          "url": "https://www.hackerrank.com/challenges/special-multiple/problem"
         },
         {
           "platform": "LeetCode",
-          "name": "Merge Two Sorted Lists",
-          "url": "https://leetcode.com/problems/merge-two-sorted-lists/"
+          "name": "Subsets",
+          "url": "https://leetcode.com/problems/subsets/"
         },
         {
           "platform": "LeetCode",
-          "name": "Linked List Cycle",
-          "url": "https://leetcode.com/problems/linked-list-cycle/"
+          "name": "Permutations",
+          "url": "https://leetcode.com/problems/permutations/"
         },
         {
           "platform": "LeetCode",
-          "name": "Middle of the Linked List",
-          "url": "https://leetcode.com/problems/middle-of-the-linked-list/"
+          "name": "Combination Sum",
+          "url": "https://leetcode.com/problems/combination-sum/"
         },
         {
           "platform": "LeetCode",
-          "name": "Remove Nth Node From End",
-          "url": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/"
+          "name": "Generate Parentheses",
+          "url": "https://leetcode.com/problems/generate-parentheses/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Word Search",
+          "url": "https://leetcode.com/problems/word-search/"
         }
       ],
-      "problemTopic": "Linked List & Recursion",
-      "projects": []
+      "problemTopic": "Backtracking",
+      "projects": [],
+      "category": "DSA Topic"
     },
     {
       "week": 71,
@@ -2985,7 +2932,8 @@
         }
       ],
       "problemTopic": "Dynamic Programming I",
-      "projects": []
+      "projects": [],
+      "category": "DSA Topic"
     },
     {
       "week": 72,
@@ -2997,7 +2945,9 @@
       "deliverable": "10 DP problems",
       "phase": "Phase 6",
       "focus": "DSA",
-      "prereqWeeks": [71],
+      "prereqWeeks": [
+        71
+      ],
       "questions": [
         {
           "platform": "Codeforces",
@@ -3082,11 +3032,16 @@
           "week": 72,
           "title": "URL Shortener",
           "type": "System Design",
-          "stack": ["Node", "MySQL", "Redis"],
+          "stack": [
+            "Node",
+            "MySQL",
+            "Redis"
+          ],
           "description": "Prototype plus scalable architecture.",
           "outcome": "Convert Week 72 concepts into demonstrable engineering evidence."
         }
-      ]
+      ],
+      "category": "DSA Topic"
     },
     {
       "week": 73,
@@ -3107,11 +3062,14 @@
           "week": 73,
           "title": "Scalable Chat Design",
           "type": "System Design",
-          "stack": ["WebSocket"],
+          "stack": [
+            "WebSocket"
+          ],
           "description": "Capacity, persistence, fan-out and failure modes.",
           "outcome": "Convert Week 73 concepts into demonstrable engineering evidence."
         }
-      ]
+      ],
+      "category": "System Design Topic"
     },
     {
       "week": 74,
@@ -3123,7 +3081,10 @@
       "deliverable": "Design URL shortener",
       "phase": "Phase 6",
       "focus": "System Design",
-      "prereqWeeks": [73, 42],
+      "prereqWeeks": [
+        73,
+        42
+      ],
       "questions": [],
       "problemTopic": null,
       "projects": [
@@ -3132,11 +3093,14 @@
           "week": 74,
           "title": "Social Feed Design",
           "type": "System Design",
-          "stack": ["Redis"],
+          "stack": [
+            "Redis"
+          ],
           "description": "Feed generation, caching and pagination.",
           "outcome": "Convert Week 74 concepts into demonstrable engineering evidence."
         }
-      ]
+      ],
+      "category": "System Design Topic"
     },
     {
       "week": 75,
@@ -3148,7 +3112,10 @@
       "deliverable": "Design scalable DB",
       "phase": "Phase 6",
       "focus": "System Design",
-      "prereqWeeks": [38, 39],
+      "prereqWeeks": [
+        38,
+        39
+      ],
       "questions": [],
       "problemTopic": null,
       "projects": [
@@ -3157,11 +3124,15 @@
           "week": 75,
           "title": "Delivery Platform Design",
           "type": "System Design",
-          "stack": ["Distributed", "Systems"],
+          "stack": [
+            "Distributed",
+            "Systems"
+          ],
           "description": "Location, matching, queues and data flows.",
           "outcome": "Convert Week 75 concepts into demonstrable engineering evidence."
         }
-      ]
+      ],
+      "category": "System Design Topic"
     },
     {
       "week": 76,
@@ -3173,10 +3144,14 @@
       "deliverable": "Design async processing system",
       "phase": "Phase 6",
       "focus": "System Design",
-      "prereqWeeks": [43, 73],
+      "prereqWeeks": [
+        43,
+        73
+      ],
       "questions": [],
       "problemTopic": null,
-      "projects": []
+      "projects": [],
+      "category": "System Design Topic"
     },
     {
       "week": 77,
@@ -3188,10 +3163,14 @@
       "deliverable": "Design chat system",
       "phase": "Phase 6",
       "focus": "System Design",
-      "prereqWeeks": [43, 73],
+      "prereqWeeks": [
+        43,
+        73
+      ],
       "questions": [],
       "problemTopic": null,
-      "projects": []
+      "projects": [],
+      "category": "System Design Topic"
     },
     {
       "week": 78,
@@ -3203,10 +3182,13 @@
       "deliverable": "Design social feed",
       "phase": "Phase 6",
       "focus": "System Design",
-      "prereqWeeks": [76],
+      "prereqWeeks": [
+        76
+      ],
       "questions": [],
       "problemTopic": null,
-      "projects": []
+      "projects": [],
+      "category": "System Design Topic"
     },
     {
       "week": 79,
@@ -3218,10 +3200,13 @@
       "deliverable": "Design delivery platform",
       "phase": "Phase 6",
       "focus": "System Design",
-      "prereqWeeks": [78],
+      "prereqWeeks": [
+        78
+      ],
       "questions": [],
       "problemTopic": null,
-      "projects": []
+      "projects": [],
+      "category": "System Design Topic"
     },
     {
       "week": 80,
@@ -3242,11 +3227,16 @@
           "week": 80,
           "title": "Dockerized Backend",
           "type": "DevOps",
-          "stack": ["Docker", "Node", "MySQL"],
+          "stack": [
+            "Docker",
+            "Node",
+            "MySQL"
+          ],
           "description": "Containerized reproducible backend stack.",
           "outcome": "Convert Week 80 concepts into demonstrable engineering evidence."
         }
-      ]
+      ],
+      "category": "System Design Topic"
     },
     {
       "week": 81,
@@ -3258,7 +3248,9 @@
       "deliverable": "Linux troubleshooting checklist",
       "phase": "Phase 7",
       "focus": "Linux",
-      "prereqWeeks": [64],
+      "prereqWeeks": [
+        64
+      ],
       "questions": [],
       "problemTopic": null,
       "projects": [
@@ -3267,11 +3259,14 @@
           "week": 81,
           "title": "CI Pipeline",
           "type": "DevOps",
-          "stack": ["CI/CD"],
+          "stack": [
+            "CI/CD"
+          ],
           "description": "Automated lint/test/build pipeline.",
           "outcome": "Convert Week 81 concepts into demonstrable engineering evidence."
         }
-      ]
+      ],
+      "category": "DevOps & Production Topic"
     },
     {
       "week": 82,
@@ -3283,10 +3278,13 @@
       "deliverable": "Containerize backend + DB",
       "phase": "Phase 7",
       "focus": "DevOps",
-      "prereqWeeks": [81],
+      "prereqWeeks": [
+        81
+      ],
       "questions": [],
       "problemTopic": null,
-      "projects": []
+      "projects": [],
+      "category": "DevOps & Production Topic"
     },
     {
       "week": 83,
@@ -3298,10 +3296,13 @@
       "deliverable": "CI pipeline",
       "phase": "Phase 7",
       "focus": "DevOps",
-      "prereqWeeks": [82],
+      "prereqWeeks": [
+        82
+      ],
       "questions": [],
       "problemTopic": null,
-      "projects": []
+      "projects": [],
+      "category": "DevOps & Production Topic"
     },
     {
       "week": 84,
@@ -3313,7 +3314,10 @@
       "deliverable": "Deploy a small service",
       "phase": "Phase 7",
       "focus": "Cloud",
-      "prereqWeeks": [82, 83],
+      "prereqWeeks": [
+        82,
+        83
+      ],
       "questions": [],
       "problemTopic": null,
       "projects": [
@@ -3322,11 +3326,15 @@
           "week": 84,
           "title": "Observable API",
           "type": "Production",
-          "stack": ["Node", "Observability"],
+          "stack": [
+            "Node",
+            "Observability"
+          ],
           "description": "Logs, health checks and basic metrics.",
           "outcome": "Convert Week 84 concepts into demonstrable engineering evidence."
         }
-      ]
+      ],
+      "category": "DevOps & Production Topic"
     },
     {
       "week": 85,
@@ -3338,10 +3346,13 @@
       "deliverable": "Observability dashboard concept",
       "phase": "Phase 7",
       "focus": "Production",
-      "prereqWeeks": [84],
+      "prereqWeeks": [
+        84
+      ],
       "questions": [],
       "problemTopic": null,
-      "projects": []
+      "projects": [],
+      "category": "DevOps & Production Topic"
     },
     {
       "week": 86,
@@ -3353,7 +3364,9 @@
       "deliverable": "Security checklist + fixes",
       "phase": "Phase 7",
       "focus": "Security",
-      "prereqWeeks": [41],
+      "prereqWeeks": [
+        41
+      ],
       "questions": [],
       "problemTopic": null,
       "projects": [
@@ -3362,11 +3375,15 @@
           "week": 86,
           "title": "Security Hardening Lab",
           "type": "Security",
-          "stack": ["Node", "OWASP"],
+          "stack": [
+            "Node",
+            "OWASP"
+          ],
           "description": "Fix common web vulnerabilities in a deliberately unsafe API.",
           "outcome": "Convert Week 86 concepts into demonstrable engineering evidence."
         }
-      ]
+      ],
+      "category": "DevOps & Production Topic"
     },
     {
       "week": 87,
@@ -3378,10 +3395,14 @@
       "deliverable": "Benchmark and optimize API",
       "phase": "Phase 7",
       "focus": "Performance",
-      "prereqWeeks": [38, 85],
+      "prereqWeeks": [
+        38,
+        85
+      ],
       "questions": [],
       "problemTopic": null,
-      "projects": []
+      "projects": [],
+      "category": "DevOps & Production Topic"
     },
     {
       "week": 88,
@@ -3393,7 +3414,9 @@
       "deliverable": "Failure-mode exercise",
       "phase": "Phase 7",
       "focus": "Reliability",
-      "prereqWeeks": [87],
+      "prereqWeeks": [
+        87
+      ],
       "questions": [],
       "problemTopic": null,
       "projects": [
@@ -3402,11 +3425,15 @@
           "week": 88,
           "title": "Load Test Lab",
           "type": "Performance",
-          "stack": ["Node", "Performance"],
+          "stack": [
+            "Node",
+            "Performance"
+          ],
           "description": "Benchmark, identify bottleneck, optimize and compare.",
           "outcome": "Convert Week 88 concepts into demonstrable engineering evidence."
         }
-      ]
+      ],
+      "category": "DevOps & Production Topic"
     },
     {
       "week": 89,
@@ -3418,10 +3445,13 @@
       "deliverable": "Architecture decision record",
       "phase": "Phase 7",
       "focus": "Architecture",
-      "prereqWeeks": [80],
+      "prereqWeeks": [
+        80
+      ],
       "questions": [],
       "problemTopic": null,
-      "projects": []
+      "projects": [],
+      "category": "DevOps & Production Topic"
     },
     {
       "week": 90,
@@ -3433,10 +3463,13 @@
       "deliverable": "Refactor old module",
       "phase": "Phase 7",
       "focus": "Engineering",
-      "prereqWeeks": [4],
+      "prereqWeeks": [
+        4
+      ],
       "questions": [],
       "problemTopic": null,
-      "projects": []
+      "projects": [],
+      "category": "DevOps & Production Topic"
     },
     {
       "week": 91,
@@ -3448,7 +3481,10 @@
       "deliverable": "Test strategy document",
       "phase": "Phase 7",
       "focus": "Testing",
-      "prereqWeeks": [24, 44],
+      "prereqWeeks": [
+        24,
+        44
+      ],
       "questions": [],
       "problemTopic": null,
       "projects": [
@@ -3457,11 +3493,17 @@
           "week": 91,
           "title": "Engineering Capstone Refactor",
           "type": "Major",
-          "stack": ["Flutter", "Node", "MySQL", "Redis"],
+          "stack": [
+            "Flutter",
+            "Node",
+            "MySQL",
+            "Redis"
+          ],
           "description": "Refactor old capstone with tests, docs and observability.",
           "outcome": "Convert Week 91 concepts into demonstrable engineering evidence."
         }
-      ]
+      ],
+      "category": "DevOps & Production Topic"
     },
     {
       "week": 92,
@@ -3473,10 +3515,14 @@
       "deliverable": "Polished portfolio project",
       "phase": "Phase 7",
       "focus": "Project",
-      "prereqWeeks": [89, 91],
+      "prereqWeeks": [
+        89,
+        91
+      ],
       "questions": [],
       "problemTopic": null,
-      "projects": []
+      "projects": [],
+      "category": "DevOps & Production Topic"
     },
     {
       "week": 93,
@@ -3492,82 +3538,83 @@
       "questions": [
         {
           "platform": "Codeforces",
-          "name": "Books",
-          "url": "https://codeforces.com/problemset/problem/279/B"
+          "name": "Watermelon",
+          "url": "https://codeforces.com/problemset/problem/4/A"
         },
         {
           "platform": "Codeforces",
-          "name": "Kuriyama Mirai's Stones",
-          "url": "https://codeforces.com/problemset/problem/433/B"
+          "name": "Way Too Long Words",
+          "url": "https://codeforces.com/problemset/problem/71/A"
         },
         {
           "platform": "Codeforces",
-          "name": "Number of Segments with Small Sum",
-          "url": "https://codeforces.com/problemset/problem/616/D"
+          "name": "Team",
+          "url": "https://codeforces.com/problemset/problem/231/A"
         },
         {
           "platform": "Codeforces",
-          "name": "Array Cloning Technique",
-          "url": "https://codeforces.com/problemset/problem/1665/B"
+          "name": "Next Round",
+          "url": "https://codeforces.com/problemset/problem/158/A"
         },
         {
           "platform": "Codeforces",
-          "name": "Yet Another Problem On a Subsequence",
-          "url": "https://codeforces.com/problemset/problem/1301/A"
+          "name": "Beautiful Matrix",
+          "url": "https://codeforces.com/problemset/problem/263/A"
         },
         {
           "platform": "HackerRank",
-          "name": "Subarray Division",
-          "url": "https://www.hackerrank.com/challenges/the-birthday-bar/problem"
+          "name": "Arrays - DS",
+          "url": "https://www.hackerrank.com/challenges/arrays-ds/problem"
         },
         {
           "platform": "HackerRank",
-          "name": "Max Min",
-          "url": "https://www.hackerrank.com/challenges/angry-children/problem"
+          "name": "2D Array - DS",
+          "url": "https://www.hackerrank.com/challenges/2d-array/problem"
         },
         {
           "platform": "HackerRank",
-          "name": "Minimum Swaps 2",
-          "url": "https://www.hackerrank.com/challenges/minimum-swaps-2/problem"
+          "name": "Left Rotation",
+          "url": "https://www.hackerrank.com/challenges/array-left-rotation/problem"
         },
         {
           "platform": "HackerRank",
-          "name": "Special String Again",
-          "url": "https://www.hackerrank.com/challenges/special-palindrome-again/problem"
+          "name": "Sparse Arrays",
+          "url": "https://www.hackerrank.com/challenges/sparse-arrays/problem"
         },
         {
           "platform": "HackerRank",
-          "name": "Max Array Sum",
-          "url": "https://www.hackerrank.com/challenges/max-array-sum/problem"
+          "name": "Dynamic Array",
+          "url": "https://www.hackerrank.com/challenges/dynamic-array/problem"
         },
         {
           "platform": "LeetCode",
-          "name": "Longest Substring Without Repeating Characters",
-          "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/"
+          "name": "Two Sum",
+          "url": "https://leetcode.com/problems/two-sum/"
         },
         {
           "platform": "LeetCode",
-          "name": "Longest Repeating Character Replacement",
-          "url": "https://leetcode.com/problems/longest-repeating-character-replacement/"
+          "name": "Best Time to Buy and Sell Stock",
+          "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/"
         },
         {
           "platform": "LeetCode",
-          "name": "Permutation in String",
-          "url": "https://leetcode.com/problems/permutation-in-string/"
+          "name": "Contains Duplicate",
+          "url": "https://leetcode.com/problems/contains-duplicate/"
         },
         {
           "platform": "LeetCode",
-          "name": "Minimum Size Subarray Sum",
-          "url": "https://leetcode.com/problems/minimum-size-subarray-sum/"
+          "name": "Valid Anagram",
+          "url": "https://leetcode.com/problems/valid-anagram/"
         },
         {
           "platform": "LeetCode",
-          "name": "Longest Subarray of 1s After Deleting One Element",
-          "url": "https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/"
+          "name": "Valid Palindrome",
+          "url": "https://leetcode.com/problems/valid-palindrome/"
         }
       ],
-      "problemTopic": "Two Pointers & Sliding Window",
-      "projects": []
+      "problemTopic": "Arrays & Strings",
+      "projects": [],
+      "category": "DSA Topic"
     },
     {
       "week": 94,
@@ -3664,11 +3711,14 @@
           "week": 94,
           "title": "Interview Coding Repo",
           "type": "Interview",
-          "stack": ["DSA"],
+          "stack": [
+            "DSA"
+          ],
           "description": "Pattern-based solutions with explanations and tests.",
           "outcome": "Convert Week 94 concepts into demonstrable engineering evidence."
         }
-      ]
+      ],
+      "category": "DSA Topic"
     },
     {
       "week": 95,
@@ -3759,7 +3809,8 @@
         }
       ],
       "problemTopic": "BST & Heap",
-      "projects": []
+      "projects": [],
+      "category": "DSA Topic"
     },
     {
       "week": 96,
@@ -3850,7 +3901,8 @@
         }
       ],
       "problemTopic": "Backtracking",
-      "projects": []
+      "projects": [],
+      "category": "DSA Topic"
     },
     {
       "week": 97,
@@ -3862,7 +3914,9 @@
       "deliverable": "2 timed designs",
       "phase": "Phase 8",
       "focus": "Interview",
-      "prereqWeeks": [80],
+      "prereqWeeks": [
+        80
+      ],
       "questions": [],
       "problemTopic": null,
       "projects": [
@@ -3871,11 +3925,15 @@
           "week": 97,
           "title": "System Design Notebook",
           "type": "Interview",
-          "stack": ["System", "Design"],
+          "stack": [
+            "System",
+            "Design"
+          ],
           "description": "Five concise architecture case studies.",
           "outcome": "Convert Week 97 concepts into demonstrable engineering evidence."
         }
-      ]
+      ],
+      "category": "System Design Topic"
     },
     {
       "week": 98,
@@ -3887,10 +3945,13 @@
       "deliverable": "10 recorded answers",
       "phase": "Phase 8",
       "focus": "Interview",
-      "prereqWeeks": [92],
+      "prereqWeeks": [
+        92
+      ],
       "questions": [],
       "problemTopic": null,
-      "projects": []
+      "projects": [],
+      "category": "Career & Interview Topic"
     },
     {
       "week": 99,
@@ -3902,10 +3963,13 @@
       "deliverable": "Final resume + portfolio",
       "phase": "Phase 8",
       "focus": "Career",
-      "prereqWeeks": [92],
+      "prereqWeeks": [
+        92
+      ],
       "questions": [],
       "problemTopic": null,
-      "projects": []
+      "projects": [],
+      "category": "Career & Interview Topic"
     },
     {
       "week": 100,
@@ -3917,7 +3981,9 @@
       "deliverable": "4 mock sessions",
       "phase": "Phase 8",
       "focus": "Interview",
-      "prereqWeeks": [97],
+      "prereqWeeks": [
+        97
+      ],
       "questions": [],
       "problemTopic": null,
       "projects": [
@@ -3926,11 +3992,15 @@
           "week": 100,
           "title": "Final Portfolio Polish",
           "type": "Career",
-          "stack": ["GitHub", "Documentation"],
+          "stack": [
+            "GitHub",
+            "Documentation"
+          ],
           "description": "Architecture diagrams, screenshots, tests and deployment docs.",
           "outcome": "Convert Week 100 concepts into demonstrable engineering evidence."
         }
-      ]
+      ],
+      "category": "Career & Interview Topic"
     },
     {
       "week": 101,
@@ -3942,10 +4012,13 @@
       "deliverable": "Personal gap list",
       "phase": "Phase 8",
       "focus": "Review",
-      "prereqWeeks": [100],
+      "prereqWeeks": [
+        100
+      ],
       "questions": [],
       "problemTopic": null,
-      "projects": []
+      "projects": [],
+      "category": "Career & Interview Topic"
     },
     {
       "week": 102,
@@ -3957,10 +4030,13 @@
       "deliverable": "Target-company matrix",
       "phase": "Phase 8",
       "focus": "Career",
-      "prereqWeeks": [99],
+      "prereqWeeks": [
+        99
+      ],
       "questions": [],
       "problemTopic": null,
-      "projects": []
+      "projects": [],
+      "category": "Career & Interview Topic"
     },
     {
       "week": 103,
@@ -3972,10 +4048,14 @@
       "deliverable": "Production-ready showcase",
       "phase": "Phase 8",
       "focus": "Project",
-      "prereqWeeks": [92, 101],
+      "prereqWeeks": [
+        92,
+        101
+      ],
       "questions": [],
       "problemTopic": null,
-      "projects": []
+      "projects": [],
+      "category": "Career & Interview Topic"
     },
     {
       "week": 104,
@@ -3990,175 +4070,304 @@
       "prereqWeeks": [],
       "questions": [],
       "problemTopic": null,
-      "projects": []
+      "projects": [],
+      "category": "Career & Interview Topic"
     }
   ],
   "months": [
     {
       "month": 1,
       "title": "Month 1",
-      "weeks": [1, 2, 3, 4, 5],
+      "weeks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
       "phase": "Phase 1",
       "summary": "Variables; types; null safety; operators; control flow; loops"
     },
     {
       "month": 2,
       "title": "Month 2",
-      "weeks": [6, 7, 8, 9, 10],
+      "weeks": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
       "phase": "Phase 1",
       "summary": "Future chaining; Future.wait; try/catch; exceptions; Stream basics; StreamController"
     },
     {
       "month": 3,
       "title": "Month 3",
-      "weeks": [11, 12, 13, 14, 15],
+      "weeks": [
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
       "phase": "Phase 1",
       "summary": "HashMap; HashSet; frequency counting; lookup optimization; duplicate detection"
     },
     {
       "month": 4,
       "title": "Month 4",
-      "weeks": [16, 17, 18, 19, 20],
+      "weeks": [
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
       "phase": "Phase 2",
       "summary": "Widget; Element; RenderObject; widget tree; element tree; render tree; build/layout/paint"
     },
     {
       "month": 5,
       "title": "Month 5",
-      "weeks": [21, 22, 23, 24, 25],
+      "weeks": [
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
       "phase": "Phase 2",
       "summary": "HTTP; REST; Dio; interceptors; serialization; timeout; retry; error mapping"
     },
     {
       "month": 6,
       "title": "Month 6",
-      "weeks": [26, 27, 28, 29, 30],
+      "weeks": [
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
       "phase": "Phase 2",
       "summary": "const; rebuild profiling; ListView.builder; image optimization; memory; frame budget"
     },
     {
       "month": 7,
       "title": "Month 7",
-      "weeks": [31, 32, 33, 34, 35],
+      "weeks": [
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
       "phase": "Phase 3",
       "summary": "Scope; let/const; objects; prototypes; classes; destructuring; spread/rest; modules"
     },
     {
       "month": 8,
       "title": "Month 8",
-      "weeks": [36, 37, 38, 39, 40],
+      "weeks": [
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
       "phase": "Phase 3",
       "summary": "SELECT; WHERE; ORDER BY; GROUP BY; HAVING; JOIN; subqueries; CTE"
     },
     {
       "month": 9,
       "title": "Month 9",
-      "weeks": [41, 42, 43, 44],
+      "weeks": [
+        41,
+        42,
+        43,
+        44
+      ],
       "phase": "Phase 3",
       "summary": "Password hashing; JWT; access/refresh tokens; RBAC; validation; OWASP basics"
     },
     {
       "month": 10,
       "title": "Month 10",
-      "weeks": [45, 46, 47, 48],
+      "weeks": [
+        45,
+        46,
+        47,
+        48
+      ],
       "phase": "Phase 4",
       "summary": "Variables; nullable types; functions; lambdas; collections; data classes; enum; sealed class"
     },
     {
       "month": 11,
       "title": "Month 11",
-      "weeks": [49, 50, 51, 52],
+      "weeks": [
+        49,
+        50,
+        51,
+        52
+      ],
       "phase": "Phase 4",
       "summary": "Composable; state; remember; rememberSaveable; recomposition; modifiers"
     },
     {
       "month": 12,
       "title": "Month 12",
-      "weeks": [53, 54, 55, 56],
+      "weeks": [
+        53,
+        54,
+        55,
+        56
+      ],
       "phase": "Phase 4",
       "summary": "Retrofit; OkHttp; interceptors; serialization; API errors"
     },
     {
       "month": 13,
       "title": "Month 13",
-      "weeks": [57, 58, 59, 60],
+      "weeks": [
+        57,
+        58,
+        59,
+        60
+      ],
       "phase": "Phase 5",
       "summary": "Client/server; IP; MAC; DNS; DHCP; router; ports"
     },
     {
       "month": 14,
       "title": "Month 14",
-      "weeks": [61, 62, 63, 64],
+      "weeks": [
+        61,
+        62,
+        63,
+        64
+      ],
       "phase": "Phase 5",
       "summary": "Kernel; processes; threads; context switching; system calls"
     },
     {
       "month": 15,
       "title": "Month 15",
-      "weeks": [65, 66, 67, 68],
+      "weeks": [
+        65,
+        66,
+        67,
+        68
+      ],
       "phase": "Phase 5",
       "summary": "Binary tree; traversal; DFS; BFS; preorder; inorder; postorder"
     },
     {
       "month": 16,
       "title": "Month 16",
-      "weeks": [69, 70, 71, 72],
+      "weeks": [
+        69,
+        70,
+        71,
+        72
+      ],
       "phase": "Phase 6",
       "summary": "Greedy choice; intervals; scheduling; heap-based greedy"
     },
     {
       "month": 17,
       "title": "Month 17",
-      "weeks": [73, 74, 75, 76],
+      "weeks": [
+        73,
+        74,
+        75,
+        76
+      ],
       "phase": "Phase 6",
       "summary": "Scalability; availability; latency; throughput; reliability"
     },
     {
       "month": 18,
       "title": "Month 18",
-      "weeks": [77, 78, 79, 80],
+      "weeks": [
+        77,
+        78,
+        79,
+        80
+      ],
       "phase": "Phase 6",
       "summary": "WebSocket; presence; delivery; persistence; fan-out"
     },
     {
       "month": 19,
       "title": "Month 19",
-      "weeks": [81, 82, 83, 84],
+      "weeks": [
+        81,
+        82,
+        83,
+        84
+      ],
       "phase": "Phase 7",
       "summary": "Processes; signals; permissions; logs; grep; awk/sed basics; curl; ssh"
     },
     {
       "month": 20,
       "title": "Month 20",
-      "weeks": [85, 86, 87, 88],
+      "weeks": [
+        85,
+        86,
+        87,
+        88
+      ],
       "phase": "Phase 7",
       "summary": "Logs; metrics; traces; health checks; alerts; SLI/SLO basics"
     },
     {
       "month": 21,
       "title": "Month 21",
-      "weeks": [89, 90, 91, 92],
+      "weeks": [
+        89,
+        90,
+        91,
+        92
+      ],
       "phase": "Phase 7",
       "summary": "Layered; Clean; Hexagonal; modular monolith; trade-offs"
     },
     {
       "month": 22,
       "title": "Month 22",
-      "weeks": [93, 94, 95, 96],
+      "weeks": [
+        93,
+        94,
+        95,
+        96
+      ],
       "phase": "Phase 8",
       "summary": "Arrays; strings; hash; two pointers; sliding window"
     },
     {
       "month": 23,
       "title": "Month 23",
-      "weeks": [97, 98, 99, 100],
+      "weeks": [
+        97,
+        98,
+        99,
+        100
+      ],
       "phase": "Phase 8",
       "summary": "Requirement clarification; capacity estimation; APIs; data model"
     },
     {
       "month": 24,
       "title": "Month 24",
-      "weeks": [101, 102, 103, 104],
+      "weeks": [
+        101,
+        102,
+        103,
+        104
+      ],
       "phase": "Phase 8",
       "summary": "Review weak DSA topics; CS gaps; project gaps"
     }
@@ -4169,7 +4378,9 @@
       "week": 1,
       "title": "Dart CLI Calculator",
       "type": "Mini",
-      "stack": ["Dart"],
+      "stack": [
+        "Dart"
+      ],
       "description": "CLI calculator with validation, operators and tests.",
       "outcome": "Convert Week 1 concepts into demonstrable engineering evidence."
     },
@@ -4178,7 +4389,9 @@
       "week": 2,
       "title": "Collection Analyzer",
       "type": "Mini",
-      "stack": ["Dart"],
+      "stack": [
+        "Dart"
+      ],
       "description": "Frequency, unique values, min/max and collection transformations.",
       "outcome": "Convert Week 2 concepts into demonstrable engineering evidence."
     },
@@ -4187,7 +4400,10 @@
       "week": 3,
       "title": "Library Domain Model",
       "type": "Mini",
-      "stack": ["Dart", "OOP"],
+      "stack": [
+        "Dart",
+        "OOP"
+      ],
       "description": "Books, members, loans and composition.",
       "outcome": "Convert Week 3 concepts into demonstrable engineering evidence."
     },
@@ -4196,7 +4412,10 @@
       "week": 4,
       "title": "Async Task Runner",
       "type": "Mini",
-      "stack": ["Dart", "Async"],
+      "stack": [
+        "Dart",
+        "Async"
+      ],
       "description": "Concurrent fake network tasks with failure handling.",
       "outcome": "Convert Week 4 concepts into demonstrable engineering evidence."
     },
@@ -4205,7 +4424,10 @@
       "week": 5,
       "title": "Event Stream Monitor",
       "type": "Mini",
-      "stack": ["Dart", "Streams"],
+      "stack": [
+        "Dart",
+        "Streams"
+      ],
       "description": "StreamController-based event monitor with filters.",
       "outcome": "Convert Week 5 concepts into demonstrable engineering evidence."
     },
@@ -4214,7 +4436,9 @@
       "week": 6,
       "title": "Personal Budget CLI",
       "type": "Mini",
-      "stack": ["Dart"],
+      "stack": [
+        "Dart"
+      ],
       "description": "Income, expense, category and monthly summary engine.",
       "outcome": "Convert Week 6 concepts into demonstrable engineering evidence."
     },
@@ -4223,7 +4447,10 @@
       "week": 7,
       "title": "Algorithm Playground",
       "type": "Mini",
-      "stack": ["Dart", "DSA"],
+      "stack": [
+        "Dart",
+        "DSA"
+      ],
       "description": "Run common algorithms and print operation counts.",
       "outcome": "Convert Week 7 concepts into demonstrable engineering evidence."
     },
@@ -4232,7 +4459,10 @@
       "week": 8,
       "title": "Hash Index Simulator",
       "type": "Mini",
-      "stack": ["Dart", "DSA"],
+      "stack": [
+        "Dart",
+        "DSA"
+      ],
       "description": "Compare hash lookup and linear search.",
       "outcome": "Convert Week 8 concepts into demonstrable engineering evidence."
     },
@@ -4241,7 +4471,10 @@
       "week": 9,
       "title": "Sliding Window Visualizer",
       "type": "Mini",
-      "stack": ["Dart", "DSA"],
+      "stack": [
+        "Dart",
+        "DSA"
+      ],
       "description": "Print active windows while solving subarray problems.",
       "outcome": "Convert Week 9 concepts into demonstrable engineering evidence."
     },
@@ -4250,7 +4483,10 @@
       "week": 10,
       "title": "Undo/Redo Engine",
       "type": "Mini",
-      "stack": ["Dart", "Stack"],
+      "stack": [
+        "Dart",
+        "Stack"
+      ],
       "description": "Editor-style undo/redo with two stacks.",
       "outcome": "Convert Week 10 concepts into demonstrable engineering evidence."
     },
@@ -4259,7 +4495,10 @@
       "week": 11,
       "title": "Linked List Playground",
       "type": "Mini",
-      "stack": ["Dart", "DSA"],
+      "stack": [
+        "Dart",
+        "DSA"
+      ],
       "description": "CRUD, reverse and cycle detection playground.",
       "outcome": "Convert Week 11 concepts into demonstrable engineering evidence."
     },
@@ -4268,7 +4507,10 @@
       "week": 13,
       "title": "Flutter API Explorer",
       "type": "Mini",
-      "stack": ["Flutter", "Dio"],
+      "stack": [
+        "Flutter",
+        "Dio"
+      ],
       "description": "REST API with loading, error, empty and success states.",
       "outcome": "Convert Week 13 concepts into demonstrable engineering evidence."
     },
@@ -4277,7 +4519,10 @@
       "week": 14,
       "title": "Auth Flow Lab",
       "type": "Mini",
-      "stack": ["Flutter", "Auth"],
+      "stack": [
+        "Flutter",
+        "Auth"
+      ],
       "description": "Login/logout/refresh-token simulation.",
       "outcome": "Convert Week 14 concepts into demonstrable engineering evidence."
     },
@@ -4286,7 +4531,10 @@
       "week": 15,
       "title": "Offline Notes",
       "type": "Mini",
-      "stack": ["Flutter", "Storage"],
+      "stack": [
+        "Flutter",
+        "Storage"
+      ],
       "description": "Cached notes with offline read/write.",
       "outcome": "Convert Week 15 concepts into demonstrable engineering evidence."
     },
@@ -4295,7 +4543,10 @@
       "week": 16,
       "title": "Flutter Testing Lab",
       "type": "Mini",
-      "stack": ["Flutter", "Testing"],
+      "stack": [
+        "Flutter",
+        "Testing"
+      ],
       "description": "Unit, widget and integration tests for one feature.",
       "outcome": "Convert Week 16 concepts into demonstrable engineering evidence."
     },
@@ -4304,7 +4555,10 @@
       "week": 17,
       "title": "Flutter Performance Lab",
       "type": "Mini",
-      "stack": ["Flutter", "DevTools"],
+      "stack": [
+        "Flutter",
+        "DevTools"
+      ],
       "description": "Create and fix rebuild/list/image performance problems.",
       "outcome": "Convert Week 17 concepts into demonstrable engineering evidence."
     },
@@ -4313,7 +4567,10 @@
       "week": 18,
       "title": "Notification Deep-Link Demo",
       "type": "Mini",
-      "stack": ["Flutter", "FCM"],
+      "stack": [
+        "Flutter",
+        "FCM"
+      ],
       "description": "Notifications that navigate into app content.",
       "outcome": "Convert Week 18 concepts into demonstrable engineering evidence."
     },
@@ -4322,7 +4579,12 @@
       "week": 20,
       "title": "Feature-First Flutter Starter",
       "type": "Architecture",
-      "stack": ["Flutter", "Bloc", "Clean", "Architecture"],
+      "stack": [
+        "Flutter",
+        "Bloc",
+        "Clean",
+        "Architecture"
+      ],
       "description": "Reusable feature module with repository/use-case/DI.",
       "outcome": "Convert Week 20 concepts into demonstrable engineering evidence."
     },
@@ -4331,7 +4593,12 @@
       "week": 24,
       "title": "Course App Capstone",
       "type": "Major",
-      "stack": ["Flutter", "Bloc", "Dio", "Testing"],
+      "stack": [
+        "Flutter",
+        "Bloc",
+        "Dio",
+        "Testing"
+      ],
       "description": "Auth, courses, purchase simulation, profile, cache and tests.",
       "outcome": "Convert Week 24 concepts into demonstrable engineering evidence."
     },
@@ -4340,7 +4607,9 @@
       "week": 25,
       "title": "JavaScript Expense API",
       "type": "Mini",
-      "stack": ["Node.js"],
+      "stack": [
+        "Node.js"
+      ],
       "description": "CRUD API with validation and clean errors.",
       "outcome": "Convert Week 25 concepts into demonstrable engineering evidence."
     },
@@ -4349,7 +4618,9 @@
       "week": 27,
       "title": "Node Event Loop Lab",
       "type": "Mini",
-      "stack": ["Node.js"],
+      "stack": [
+        "Node.js"
+      ],
       "description": "Experiments with timers, promises and microtasks.",
       "outcome": "Convert Week 27 concepts into demonstrable engineering evidence."
     },
@@ -4358,7 +4629,9 @@
       "week": 28,
       "title": "Express Blog API",
       "type": "Mini",
-      "stack": ["Express"],
+      "stack": [
+        "Express"
+      ],
       "description": "Controllers, services, repositories and validation.",
       "outcome": "Convert Week 28 concepts into demonstrable engineering evidence."
     },
@@ -4367,7 +4640,9 @@
       "week": 29,
       "title": "SQL Practice Database",
       "type": "Mini",
-      "stack": ["MySQL"],
+      "stack": [
+        "MySQL"
+      ],
       "description": "E-commerce schema plus 50 query exercises.",
       "outcome": "Convert Week 29 concepts into demonstrable engineering evidence."
     },
@@ -4376,7 +4651,9 @@
       "week": 31,
       "title": "Query Optimization Lab",
       "type": "Mini",
-      "stack": ["MySQL"],
+      "stack": [
+        "MySQL"
+      ],
       "description": "EXPLAIN slow queries and add targeted indexes.",
       "outcome": "Convert Week 31 concepts into demonstrable engineering evidence."
     },
@@ -4385,7 +4662,10 @@
       "week": 32,
       "title": "Transaction Checkout",
       "type": "Mini",
-      "stack": ["Node", "MySQL"],
+      "stack": [
+        "Node",
+        "MySQL"
+      ],
       "description": "Atomic order checkout with rollback.",
       "outcome": "Convert Week 32 concepts into demonstrable engineering evidence."
     },
@@ -4394,7 +4674,10 @@
       "week": 33,
       "title": "Secure Auth Service",
       "type": "Mini",
-      "stack": ["Node", "JWT"],
+      "stack": [
+        "Node",
+        "JWT"
+      ],
       "description": "Access/refresh tokens, roles and validation.",
       "outcome": "Convert Week 33 concepts into demonstrable engineering evidence."
     },
@@ -4403,7 +4686,10 @@
       "week": 34,
       "title": "Redis Cache Layer",
       "type": "Mini",
-      "stack": ["Node", "Redis"],
+      "stack": [
+        "Node",
+        "Redis"
+      ],
       "description": "Cache-aside reads, TTL and invalidation.",
       "outcome": "Convert Week 34 concepts into demonstrable engineering evidence."
     },
@@ -4412,7 +4698,10 @@
       "week": 35,
       "title": "Realtime Chat Server",
       "type": "Mini",
-      "stack": ["Node", "Socket.IO"],
+      "stack": [
+        "Node",
+        "Socket.IO"
+      ],
       "description": "Rooms, presence and one-to-one messaging.",
       "outcome": "Convert Week 35 concepts into demonstrable engineering evidence."
     },
@@ -4421,7 +4710,10 @@
       "week": 36,
       "title": "Job Queue Worker",
       "type": "Mini",
-      "stack": ["Node", "Redis"],
+      "stack": [
+        "Node",
+        "Redis"
+      ],
       "description": "Async jobs, retries and worker processing.",
       "outcome": "Convert Week 36 concepts into demonstrable engineering evidence."
     },
@@ -4430,7 +4722,13 @@
       "week": 38,
       "title": "Backend Capstone",
       "type": "Major",
-      "stack": ["Node", "Express", "MySQL", "Redis", "Socket.IO"],
+      "stack": [
+        "Node",
+        "Express",
+        "MySQL",
+        "Redis",
+        "Socket.IO"
+      ],
       "description": "Auth, SQL, cache, realtime and background jobs.",
       "outcome": "Convert Week 38 concepts into demonstrable engineering evidence."
     },
@@ -4439,7 +4737,9 @@
       "week": 41,
       "title": "Kotlin Habit Tracker",
       "type": "Mini",
-      "stack": ["Kotlin"],
+      "stack": [
+        "Kotlin"
+      ],
       "description": "Native CRUD app with idiomatic Kotlin.",
       "outcome": "Convert Week 41 concepts into demonstrable engineering evidence."
     },
@@ -4448,7 +4748,10 @@
       "week": 43,
       "title": "Coroutine Downloader",
       "type": "Mini",
-      "stack": ["Kotlin", "Coroutines"],
+      "stack": [
+        "Kotlin",
+        "Coroutines"
+      ],
       "description": "Concurrent downloads with cancellation.",
       "outcome": "Convert Week 43 concepts into demonstrable engineering evidence."
     },
@@ -4457,7 +4760,10 @@
       "week": 44,
       "title": "Compose Profile App",
       "type": "Mini",
-      "stack": ["Kotlin", "Compose"],
+      "stack": [
+        "Kotlin",
+        "Compose"
+      ],
       "description": "State, navigation and Material UI.",
       "outcome": "Convert Week 44 concepts into demonstrable engineering evidence."
     },
@@ -4466,7 +4772,10 @@
       "week": 46,
       "title": "Compose Expense Tracker",
       "type": "Mini",
-      "stack": ["Compose", "ViewModel"],
+      "stack": [
+        "Compose",
+        "ViewModel"
+      ],
       "description": "UDF + ViewModel state-driven app.",
       "outcome": "Convert Week 46 concepts into demonstrable engineering evidence."
     },
@@ -4475,7 +4784,10 @@
       "week": 47,
       "title": "Room Notes",
       "type": "Mini",
-      "stack": ["Room", "Compose"],
+      "stack": [
+        "Room",
+        "Compose"
+      ],
       "description": "Offline notes with DAO and reactive state.",
       "outcome": "Convert Week 47 concepts into demonstrable engineering evidence."
     },
@@ -4484,7 +4796,10 @@
       "week": 48,
       "title": "Retrofit API Client",
       "type": "Mini",
-      "stack": ["Retrofit", "OkHttp"],
+      "stack": [
+        "Retrofit",
+        "OkHttp"
+      ],
       "description": "Interceptors, serialization and error mapping.",
       "outcome": "Convert Week 48 concepts into demonstrable engineering evidence."
     },
@@ -4493,7 +4808,11 @@
       "week": 49,
       "title": "Hilt Clean App",
       "type": "Architecture",
-      "stack": ["Hilt", "Clean", "Architecture"],
+      "stack": [
+        "Hilt",
+        "Clean",
+        "Architecture"
+      ],
       "description": "Refactor into data/domain/presentation.",
       "outcome": "Convert Week 49 concepts into demonstrable engineering evidence."
     },
@@ -4502,7 +4821,13 @@
       "week": 52,
       "title": "Native Android Capstone",
       "type": "Major",
-      "stack": ["Kotlin", "Compose", "Room", "Retrofit", "Hilt"],
+      "stack": [
+        "Kotlin",
+        "Compose",
+        "Room",
+        "Retrofit",
+        "Hilt"
+      ],
       "description": "Complete native app with offline data and API.",
       "outcome": "Convert Week 52 concepts into demonstrable engineering evidence."
     },
@@ -4511,7 +4836,10 @@
       "week": 61,
       "title": "Graph Explorer",
       "type": "DSA Project",
-      "stack": ["Dart", "Graphs"],
+      "stack": [
+        "Dart",
+        "Graphs"
+      ],
       "description": "BFS, DFS and connected-component explorer.",
       "outcome": "Convert Week 61 concepts into demonstrable engineering evidence."
     },
@@ -4520,7 +4848,10 @@
       "week": 64,
       "title": "Shortest Path Simulator",
       "type": "DSA Project",
-      "stack": ["Dart", "Graphs"],
+      "stack": [
+        "Dart",
+        "Graphs"
+      ],
       "description": "Weighted graph simulator with Dijkstra.",
       "outcome": "Convert Week 64 concepts into demonstrable engineering evidence."
     },
@@ -4529,7 +4860,10 @@
       "week": 68,
       "title": "DP Pattern Notebook",
       "type": "DSA Project",
-      "stack": ["Dart", "DP"],
+      "stack": [
+        "Dart",
+        "DP"
+      ],
       "description": "Classic DP implementations with state/transition notes.",
       "outcome": "Convert Week 68 concepts into demonstrable engineering evidence."
     },
@@ -4538,7 +4872,11 @@
       "week": 72,
       "title": "URL Shortener",
       "type": "System Design",
-      "stack": ["Node", "MySQL", "Redis"],
+      "stack": [
+        "Node",
+        "MySQL",
+        "Redis"
+      ],
       "description": "Prototype plus scalable architecture.",
       "outcome": "Convert Week 72 concepts into demonstrable engineering evidence."
     },
@@ -4547,7 +4885,9 @@
       "week": 73,
       "title": "Scalable Chat Design",
       "type": "System Design",
-      "stack": ["WebSocket"],
+      "stack": [
+        "WebSocket"
+      ],
       "description": "Capacity, persistence, fan-out and failure modes.",
       "outcome": "Convert Week 73 concepts into demonstrable engineering evidence."
     },
@@ -4556,7 +4896,9 @@
       "week": 74,
       "title": "Social Feed Design",
       "type": "System Design",
-      "stack": ["Redis"],
+      "stack": [
+        "Redis"
+      ],
       "description": "Feed generation, caching and pagination.",
       "outcome": "Convert Week 74 concepts into demonstrable engineering evidence."
     },
@@ -4565,7 +4907,10 @@
       "week": 75,
       "title": "Delivery Platform Design",
       "type": "System Design",
-      "stack": ["Distributed", "Systems"],
+      "stack": [
+        "Distributed",
+        "Systems"
+      ],
       "description": "Location, matching, queues and data flows.",
       "outcome": "Convert Week 75 concepts into demonstrable engineering evidence."
     },
@@ -4574,7 +4919,11 @@
       "week": 80,
       "title": "Dockerized Backend",
       "type": "DevOps",
-      "stack": ["Docker", "Node", "MySQL"],
+      "stack": [
+        "Docker",
+        "Node",
+        "MySQL"
+      ],
       "description": "Containerized reproducible backend stack.",
       "outcome": "Convert Week 80 concepts into demonstrable engineering evidence."
     },
@@ -4583,7 +4932,9 @@
       "week": 81,
       "title": "CI Pipeline",
       "type": "DevOps",
-      "stack": ["CI/CD"],
+      "stack": [
+        "CI/CD"
+      ],
       "description": "Automated lint/test/build pipeline.",
       "outcome": "Convert Week 81 concepts into demonstrable engineering evidence."
     },
@@ -4592,7 +4943,10 @@
       "week": 84,
       "title": "Observable API",
       "type": "Production",
-      "stack": ["Node", "Observability"],
+      "stack": [
+        "Node",
+        "Observability"
+      ],
       "description": "Logs, health checks and basic metrics.",
       "outcome": "Convert Week 84 concepts into demonstrable engineering evidence."
     },
@@ -4601,7 +4955,10 @@
       "week": 86,
       "title": "Security Hardening Lab",
       "type": "Security",
-      "stack": ["Node", "OWASP"],
+      "stack": [
+        "Node",
+        "OWASP"
+      ],
       "description": "Fix common web vulnerabilities in a deliberately unsafe API.",
       "outcome": "Convert Week 86 concepts into demonstrable engineering evidence."
     },
@@ -4610,7 +4967,10 @@
       "week": 88,
       "title": "Load Test Lab",
       "type": "Performance",
-      "stack": ["Node", "Performance"],
+      "stack": [
+        "Node",
+        "Performance"
+      ],
       "description": "Benchmark, identify bottleneck, optimize and compare.",
       "outcome": "Convert Week 88 concepts into demonstrable engineering evidence."
     },
@@ -4619,7 +4979,12 @@
       "week": 91,
       "title": "Engineering Capstone Refactor",
       "type": "Major",
-      "stack": ["Flutter", "Node", "MySQL", "Redis"],
+      "stack": [
+        "Flutter",
+        "Node",
+        "MySQL",
+        "Redis"
+      ],
       "description": "Refactor old capstone with tests, docs and observability.",
       "outcome": "Convert Week 91 concepts into demonstrable engineering evidence."
     },
@@ -4628,7 +4993,9 @@
       "week": 94,
       "title": "Interview Coding Repo",
       "type": "Interview",
-      "stack": ["DSA"],
+      "stack": [
+        "DSA"
+      ],
       "description": "Pattern-based solutions with explanations and tests.",
       "outcome": "Convert Week 94 concepts into demonstrable engineering evidence."
     },
@@ -4637,7 +5004,10 @@
       "week": 97,
       "title": "System Design Notebook",
       "type": "Interview",
-      "stack": ["System", "Design"],
+      "stack": [
+        "System",
+        "Design"
+      ],
       "description": "Five concise architecture case studies.",
       "outcome": "Convert Week 97 concepts into demonstrable engineering evidence."
     },
@@ -4646,7 +5016,10 @@
       "week": 100,
       "title": "Final Portfolio Polish",
       "type": "Career",
-      "stack": ["GitHub", "Documentation"],
+      "stack": [
+        "GitHub",
+        "Documentation"
+      ],
       "description": "Architecture diagrams, screenshots, tests and deployment docs.",
       "outcome": "Convert Week 100 concepts into demonstrable engineering evidence."
     }
