@@ -46,24 +46,24 @@ export function renderWeekly() {
       <div>
         <div class="eyebrow">WEEKLY PLANNER</div>
         <h1>One week at a time.</h1>
-        <p>Saturday–Thursday study · Friday stays protected. Click <b>Open workspace ↗</b> to view practice problems & project details.</p>
+        <p>Saturday–Thursday study · Friday stays protected. Click any week to open its step-by-step workspace.</p>
       </div>
       <div class="filter-summary-badge">
         <span>Showing <b>${a.length}</b> weeks</span> · 
-        <span><b>${completedCount}/${a.length}</b> Completed (${pct(completedCount, a.length)}%)</span>
+        <span><b>${completedCount}/${a.length}</b> Done (${pct(completedCount, a.length)}%)</span>
       </div>
     </div>
 
-    <!-- Dropdown Filter Card -->
-    <div class="filter-controls-card">
-      <div class="filter-dropdown-grid">
-        <!-- 1. Phase Dropdown with % -->
-        <div class="dropdown-group">
-          <label for="phaseSelect" class="dropdown-label">1. Filter by Phase</label>
+    <!-- Compact Modern Filter Toolbar -->
+    <div class="filter-toolbar">
+      <div class="filter-toolbar-grid">
+        <!-- 1. Phase Dropdown -->
+        <div class="toolbar-field">
+          <label for="phaseSelect" class="toolbar-label">Phase</label>
           <div class="select-wrapper">
-            <select id="phaseSelect" class="custom-select">
+            <select id="phaseSelect" class="toolbar-select">
               <option value="All" ${activePhase === "All" ? "selected" : ""}>
-                All Phases (${pct(Object.values(P.weeks || {}).filter(Boolean).length, C.weeks.length)}% · ${Object.values(P.weeks || {}).filter(Boolean).length}/${C.weeks.length}w)
+                All Phases (${pct(Object.values(P.weeks || {}).filter(Boolean).length, C.weeks.length)}%)
               </option>
               ${C.phases
                 .map((p) => {
@@ -71,7 +71,7 @@ export function renderWeekly() {
                   const pDoneCount = pWeeks.filter((w) => doneW(w.week)).length;
                   const pPct = pct(pDoneCount, pWeeks.length);
                   return `<option value="${esc(p[0])}" ${activePhase === p[0] ? "selected" : ""}>
-                    ${esc(p[0])}: ${esc(p[1])} — ${pPct}% (${pDoneCount}/${pWeeks.length}w)
+                    ${esc(p[0])} — ${pPct}% (${pDoneCount}/${pWeeks.length}w)
                   </option>`;
                 })
                 .join("")}
@@ -79,11 +79,11 @@ export function renderWeekly() {
           </div>
         </div>
 
-        <!-- 2. Month Dropdown with % -->
-        <div class="dropdown-group">
-          <label for="monthSelect" class="dropdown-label">2. Filter by Month</label>
+        <!-- 2. Month Dropdown -->
+        <div class="toolbar-field">
+          <label for="monthSelect" class="toolbar-label">Month</label>
           <div class="select-wrapper">
-            <select id="monthSelect" class="custom-select">
+            <select id="monthSelect" class="toolbar-select">
               ${(() => {
                 const scopeWeeks =
                   activePhase === "All"
@@ -92,7 +92,7 @@ export function renderWeekly() {
                 const scopeDone = scopeWeeks.filter((w) => doneW(w.week)).length;
                 const scopePct = pct(scopeDone, scopeWeeks.length);
                 return `<option value="All" ${activeMonth === "All" ? "selected" : ""}>
-                  All Months ${activePhase !== "All" ? `in ${esc(activePhase)}` : "(1–24)"} — ${scopePct}% (${scopeDone}/${scopeWeeks.length}w)
+                  All Months ${activePhase !== "All" ? `in ${esc(activePhase)}` : "(1–24)"} (${scopePct}%)
                 </option>`;
               })()}
               ${availableMonths
@@ -101,7 +101,7 @@ export function renderWeekly() {
                   const mDoneCount = mWeeks.filter((w) => doneW(w.week)).length;
                   const mPct = pct(mDoneCount, mWeeks.length);
                   return `<option value="${m.month}" ${String(activeMonth) === String(m.month) ? "selected" : ""}>
-                    Month ${String(m.month).padStart(2, "0")} (${esc(m.phase)}) — ${mPct}% (${mDoneCount}/${mWeeks.length}w)
+                    Month ${String(m.month).padStart(2, "0")} — ${mPct}% (${mDoneCount}/${mWeeks.length}w)
                   </option>`;
                 })
                 .join("")}
@@ -110,18 +110,18 @@ export function renderWeekly() {
         </div>
 
         <!-- 3. Status Dropdown -->
-        <div class="dropdown-group">
-          <label for="statusSelect" class="dropdown-label">3. Completion Status</label>
+        <div class="toolbar-field">
+          <label for="statusSelect" class="toolbar-label">Status</label>
           <div class="select-wrapper">
-            <select id="statusSelect" class="custom-select">
+            <select id="statusSelect" class="toolbar-select">
               <option value="All" ${activeStatus === "All" ? "selected" : ""}>
-                All Weeks (${Object.values(P.weeks || {}).filter(Boolean).length}/${C.weeks.length})
+                All Weeks (${C.weeks.length})
               </option>
               <option value="pending" ${activeStatus === "pending" ? "selected" : ""}>
-                Incomplete Only (${C.weeks.length - Object.values(P.weeks || {}).filter(Boolean).length})
+                Incomplete (${C.weeks.length - Object.values(P.weeks || {}).filter(Boolean).length})
               </option>
               <option value="done" ${activeStatus === "done" ? "selected" : ""}>
-                Completed Only (${Object.values(P.weeks || {}).filter(Boolean).length})
+                Completed (${Object.values(P.weeks || {}).filter(Boolean).length})
               </option>
             </select>
           </div>
@@ -136,19 +136,19 @@ export function renderWeekly() {
           ? `
         <div class="active-filter-bar">
           <div class="active-filter-tags">
-            <span class="active-tag-label">Active:</span>
+            <span class="active-tag-label">Active Filters:</span>
             ${activePhase !== "All" ? `<span class="active-filter-tag">${esc(activePhase)} <b class="tag-clear" data-clear="phase">×</b></span>` : ""}
             ${activeMonth !== "All" ? `<span class="active-filter-tag">Month ${String(activeMonth).padStart(2, "0")} <b class="tag-clear" data-clear="month">×</b></span>` : ""}
             ${activeStatus !== "All" ? `<span class="active-filter-tag">${activeStatus === "done" ? "Completed" : "Incomplete"} <b class="tag-clear" data-clear="status">×</b></span>` : ""}
-            ${searchTerm ? `<span class="active-filter-tag">Search: "${esc(searchTerm)}" <b class="tag-clear" data-clear="search">×</b></span>` : ""}
+            ${searchTerm ? `<span class="active-filter-tag">"${esc(searchTerm)}" <b class="tag-clear" data-clear="search">×</b></span>` : ""}
           </div>
-          <button id="resetFiltersBtn" class="clear-filters-btn">✕ Reset Filters</button>
+          <button id="resetFiltersBtn" class="clear-filters-btn">✕ Reset All</button>
         </div>`
           : ""
       }
     </div>
 
-    <!-- Week Grid -->
+    <!-- Clean, Breathable Week Grid -->
     ${
       a.length === 0
         ? `<div class="empty-card">
@@ -172,94 +172,79 @@ export function renderWeekly() {
                 : 0;
 
               const cat = getCatInfo(w.category);
+              const topicsList = w.topics.split(";").map((t) => t.trim());
 
               return `
               <article class="week-card ${isDone ? "done" : ""}">
-                <div class="week-head">
-                  <div class="week-badges">
-                    <span class="week-no">W${String(w.week).padStart(3, "0")}</span>
-                    <span class="badge month-tag">M${String(w.month).padStart(2, "0")}</span>
+                <!-- Top Badge & Completion Toggle -->
+                <div class="week-card-top">
+                  <div class="week-pill-group">
+                    <span class="week-code">W${String(w.week).padStart(3, "0")} · M${String(w.month).padStart(2, "0")}</span>
                     <span class="category-badge ${cat.cls}">${cat.icon} ${cat.label}</span>
                   </div>
-                  <label class="week-toggle-label" title="Toggle week completion">
+                  <label class="week-check-toggle" title="Mark week as completed">
                     <input class="check" type="checkbox" data-week="${w.week}" ${isDone ? "checked" : ""}>
-                    <span class="check-text">${isDone ? "Done ✓" : "Mark done"}</span>
+                    <span class="check-label">${isDone ? "Done ✓" : "Mark done"}</span>
                   </label>
                 </div>
 
-                <h3>${esc(w.title)}</h3>
-                
-                <div class="card-steps-container">
-                  <!-- 1. What to Learn -->
-                  <div class="card-step-box">
-                    <div class="step-header learn-head">
-                      <span>📖 ১. কী শিখবেন (Learn)</span>
-                    </div>
-                    <div class="step-content">
-                      <b>Focus:</b> ${esc(w.focus)}
-                      <div class="step-chips">
-                        ${w.topics
-                          .split(";")
-                          .map((t) => `<span class="step-chip">${esc(t.trim())}</span>`)
-                          .join("")}
-                      </div>
-                    </div>
-                  </div>
-
-                  <!-- 2. What to Practice / Build -->
-                  <div class="card-step-box">
-                    <div class="step-header practice-head">
-                      <span>🧩 ২. কী প্র্যাকটিস করবেন (Practice)</span>
-                    </div>
-                    <div class="step-content">
-                      ${
-                        qCount
-                          ? `<div><b>DSA:</b> ${esc(w.problemTopic)} — 15 Problems (${qSolved}/${qCount} Solved)</div>`
-                          : ""
-                      }
-                      ${
-                        pCount
-                          ? `<div><b>Project:</b> <a href="#" class="project-link-trigger" data-project-id="${esc(w.projects[0]?.id)}" title="Click to view detailed features & architecture specs">${esc(w.projects[0]?.title || "")} ↗</a> (${pSolved}/${pCount} Built)</div>`
-                          : ""
-                      }
-                      ${
-                        !qCount && !pCount
-                          ? `<div>Hands-on Code Labs & Drills</div>`
-                          : ""
-                      }
-                    </div>
-                  </div>
-
-                  <!-- 3. Deliverable -->
-                  <div class="card-step-box step-deliver">
-                    <div class="step-header deliver-head">
-                      <span>🏆 ৩. ফাইনাল আউটপুট (Deliverable)</span>
-                    </div>
-                    <div class="step-content">
-                      <b>${esc(w.deliverable)}</b>
-                    </div>
+                <!-- Clean Title & Focus Summary -->
+                <div class="week-card-body">
+                  <h3 class="week-card-title">${esc(w.title)}</h3>
+                  <div class="week-focus-row">
+                    <span class="focus-label">Focus:</span>
+                    <span class="focus-val">${esc(w.focus)}</span>
                   </div>
                 </div>
 
-                <div class="card-progress-footer">
-                  <div class="card-tags">
+                <!-- Minimalist 3-Pill Glance Track (Clean, compact, non-overwhelming) -->
+                <div class="week-glance-track">
+                  <!-- 1. Topics pill -->
+                  <div class="glance-pill" title="Topics: ${esc(w.topics)}">
+                    <span class="glance-icon">📖</span>
+                    <span class="glance-text">${topicsList.length} Topics</span>
+                  </div>
+
+                  <!-- 2. DSA / Practice pill -->
+                  ${
+                    qCount
+                      ? `<div class="glance-pill ${qSolved === qCount ? "glance-done" : ""}" title="15 DSA Problems on ${esc(w.problemTopic)}">
+                          <span class="glance-icon">🧩</span>
+                          <span class="glance-text">${qSolved}/${qCount} DSA</span>
+                        </div>`
+                      : ""
+                  }
+
+                  <!-- 3. Project pill (Clickable to view specs) -->
+                  ${
+                    pCount
+                      ? `<div class="glance-pill glance-project ${pSolved === pCount ? "glance-done" : ""}" title="Click to view project details">
+                          <span class="glance-icon">🚀</span>
+                          <a href="#" class="project-link-trigger glance-link" data-project-id="${esc(w.projects[0]?.id)}">
+                            ${esc(w.projects[0]?.title || "Project")} ↗
+                          </a>
+                        </div>`
+                      : ""
+                  }
+
+                  <!-- 4. Deliverable pill -->
+                  <div class="glance-pill glance-deliv" title="Final Deliverable: ${esc(w.deliverable)}">
+                    <span class="glance-icon">🏆</span>
+                    <span class="glance-text">${esc(w.deliverable)}</span>
+                  </div>
+                </div>
+
+                <!-- Card Footer: Status & Workspace Button -->
+                <div class="week-card-footer">
+                  <div class="card-status-info">
                     ${
-                      qCount
-                        ? `<span class="tag ${qSolved === qCount ? "tag-complete" : "tag-practice"}">
-                            ${qSolved}/${qCount} DSA Solved
-                          </span>`
-                        : ""
-                    }
-                    ${
-                      pCount
-                        ? `<span class="tag ${pSolved === pCount ? "tag-complete" : "tag-project"}">
-                            ${pSolved}/${pCount} Project Done
-                          </span>`
-                        : ""
+                      isDone
+                        ? `<span class="status-done-pill">✓ Complete</span>`
+                        : `<span class="status-pending-pill">In Progress</span>`
                     }
                   </div>
                   <button class="detail-btn" data-detail="${w.week}">
-                    Open workspace ↗
+                    Open Workspace ↗
                   </button>
                 </div>
               </article>`;

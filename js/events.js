@@ -143,6 +143,16 @@ export function bindEvents(renderCallback, statusCallback) {
       }),
   );
 
+  // Phase Cards in Dashboard Phase Map
+  $$("[data-phase-filter]").forEach((el) => {
+    el.onclick = () => {
+      state.activePhase = el.dataset.phaseFilter;
+      state.activeMonth = "All";
+      state.currentView = "weeks";
+      renderCallback();
+    };
+  });
+
   // Progress Backup & Import
   if ($("#saveBtn")) $("#saveBtn").onclick = saveFile;
   if ($("#importBtn")) $("#importBtn").onclick = () => $("#importFile")?.click();
