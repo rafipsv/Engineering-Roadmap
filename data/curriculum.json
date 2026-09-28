@@ -1,0 +1,5303 @@
+{
+  "meta": {
+    "title": "Rafi's 2-Year Software Engineering Roadmap",
+    "duration": "24 months / 104 weeks",
+    "studyDays": "Saturday–Thursday",
+    "offDay": "Friday",
+    "dailyTarget": "90–120 minutes",
+    "fridayPolicy": "No study tasks. Personal + family day.",
+    "principles": [
+      "Depth over tool collecting",
+      "AI assists; understanding remains yours",
+      "Prerequisites before advanced topics",
+      "One sustainable routine beats burnout",
+      "Every month ends with a tangible deliverable"
+    ],
+    "version": "2.0",
+    "storage": "data/progress.json",
+    "questionPolicy": "Every DSA/problem-solving topic includes 5 Codeforces + 5 HackerRank + 5 LeetCode entries."
+  },
+  "phases": [
+    [
+      "Phase 1",
+      "Foundation Reset",
+      "Months 1–3",
+      "Programming fundamentals, Dart, OOP, math and DSA foundations."
+    ],
+    [
+      "Phase 2",
+      "Flutter Engineering",
+      "Months 4–6",
+      "Flutter internals, networking, testing, performance and production architecture."
+    ],
+    [
+      "Phase 3",
+      "Backend & Data",
+      "Months 7–9",
+      "JavaScript/Node.js, Express, SQL, databases, Redis and backend architecture."
+    ],
+    [
+      "Phase 4",
+      "Native Android",
+      "Months 10–12",
+      "Kotlin, Android fundamentals, Compose, Coroutines, Room, Retrofit and Clean Architecture."
+    ],
+    [
+      "Phase 5",
+      "Computer Science Core",
+      "Months 13–15",
+      "Networking, operating systems, advanced DSA and engineering fundamentals."
+    ],
+    [
+      "Phase 6",
+      "System Design",
+      "Months 16–18",
+      "Dynamic programming, distributed systems and system design."
+    ],
+    [
+      "Phase 7",
+      "Engineering Depth",
+      "Months 19–21",
+      "Cloud, Docker, Linux, security, observability and production engineering."
+    ],
+    [
+      "Phase 8",
+      "Interview & Career",
+      "Months 22–24",
+      "Interview readiness, projects, system design drills, DSA revision and applications."
+    ]
+  ],
+  "weeks": [
+    {
+      "week": 1,
+      "month": 1,
+      "weekInMonth": 1,
+      "title": "Dart Core",
+      "topics": "Variables; types; null safety; operators; control flow; loops",
+      "prereq": "None",
+      "deliverable": "20 small Dart exercises",
+      "phase": "Phase 1",
+      "focus": "Dart",
+      "prereqWeeks": [],
+      "questions": [],
+      "problemTopic": null,
+      "projects": [
+        {
+          "id": "p001",
+          "week": 1,
+          "title": "Dart CLI Calculator",
+          "type": "Mini",
+          "stack": [
+            "Dart"
+          ],
+          "description": "CLI calculator with validation, operators and tests.",
+          "outcome": "Convert Week 1 concepts into demonstrable engineering evidence."
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "month": 1,
+      "weekInMonth": 2,
+      "title": "Functions & Collections",
+      "topics": "Functions; named/optional parameters; closures; List; Set; Map; collection methods",
+      "prereq": "Dart Core",
+      "deliverable": "Collection utility program",
+      "phase": "Phase 1",
+      "focus": "Dart",
+      "prereqWeeks": [
+        1
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": [
+        {
+          "id": "p002",
+          "week": 2,
+          "title": "Collection Analyzer",
+          "type": "Mini",
+          "stack": [
+            "Dart"
+          ],
+          "description": "Frequency, unique values, min/max and collection transformations.",
+          "outcome": "Convert Week 2 concepts into demonstrable engineering evidence."
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "month": 1,
+      "weekInMonth": 3,
+      "title": "OOP I",
+      "topics": "Classes; objects; constructors; named constructors; factory; encapsulation; getters/setters",
+      "prereq": "Functions & Collections",
+      "deliverable": "Model layer with 8–10 classes",
+      "phase": "Phase 1",
+      "focus": "OOP",
+      "prereqWeeks": [
+        2
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": [
+        {
+          "id": "p003",
+          "week": 3,
+          "title": "Library Domain Model",
+          "type": "Mini",
+          "stack": [
+            "Dart",
+            "OOP"
+          ],
+          "description": "Books, members, loans and composition.",
+          "outcome": "Convert Week 3 concepts into demonstrable engineering evidence."
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "month": 1,
+      "weekInMonth": 4,
+      "title": "OOP II & Async",
+      "topics": "Inheritance; polymorphism; abstraction; interface; composition; mixin; enum; sealed class; Future; async/await",
+      "prereq": "OOP I",
+      "deliverable": "Async console app",
+      "phase": "Phase 1",
+      "focus": "Dart/OOP",
+      "prereqWeeks": [
+        3
+      ],
+      "questions": [
+        {
+          "platform": "Codeforces",
+          "name": "Data structure practice",
+          "url": "https://codeforces.com/problemset?tags=data+structures"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Heap practice",
+          "url": "https://codeforces.com/problemset?tags=data+structures"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Priority queue practice",
+          "url": "https://codeforces.com/problemset?tags=data+structures"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Tree practice",
+          "url": "https://codeforces.com/problemset?tags=trees"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Segment/data structures practice",
+          "url": "https://codeforces.com/problemset?tags=data+structures"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "QHEAP1",
+          "url": "https://www.hackerrank.com/challenges/qheap1/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Jesse and Cookies",
+          "url": "https://www.hackerrank.com/challenges/jesse-and-cookies/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "BST Lowest Common Ancestor",
+          "url": "https://www.hackerrank.com/challenges/binary-search-tree-lowest-common-ancestor/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "BST Insertion",
+          "url": "https://www.hackerrank.com/challenges/binary-search-tree-insertion/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Is This a BST",
+          "url": "https://www.hackerrank.com/challenges/is-binary-search-tree/problem"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Kth Largest Element",
+          "url": "https://leetcode.com/problems/kth-largest-element-in-an-array/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Top K Frequent Elements",
+          "url": "https://leetcode.com/problems/top-k-frequent-elements/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Kth Smallest Element in a BST",
+          "url": "https://leetcode.com/problems/kth-smallest-element-in-a-bst/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Validate BST",
+          "url": "https://leetcode.com/problems/validate-binary-search-tree/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Lowest Common Ancestor of BST",
+          "url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/"
+        }
+      ],
+      "problemTopic": "BST & Heap",
+      "projects": [
+        {
+          "id": "p004",
+          "week": 4,
+          "title": "Async Task Runner",
+          "type": "Mini",
+          "stack": [
+            "Dart",
+            "Async"
+          ],
+          "description": "Concurrent fake network tasks with failure handling.",
+          "outcome": "Convert Week 4 concepts into demonstrable engineering evidence."
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "month": 1,
+      "weekInMonth": 5,
+      "title": "Month 1 Review",
+      "topics": "Review Dart syntax; OOP; async; rebuild weak areas",
+      "prereq": "OOP II & Async",
+      "deliverable": "50-question self-test",
+      "phase": "Phase 1",
+      "focus": "Review",
+      "prereqWeeks": [
+        4
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": [
+        {
+          "id": "p005",
+          "week": 5,
+          "title": "Event Stream Monitor",
+          "type": "Mini",
+          "stack": [
+            "Dart",
+            "Streams"
+          ],
+          "description": "StreamController-based event monitor with filters.",
+          "outcome": "Convert Week 5 concepts into demonstrable engineering evidence."
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "month": 2,
+      "weekInMonth": 1,
+      "title": "Async Dart & Errors",
+      "topics": "Future chaining; Future.wait; try/catch; exceptions; Stream basics; StreamController",
+      "prereq": "OOP II & Async",
+      "deliverable": "Mini event-stream app",
+      "phase": "Phase 1",
+      "focus": "Dart",
+      "prereqWeeks": [
+        4
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": [
+        {
+          "id": "p006",
+          "week": 6,
+          "title": "Personal Budget CLI",
+          "type": "Mini",
+          "stack": [
+            "Dart"
+          ],
+          "description": "Income, expense, category and monthly summary engine.",
+          "outcome": "Convert Week 6 concepts into demonstrable engineering evidence."
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "month": 2,
+      "weekInMonth": 2,
+      "title": "Problem Solving Math",
+      "topics": "Arithmetic; fractions; ratios; percentages; powers; basic logarithm; logical reasoning",
+      "prereq": "Dart Core",
+      "deliverable": "50 manual calculation drills",
+      "phase": "Phase 1",
+      "focus": "Math",
+      "prereqWeeks": [
+        1
+      ],
+      "questions": [
+        {
+          "platform": "Codeforces",
+          "name": "A+B",
+          "url": "https://codeforces.com/problemset/problem/1772/A"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Watermelon",
+          "url": "https://codeforces.com/problemset/problem/4/A"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Petya and Strings",
+          "url": "https://codeforces.com/problemset/problem/112/A"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Beautiful Matrix",
+          "url": "https://codeforces.com/problemset/problem/263/A"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Domino piling",
+          "url": "https://codeforces.com/problemset/problem/50/A"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Solve Me First",
+          "url": "https://www.hackerrank.com/challenges/solve-me-first/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Simple Array Sum",
+          "url": "https://www.hackerrank.com/challenges/simple-array-sum/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Compare the Triplets",
+          "url": "https://www.hackerrank.com/challenges/compare-the-triplets/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "A Very Big Sum",
+          "url": "https://www.hackerrank.com/challenges/a-very-big-sum/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Diagonal Difference",
+          "url": "https://www.hackerrank.com/challenges/diagonal-difference/problem"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Fizz Buzz",
+          "url": "https://leetcode.com/problems/fizz-buzz/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Palindrome Number",
+          "url": "https://leetcode.com/problems/palindrome-number/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Reverse Integer",
+          "url": "https://leetcode.com/problems/reverse-integer/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Roman to Integer",
+          "url": "https://leetcode.com/problems/roman-to-integer/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Happy Number",
+          "url": "https://leetcode.com/problems/happy-number/"
+        }
+      ],
+      "problemTopic": "Problem Solving Math",
+      "projects": [
+        {
+          "id": "p007",
+          "week": 7,
+          "title": "Algorithm Playground",
+          "type": "Mini",
+          "stack": [
+            "Dart",
+            "DSA"
+          ],
+          "description": "Run common algorithms and print operation counts.",
+          "outcome": "Convert Week 7 concepts into demonstrable engineering evidence."
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "month": 2,
+      "weekInMonth": 3,
+      "title": "Complexity",
+      "topics": "Algorithms; time/space complexity; Big-O; O(1); O(log n); O(n); O(n log n); O(n²)",
+      "prereq": "Problem Solving Math",
+      "deliverable": "Complexity notes for 20 snippets",
+      "phase": "Phase 1",
+      "focus": "DSA",
+      "prereqWeeks": [
+        7
+      ],
+      "questions": [
+        {
+          "platform": "Codeforces",
+          "name": "A+B",
+          "url": "https://codeforces.com/problemset/problem/1772/A"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Watermelon",
+          "url": "https://codeforces.com/problemset/problem/4/A"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Petya and Strings",
+          "url": "https://codeforces.com/problemset/problem/112/A"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Beautiful Matrix",
+          "url": "https://codeforces.com/problemset/problem/263/A"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Domino piling",
+          "url": "https://codeforces.com/problemset/problem/50/A"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Solve Me First",
+          "url": "https://www.hackerrank.com/challenges/solve-me-first/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Simple Array Sum",
+          "url": "https://www.hackerrank.com/challenges/simple-array-sum/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Compare the Triplets",
+          "url": "https://www.hackerrank.com/challenges/compare-the-triplets/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "A Very Big Sum",
+          "url": "https://www.hackerrank.com/challenges/a-very-big-sum/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Diagonal Difference",
+          "url": "https://www.hackerrank.com/challenges/diagonal-difference/problem"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Fizz Buzz",
+          "url": "https://leetcode.com/problems/fizz-buzz/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Palindrome Number",
+          "url": "https://leetcode.com/problems/palindrome-number/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Reverse Integer",
+          "url": "https://leetcode.com/problems/reverse-integer/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Roman to Integer",
+          "url": "https://leetcode.com/problems/roman-to-integer/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Happy Number",
+          "url": "https://leetcode.com/problems/happy-number/"
+        }
+      ],
+      "problemTopic": "Complexity / Foundations",
+      "projects": [
+        {
+          "id": "p008",
+          "week": 8,
+          "title": "Hash Index Simulator",
+          "type": "Mini",
+          "stack": [
+            "Dart",
+            "DSA"
+          ],
+          "description": "Compare hash lookup and linear search.",
+          "outcome": "Convert Week 8 concepts into demonstrable engineering evidence."
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "month": 2,
+      "weekInMonth": 4,
+      "title": "Arrays & Strings",
+      "topics": "Traversal; search; insert/delete; reverse; min/max; frequency; palindrome; anagram",
+      "prereq": "Complexity",
+      "deliverable": "15–20 easy problems",
+      "phase": "Phase 1",
+      "focus": "DSA",
+      "prereqWeeks": [
+        8
+      ],
+      "questions": [
+        {
+          "platform": "Codeforces",
+          "name": "Watermelon",
+          "url": "https://codeforces.com/problemset/problem/4/A"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Way Too Long Words",
+          "url": "https://codeforces.com/problemset/problem/71/A"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Team",
+          "url": "https://codeforces.com/problemset/problem/231/A"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Next Round",
+          "url": "https://codeforces.com/problemset/problem/158/A"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Beautiful Matrix",
+          "url": "https://codeforces.com/problemset/problem/263/A"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Arrays - DS",
+          "url": "https://www.hackerrank.com/challenges/arrays-ds/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "2D Array - DS",
+          "url": "https://www.hackerrank.com/challenges/2d-array/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Left Rotation",
+          "url": "https://www.hackerrank.com/challenges/array-left-rotation/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Sparse Arrays",
+          "url": "https://www.hackerrank.com/challenges/sparse-arrays/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Dynamic Array",
+          "url": "https://www.hackerrank.com/challenges/dynamic-array/problem"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Two Sum",
+          "url": "https://leetcode.com/problems/two-sum/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Best Time to Buy and Sell Stock",
+          "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Contains Duplicate",
+          "url": "https://leetcode.com/problems/contains-duplicate/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Valid Anagram",
+          "url": "https://leetcode.com/problems/valid-anagram/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Valid Palindrome",
+          "url": "https://leetcode.com/problems/valid-palindrome/"
+        }
+      ],
+      "problemTopic": "Arrays & Strings",
+      "projects": [
+        {
+          "id": "p009",
+          "week": 9,
+          "title": "Sliding Window Visualizer",
+          "type": "Mini",
+          "stack": [
+            "Dart",
+            "DSA"
+          ],
+          "description": "Print active windows while solving subarray problems.",
+          "outcome": "Convert Week 9 concepts into demonstrable engineering evidence."
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "month": 2,
+      "weekInMonth": 5,
+      "title": "DSA Review I",
+      "topics": "Arrays; strings; hashing; complexity revision",
+      "prereq": "Arrays & Strings; Hashing",
+      "deliverable": "10 mixed timed problems",
+      "phase": "Phase 1",
+      "focus": "Review",
+      "prereqWeeks": [
+        9,
+        11
+      ],
+      "questions": [
+        {
+          "platform": "Codeforces",
+          "name": "Registration System",
+          "url": "https://codeforces.com/problemset/problem/4/C"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Distinct Split",
+          "url": "https://codeforces.com/problemset/problem/1791/C"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Helpful Maths",
+          "url": "https://codeforces.com/problemset/problem/339/A"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Letter",
+          "url": "https://codeforces.com/problemset/problem/43/A"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Books",
+          "url": "https://codeforces.com/problemset/problem/279/B"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Ice Cream Parlor",
+          "url": "https://www.hackerrank.com/challenges/ctci-ice-cream-parlor/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Count Triplets",
+          "url": "https://www.hackerrank.com/challenges/count-triplets-1/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Frequency Queries",
+          "url": "https://www.hackerrank.com/challenges/frequency-queries/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Two Strings",
+          "url": "https://www.hackerrank.com/challenges/two-strings/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Ransom Note",
+          "url": "https://www.hackerrank.com/challenges/ctci-ransom-note/problem"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Two Sum",
+          "url": "https://leetcode.com/problems/two-sum/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Group Anagrams",
+          "url": "https://leetcode.com/problems/group-anagrams/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Top K Frequent Elements",
+          "url": "https://leetcode.com/problems/top-k-frequent-elements/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Longest Consecutive Sequence",
+          "url": "https://leetcode.com/problems/longest-consecutive-sequence/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Subarray Sum Equals K",
+          "url": "https://leetcode.com/problems/subarray-sum-equals-k/"
+        }
+      ],
+      "problemTopic": "Hashing",
+      "projects": [
+        {
+          "id": "p010",
+          "week": 10,
+          "title": "Undo/Redo Engine",
+          "type": "Mini",
+          "stack": [
+            "Dart",
+            "Stack"
+          ],
+          "description": "Editor-style undo/redo with two stacks.",
+          "outcome": "Convert Week 10 concepts into demonstrable engineering evidence."
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "month": 3,
+      "weekInMonth": 1,
+      "title": "Hashing",
+      "topics": "HashMap; HashSet; frequency counting; lookup optimization; duplicate detection",
+      "prereq": "Arrays & Strings",
+      "deliverable": "15 hash-based problems",
+      "phase": "Phase 1",
+      "focus": "DSA",
+      "prereqWeeks": [
+        9
+      ],
+      "questions": [
+        {
+          "platform": "Codeforces",
+          "name": "Registration System",
+          "url": "https://codeforces.com/problemset/problem/4/C"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Distinct Split",
+          "url": "https://codeforces.com/problemset/problem/1791/C"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Helpful Maths",
+          "url": "https://codeforces.com/problemset/problem/339/A"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Letter",
+          "url": "https://codeforces.com/problemset/problem/43/A"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Books",
+          "url": "https://codeforces.com/problemset/problem/279/B"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Ice Cream Parlor",
+          "url": "https://www.hackerrank.com/challenges/ctci-ice-cream-parlor/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Count Triplets",
+          "url": "https://www.hackerrank.com/challenges/count-triplets-1/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Frequency Queries",
+          "url": "https://www.hackerrank.com/challenges/frequency-queries/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Two Strings",
+          "url": "https://www.hackerrank.com/challenges/two-strings/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Ransom Note",
+          "url": "https://www.hackerrank.com/challenges/ctci-ransom-note/problem"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Two Sum",
+          "url": "https://leetcode.com/problems/two-sum/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Group Anagrams",
+          "url": "https://leetcode.com/problems/group-anagrams/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Top K Frequent Elements",
+          "url": "https://leetcode.com/problems/top-k-frequent-elements/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Longest Consecutive Sequence",
+          "url": "https://leetcode.com/problems/longest-consecutive-sequence/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Subarray Sum Equals K",
+          "url": "https://leetcode.com/problems/subarray-sum-equals-k/"
+        }
+      ],
+      "problemTopic": "Hashing",
+      "projects": [
+        {
+          "id": "p011",
+          "week": 11,
+          "title": "Linked List Playground",
+          "type": "Mini",
+          "stack": [
+            "Dart",
+            "DSA"
+          ],
+          "description": "CRUD, reverse and cycle detection playground.",
+          "outcome": "Convert Week 11 concepts into demonstrable engineering evidence."
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "month": 3,
+      "weekInMonth": 2,
+      "title": "Two Pointers & Sliding Window",
+      "topics": "Opposite pointers; same-direction pointers; fixed window; variable window",
+      "prereq": "Hashing",
+      "deliverable": "15 mixed problems",
+      "phase": "Phase 1",
+      "focus": "DSA",
+      "prereqWeeks": [
+        11
+      ],
+      "questions": [
+        {
+          "platform": "Codeforces",
+          "name": "Books",
+          "url": "https://codeforces.com/problemset/problem/279/B"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Kuriyama Mirai's Stones",
+          "url": "https://codeforces.com/problemset/problem/433/B"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Number of Segments with Small Sum",
+          "url": "https://codeforces.com/problemset/problem/616/D"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Array Cloning Technique",
+          "url": "https://codeforces.com/problemset/problem/1665/B"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Yet Another Problem On a Subsequence",
+          "url": "https://codeforces.com/problemset/problem/1301/A"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Subarray Division",
+          "url": "https://www.hackerrank.com/challenges/the-birthday-bar/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Max Min",
+          "url": "https://www.hackerrank.com/challenges/angry-children/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Minimum Swaps 2",
+          "url": "https://www.hackerrank.com/challenges/minimum-swaps-2/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Special String Again",
+          "url": "https://www.hackerrank.com/challenges/special-palindrome-again/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Max Array Sum",
+          "url": "https://www.hackerrank.com/challenges/max-array-sum/problem"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Longest Substring Without Repeating Characters",
+          "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Longest Repeating Character Replacement",
+          "url": "https://leetcode.com/problems/longest-repeating-character-replacement/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Permutation in String",
+          "url": "https://leetcode.com/problems/permutation-in-string/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Minimum Size Subarray Sum",
+          "url": "https://leetcode.com/problems/minimum-size-subarray-sum/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Longest Subarray of 1s After Deleting One Element",
+          "url": "https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/"
+        }
+      ],
+      "problemTopic": "Two Pointers & Sliding Window",
+      "projects": []
+    },
+    {
+      "week": 13,
+      "month": 3,
+      "weekInMonth": 3,
+      "title": "Stack & Queue",
+      "topics": "LIFO; FIFO; deque; parentheses; monotonic stack; queue implementation",
+      "prereq": "Two Pointers & Sliding Window",
+      "deliverable": "10 stack/queue problems",
+      "phase": "Phase 1",
+      "focus": "DSA",
+      "prereqWeeks": [
+        12
+      ],
+      "questions": [
+        {
+          "platform": "Codeforces",
+          "name": "Queue at the School",
+          "url": "https://codeforces.com/problemset/problem/450/B"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Bracket Sequence practice",
+          "url": "https://codeforces.com/problemset?tags=brute+force"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Yet Another String Game",
+          "url": "https://codeforces.com/problemset/problem/1271/A"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Fox And Names",
+          "url": "https://codeforces.com/problemset/problem/510/C"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Ciel and Duel",
+          "url": "https://codeforces.com/problemset/problem/321/B"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Balanced Brackets",
+          "url": "https://www.hackerrank.com/challenges/balanced-brackets/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Queue using Two Stacks",
+          "url": "https://www.hackerrank.com/challenges/queue-using-two-stacks/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Largest Rectangle",
+          "url": "https://www.hackerrank.com/challenges/largest-rectangle/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Min Max Riddle",
+          "url": "https://www.hackerrank.com/challenges/min-max-riddle/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Castle on the Grid",
+          "url": "https://www.hackerrank.com/challenges/castle-on-the-grid/problem"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Valid Parentheses",
+          "url": "https://leetcode.com/problems/valid-parentheses/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Min Stack",
+          "url": "https://leetcode.com/problems/min-stack/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Evaluate Reverse Polish Notation",
+          "url": "https://leetcode.com/problems/evaluate-reverse-polish-notation/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Daily Temperatures",
+          "url": "https://leetcode.com/problems/daily-temperatures/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Implement Queue using Stacks",
+          "url": "https://leetcode.com/problems/implement-queue-using-stacks/"
+        }
+      ],
+      "problemTopic": "Stack & Queue",
+      "projects": [
+        {
+          "id": "p012",
+          "week": 13,
+          "title": "Flutter API Explorer",
+          "type": "Mini",
+          "stack": [
+            "Flutter",
+            "Dio"
+          ],
+          "description": "REST API with loading, error, empty and success states.",
+          "outcome": "Convert Week 13 concepts into demonstrable engineering evidence."
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "month": 3,
+      "weekInMonth": 4,
+      "title": "Linked List & Recursion",
+      "topics": "Nodes; insert/delete; reverse; fast/slow pointer; recursion; call stack; base cases",
+      "prereq": "Stack & Queue",
+      "deliverable": "10 linked-list + recursion problems",
+      "phase": "Phase 1",
+      "focus": "DSA",
+      "prereqWeeks": [
+        13
+      ],
+      "questions": [
+        {
+          "platform": "Codeforces",
+          "name": "Recursion practice",
+          "url": "https://codeforces.com/problemset?tags=dfs+and+similar"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Linked list tag practice",
+          "url": "https://codeforces.com/problemset?tags=linked+list"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Construct the String",
+          "url": "https://codeforces.com/problemset/problem/1335/A"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Sequence practice",
+          "url": "https://codeforces.com/problemset?tags=constructive+algorithms"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "DFS recursion practice",
+          "url": "https://codeforces.com/problemset?tags=dfs+and+similar"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Print in Reverse",
+          "url": "https://www.hackerrank.com/challenges/print-the-elements-of-a-linked-list-in-reverse/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Reverse a linked list",
+          "url": "https://www.hackerrank.com/challenges/reverse-a-linked-list/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Get Node Value",
+          "url": "https://www.hackerrank.com/challenges/get-the-value-of-the-node-at-a-specific-position-from-the-tail/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Compare two linked lists",
+          "url": "https://www.hackerrank.com/challenges/compare-two-linked-lists/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Recursive Digit Sum",
+          "url": "https://www.hackerrank.com/challenges/recursive-digit-sum/problem"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Reverse Linked List",
+          "url": "https://leetcode.com/problems/reverse-linked-list/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Merge Two Sorted Lists",
+          "url": "https://leetcode.com/problems/merge-two-sorted-lists/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Linked List Cycle",
+          "url": "https://leetcode.com/problems/linked-list-cycle/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Middle of the Linked List",
+          "url": "https://leetcode.com/problems/middle-of-the-linked-list/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Remove Nth Node From End",
+          "url": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/"
+        }
+      ],
+      "problemTopic": "Linked List & Recursion",
+      "projects": [
+        {
+          "id": "p013",
+          "week": 14,
+          "title": "Auth Flow Lab",
+          "type": "Mini",
+          "stack": [
+            "Flutter",
+            "Auth"
+          ],
+          "description": "Login/logout/refresh-token simulation.",
+          "outcome": "Convert Week 14 concepts into demonstrable engineering evidence."
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "month": 3,
+      "weekInMonth": 5,
+      "title": "DSA Review II",
+      "topics": "Two pointers; sliding window; stack; queue; linked list",
+      "prereq": "Linked List & Recursion",
+      "deliverable": "10 mixed timed problems",
+      "phase": "Phase 1",
+      "focus": "Review",
+      "prereqWeeks": [
+        14
+      ],
+      "questions": [
+        {
+          "platform": "Codeforces",
+          "name": "Books",
+          "url": "https://codeforces.com/problemset/problem/279/B"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Kuriyama Mirai's Stones",
+          "url": "https://codeforces.com/problemset/problem/433/B"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Number of Segments with Small Sum",
+          "url": "https://codeforces.com/problemset/problem/616/D"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Array Cloning Technique",
+          "url": "https://codeforces.com/problemset/problem/1665/B"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Yet Another Problem On a Subsequence",
+          "url": "https://codeforces.com/problemset/problem/1301/A"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Subarray Division",
+          "url": "https://www.hackerrank.com/challenges/the-birthday-bar/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Max Min",
+          "url": "https://www.hackerrank.com/challenges/angry-children/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Minimum Swaps 2",
+          "url": "https://www.hackerrank.com/challenges/minimum-swaps-2/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Special String Again",
+          "url": "https://www.hackerrank.com/challenges/special-palindrome-again/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Max Array Sum",
+          "url": "https://www.hackerrank.com/challenges/max-array-sum/problem"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Longest Substring Without Repeating Characters",
+          "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Longest Repeating Character Replacement",
+          "url": "https://leetcode.com/problems/longest-repeating-character-replacement/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Permutation in String",
+          "url": "https://leetcode.com/problems/permutation-in-string/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Minimum Size Subarray Sum",
+          "url": "https://leetcode.com/problems/minimum-size-subarray-sum/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Longest Subarray of 1s After Deleting One Element",
+          "url": "https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/"
+        }
+      ],
+      "problemTopic": "Two Pointers & Sliding Window",
+      "projects": [
+        {
+          "id": "p014",
+          "week": 15,
+          "title": "Offline Notes",
+          "type": "Mini",
+          "stack": [
+            "Flutter",
+            "Storage"
+          ],
+          "description": "Cached notes with offline read/write.",
+          "outcome": "Convert Week 15 concepts into demonstrable engineering evidence."
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "month": 4,
+      "weekInMonth": 1,
+      "title": "Flutter Rendering Model",
+      "topics": "Widget; Element; RenderObject; widget tree; element tree; render tree; build/layout/paint",
+      "prereq": "Dart Core",
+      "deliverable": "Explain rendering pipeline in notes",
+      "phase": "Phase 2",
+      "focus": "Flutter",
+      "prereqWeeks": [
+        1
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": [
+        {
+          "id": "p015",
+          "week": 16,
+          "title": "Flutter Testing Lab",
+          "type": "Mini",
+          "stack": [
+            "Flutter",
+            "Testing"
+          ],
+          "description": "Unit, widget and integration tests for one feature.",
+          "outcome": "Convert Week 16 concepts into demonstrable engineering evidence."
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "month": 4,
+      "weekInMonth": 2,
+      "title": "BuildContext & Lifecycle",
+      "topics": "BuildContext; StatefulWidget; State lifecycle; keys; inherited data",
+      "prereq": "Flutter Rendering Model",
+      "deliverable": "Lifecycle demo app",
+      "phase": "Phase 2",
+      "focus": "Flutter",
+      "prereqWeeks": [
+        16
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": [
+        {
+          "id": "p016",
+          "week": 17,
+          "title": "Flutter Performance Lab",
+          "type": "Mini",
+          "stack": [
+            "Flutter",
+            "DevTools"
+          ],
+          "description": "Create and fix rebuild/list/image performance problems.",
+          "outcome": "Convert Week 17 concepts into demonstrable engineering evidence."
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "month": 4,
+      "weekInMonth": 3,
+      "title": "State Management Internals",
+      "topics": "Provider; Bloc; GetX; rebuilds; state ownership; dependency injection comparison",
+      "prereq": "BuildContext & Lifecycle",
+      "deliverable": "Architecture comparison document",
+      "phase": "Phase 2",
+      "focus": "Flutter",
+      "prereqWeeks": [
+        17
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": [
+        {
+          "id": "p017",
+          "week": 18,
+          "title": "Notification Deep-Link Demo",
+          "type": "Mini",
+          "stack": [
+            "Flutter",
+            "FCM"
+          ],
+          "description": "Notifications that navigate into app content.",
+          "outcome": "Convert Week 18 concepts into demonstrable engineering evidence."
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "month": 4,
+      "weekInMonth": 4,
+      "title": "Async Flutter",
+      "topics": "Event loop; Future; Stream; isolates; compute; UI jank; async error handling",
+      "prereq": "Async Dart & Errors",
+      "deliverable": "Async-heavy Flutter demo",
+      "phase": "Phase 2",
+      "focus": "Flutter",
+      "prereqWeeks": [
+        6
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": []
+    },
+    {
+      "week": 20,
+      "month": 4,
+      "weekInMonth": 5,
+      "title": "Flutter Review",
+      "topics": "Rendering; lifecycle; state; async; performance",
+      "prereq": "Flutter Performance",
+      "deliverable": "Explain 10 Flutter concepts aloud",
+      "phase": "Phase 2",
+      "focus": "Review",
+      "prereqWeeks": [
+        26
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": [
+        {
+          "id": "p018",
+          "week": 20,
+          "title": "Feature-First Flutter Starter",
+          "type": "Architecture",
+          "stack": [
+            "Flutter",
+            "Bloc",
+            "Clean",
+            "Architecture"
+          ],
+          "description": "Reusable feature module with repository/use-case/DI.",
+          "outcome": "Convert Week 20 concepts into demonstrable engineering evidence."
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "month": 5,
+      "weekInMonth": 1,
+      "title": "Networking Foundations",
+      "topics": "HTTP; REST; Dio; interceptors; serialization; timeout; retry; error mapping",
+      "prereq": "Async Flutter",
+      "deliverable": "Reusable API client",
+      "phase": "Phase 2",
+      "focus": "Flutter",
+      "prereqWeeks": [
+        19
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": []
+    },
+    {
+      "week": 22,
+      "month": 5,
+      "weekInMonth": 2,
+      "title": "Authentication & Persistence",
+      "topics": "JWT; refresh token; secure storage; local cache; token lifecycle",
+      "prereq": "Networking Foundations",
+      "deliverable": "Auth module",
+      "phase": "Phase 2",
+      "focus": "Flutter",
+      "prereqWeeks": [
+        21
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": []
+    },
+    {
+      "week": 23,
+      "month": 5,
+      "weekInMonth": 3,
+      "title": "Pagination & Offline Data",
+      "topics": "Pagination; infinite scroll; caching; stale data; offline-first concepts",
+      "prereq": "Authentication & Persistence",
+      "deliverable": "Paginated offline-aware screen",
+      "phase": "Phase 2",
+      "focus": "Flutter",
+      "prereqWeeks": [
+        22
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": []
+    },
+    {
+      "week": 24,
+      "month": 5,
+      "weekInMonth": 4,
+      "title": "Flutter Testing",
+      "topics": "Unit; widget; integration; mocks; Arrange/Act/Assert; testable architecture",
+      "prereq": "State Management Internals",
+      "deliverable": "Test suite with 25+ tests",
+      "phase": "Phase 2",
+      "focus": "Testing",
+      "prereqWeeks": [
+        18
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": [
+        {
+          "id": "p019",
+          "week": 24,
+          "title": "Course App Capstone",
+          "type": "Major",
+          "stack": [
+            "Flutter",
+            "Bloc",
+            "Dio",
+            "Testing"
+          ],
+          "description": "Auth, courses, purchase simulation, profile, cache and tests.",
+          "outcome": "Convert Week 24 concepts into demonstrable engineering evidence."
+        }
+      ]
+    },
+    {
+      "week": 25,
+      "month": 5,
+      "weekInMonth": 5,
+      "title": "Testing Review",
+      "topics": "Unit; widget; integration; mocks; architecture",
+      "prereq": "Flutter Testing",
+      "deliverable": "Add tests to old project",
+      "phase": "Phase 2",
+      "focus": "Review",
+      "prereqWeeks": [
+        24
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": [
+        {
+          "id": "p020",
+          "week": 25,
+          "title": "JavaScript Expense API",
+          "type": "Mini",
+          "stack": [
+            "Node.js"
+          ],
+          "description": "CRUD API with validation and clean errors.",
+          "outcome": "Convert Week 25 concepts into demonstrable engineering evidence."
+        }
+      ]
+    },
+    {
+      "week": 26,
+      "month": 6,
+      "weekInMonth": 1,
+      "title": "Flutter Performance",
+      "topics": "const; rebuild profiling; ListView.builder; image optimization; memory; frame budget",
+      "prereq": "Flutter Rendering Model",
+      "deliverable": "Profile and optimize one screen",
+      "phase": "Phase 2",
+      "focus": "Flutter",
+      "prereqWeeks": [
+        16
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": []
+    },
+    {
+      "week": 27,
+      "month": 6,
+      "weekInMonth": 2,
+      "title": "Production Flutter",
+      "topics": "App lifecycle; deep links; push notifications; environment configs; logging; crash reporting",
+      "prereq": "Authentication & Persistence",
+      "deliverable": "Dev/staging/prod setup",
+      "phase": "Phase 2",
+      "focus": "Flutter",
+      "prereqWeeks": [
+        22
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": [
+        {
+          "id": "p021",
+          "week": 27,
+          "title": "Node Event Loop Lab",
+          "type": "Mini",
+          "stack": [
+            "Node.js"
+          ],
+          "description": "Experiments with timers, promises and microtasks.",
+          "outcome": "Convert Week 27 concepts into demonstrable engineering evidence."
+        }
+      ]
+    },
+    {
+      "week": 28,
+      "month": 6,
+      "weekInMonth": 3,
+      "title": "Advanced Dart",
+      "topics": "Generics; records; patterns; extensions; mixins; equality; hashCode; operator overloading",
+      "prereq": "OOP II & Async",
+      "deliverable": "Reusable Dart utilities package",
+      "phase": "Phase 2",
+      "focus": "Dart",
+      "prereqWeeks": [
+        4
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": [
+        {
+          "id": "p022",
+          "week": 28,
+          "title": "Express Blog API",
+          "type": "Mini",
+          "stack": [
+            "Express"
+          ],
+          "description": "Controllers, services, repositories and validation.",
+          "outcome": "Convert Week 28 concepts into demonstrable engineering evidence."
+        }
+      ]
+    },
+    {
+      "week": 29,
+      "month": 6,
+      "weekInMonth": 4,
+      "title": "Flutter Capstone I",
+      "topics": "Clean Architecture; feature modules; Bloc; repository; use cases; DI",
+      "prereq": "Testing; Production Flutter",
+      "deliverable": "Project architecture + auth flow",
+      "phase": "Phase 2",
+      "focus": "Project",
+      "prereqWeeks": [
+        27
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": [
+        {
+          "id": "p023",
+          "week": 29,
+          "title": "SQL Practice Database",
+          "type": "Mini",
+          "stack": [
+            "MySQL"
+          ],
+          "description": "E-commerce schema plus 50 query exercises.",
+          "outcome": "Convert Week 29 concepts into demonstrable engineering evidence."
+        }
+      ]
+    },
+    {
+      "week": 30,
+      "month": 6,
+      "weekInMonth": 5,
+      "title": "Flutter Capstone II",
+      "topics": "Pagination; caching; deep links; notifications; release prep",
+      "prereq": "Flutter Capstone I",
+      "deliverable": "Release candidate build",
+      "phase": "Phase 2",
+      "focus": "Project",
+      "prereqWeeks": [
+        29
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": []
+    },
+    {
+      "week": 31,
+      "month": 7,
+      "weekInMonth": 1,
+      "title": "JavaScript Core",
+      "topics": "Scope; let/const; objects; prototypes; classes; destructuring; spread/rest; modules",
+      "prereq": "Dart Core",
+      "deliverable": "JS fundamentals exercises",
+      "phase": "Phase 3",
+      "focus": "JavaScript",
+      "prereqWeeks": [
+        1
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": [
+        {
+          "id": "p024",
+          "week": 31,
+          "title": "Query Optimization Lab",
+          "type": "Mini",
+          "stack": [
+            "MySQL"
+          ],
+          "description": "EXPLAIN slow queries and add targeted indexes.",
+          "outcome": "Convert Week 31 concepts into demonstrable engineering evidence."
+        }
+      ]
+    },
+    {
+      "week": 32,
+      "month": 7,
+      "weekInMonth": 2,
+      "title": "JavaScript Async",
+      "topics": "Promises; async/await; event loop; microtasks; macrotasks; Promise.all; error handling",
+      "prereq": "JavaScript Core",
+      "deliverable": "Async JS experiments",
+      "phase": "Phase 3",
+      "focus": "JavaScript",
+      "prereqWeeks": [
+        31
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": [
+        {
+          "id": "p025",
+          "week": 32,
+          "title": "Transaction Checkout",
+          "type": "Mini",
+          "stack": [
+            "Node",
+            "MySQL"
+          ],
+          "description": "Atomic order checkout with rollback.",
+          "outcome": "Convert Week 32 concepts into demonstrable engineering evidence."
+        }
+      ]
+    },
+    {
+      "week": 33,
+      "month": 7,
+      "weekInMonth": 3,
+      "title": "Node.js Runtime",
+      "topics": "V8; Node runtime; process; modules; filesystem; streams; buffers; environment",
+      "prereq": "JavaScript Async",
+      "deliverable": "CLI/file-processing utility",
+      "phase": "Phase 3",
+      "focus": "Node.js",
+      "prereqWeeks": [
+        32
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": [
+        {
+          "id": "p026",
+          "week": 33,
+          "title": "Secure Auth Service",
+          "type": "Mini",
+          "stack": [
+            "Node",
+            "JWT"
+          ],
+          "description": "Access/refresh tokens, roles and validation.",
+          "outcome": "Convert Week 33 concepts into demonstrable engineering evidence."
+        }
+      ]
+    },
+    {
+      "week": 34,
+      "month": 7,
+      "weekInMonth": 4,
+      "title": "Express Architecture",
+      "topics": "Routing; middleware; controllers; services; repositories; validation; centralized errors",
+      "prereq": "Node.js Runtime",
+      "deliverable": "Layered REST API",
+      "phase": "Phase 3",
+      "focus": "Backend",
+      "prereqWeeks": [
+        33
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": [
+        {
+          "id": "p027",
+          "week": 34,
+          "title": "Redis Cache Layer",
+          "type": "Mini",
+          "stack": [
+            "Node",
+            "Redis"
+          ],
+          "description": "Cache-aside reads, TTL and invalidation.",
+          "outcome": "Convert Week 34 concepts into demonstrable engineering evidence."
+        }
+      ]
+    },
+    {
+      "week": 35,
+      "month": 7,
+      "weekInMonth": 5,
+      "title": "Node Review",
+      "topics": "Event loop; streams; middleware; architecture",
+      "prereq": "Express Architecture",
+      "deliverable": "Refactor backend",
+      "phase": "Phase 3",
+      "focus": "Review",
+      "prereqWeeks": [
+        34
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": [
+        {
+          "id": "p028",
+          "week": 35,
+          "title": "Realtime Chat Server",
+          "type": "Mini",
+          "stack": [
+            "Node",
+            "Socket.IO"
+          ],
+          "description": "Rooms, presence and one-to-one messaging.",
+          "outcome": "Convert Week 35 concepts into demonstrable engineering evidence."
+        }
+      ]
+    },
+    {
+      "week": 36,
+      "month": 8,
+      "weekInMonth": 1,
+      "title": "SQL Core",
+      "topics": "SELECT; WHERE; ORDER BY; GROUP BY; HAVING; JOIN; subqueries; CTE",
+      "prereq": "Express Architecture",
+      "deliverable": "50 SQL queries",
+      "phase": "Phase 3",
+      "focus": "SQL",
+      "prereqWeeks": [
+        34
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": [
+        {
+          "id": "p029",
+          "week": 36,
+          "title": "Job Queue Worker",
+          "type": "Mini",
+          "stack": [
+            "Node",
+            "Redis"
+          ],
+          "description": "Async jobs, retries and worker processing.",
+          "outcome": "Convert Week 36 concepts into demonstrable engineering evidence."
+        }
+      ]
+    },
+    {
+      "week": 37,
+      "month": 8,
+      "weekInMonth": 2,
+      "title": "Database Design",
+      "topics": "Entities; relationships; keys; normalization; 1NF; 2NF; 3NF; denormalization",
+      "prereq": "SQL Core",
+      "deliverable": "ERD for capstone",
+      "phase": "Phase 3",
+      "focus": "Database",
+      "prereqWeeks": [
+        36
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": []
+    },
+    {
+      "week": 38,
+      "month": 8,
+      "weekInMonth": 3,
+      "title": "Indexes & Query Plans",
+      "topics": "B-tree; composite indexes; unique indexes; covering index; EXPLAIN; trade-offs",
+      "prereq": "Database Design",
+      "deliverable": "Optimize 10 slow queries",
+      "phase": "Phase 3",
+      "focus": "Database",
+      "prereqWeeks": [
+        37
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": [
+        {
+          "id": "p030",
+          "week": 38,
+          "title": "Backend Capstone",
+          "type": "Major",
+          "stack": [
+            "Node",
+            "Express",
+            "MySQL",
+            "Redis",
+            "Socket.IO"
+          ],
+          "description": "Auth, SQL, cache, realtime and background jobs.",
+          "outcome": "Convert Week 38 concepts into demonstrable engineering evidence."
+        }
+      ]
+    },
+    {
+      "week": 39,
+      "month": 8,
+      "weekInMonth": 4,
+      "title": "Transactions",
+      "topics": "ACID; commit; rollback; isolation; dirty read; non-repeatable read; phantom read; locks; deadlocks",
+      "prereq": "Indexes & Query Plans",
+      "deliverable": "Transaction demo",
+      "phase": "Phase 3",
+      "focus": "Database",
+      "prereqWeeks": [
+        38
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": []
+    },
+    {
+      "week": 40,
+      "month": 8,
+      "weekInMonth": 5,
+      "title": "Database Review",
+      "topics": "SQL; indexes; transactions; normalization",
+      "prereq": "Transactions",
+      "deliverable": "50 mixed SQL questions",
+      "phase": "Phase 3",
+      "focus": "Review",
+      "prereqWeeks": [
+        39
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": []
+    },
+    {
+      "week": 41,
+      "month": 9,
+      "weekInMonth": 1,
+      "title": "Auth & Security Basics",
+      "topics": "Password hashing; JWT; access/refresh tokens; RBAC; validation; OWASP basics",
+      "prereq": "Express Architecture",
+      "deliverable": "Secure auth module",
+      "phase": "Phase 3",
+      "focus": "Backend",
+      "prereqWeeks": [
+        34
+      ],
+      "questions": [
+        {
+          "platform": "Codeforces",
+          "name": "Registration System",
+          "url": "https://codeforces.com/problemset/problem/4/C"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Distinct Split",
+          "url": "https://codeforces.com/problemset/problem/1791/C"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Helpful Maths",
+          "url": "https://codeforces.com/problemset/problem/339/A"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Letter",
+          "url": "https://codeforces.com/problemset/problem/43/A"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Books",
+          "url": "https://codeforces.com/problemset/problem/279/B"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Ice Cream Parlor",
+          "url": "https://www.hackerrank.com/challenges/ctci-ice-cream-parlor/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Count Triplets",
+          "url": "https://www.hackerrank.com/challenges/count-triplets-1/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Frequency Queries",
+          "url": "https://www.hackerrank.com/challenges/frequency-queries/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Two Strings",
+          "url": "https://www.hackerrank.com/challenges/two-strings/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Ransom Note",
+          "url": "https://www.hackerrank.com/challenges/ctci-ransom-note/problem"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Two Sum",
+          "url": "https://leetcode.com/problems/two-sum/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Group Anagrams",
+          "url": "https://leetcode.com/problems/group-anagrams/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Top K Frequent Elements",
+          "url": "https://leetcode.com/problems/top-k-frequent-elements/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Longest Consecutive Sequence",
+          "url": "https://leetcode.com/problems/longest-consecutive-sequence/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Subarray Sum Equals K",
+          "url": "https://leetcode.com/problems/subarray-sum-equals-k/"
+        }
+      ],
+      "problemTopic": "Hashing",
+      "projects": [
+        {
+          "id": "p031",
+          "week": 41,
+          "title": "Kotlin Habit Tracker",
+          "type": "Mini",
+          "stack": [
+            "Kotlin"
+          ],
+          "description": "Native CRUD app with idiomatic Kotlin.",
+          "outcome": "Convert Week 41 concepts into demonstrable engineering evidence."
+        }
+      ]
+    },
+    {
+      "week": 42,
+      "month": 9,
+      "weekInMonth": 2,
+      "title": "Redis & Caching",
+      "topics": "Redis data types; caching; TTL; invalidation; rate limiting",
+      "prereq": "Transactions",
+      "deliverable": "Cache layer",
+      "phase": "Phase 3",
+      "focus": "Backend",
+      "prereqWeeks": [
+        39
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": []
+    },
+    {
+      "week": 43,
+      "month": 9,
+      "weekInMonth": 3,
+      "title": "Realtime & Queues",
+      "topics": "WebSocket; Socket.IO; connection lifecycle; background jobs; queues",
+      "prereq": "Redis & Caching",
+      "deliverable": "Realtime chat + job worker",
+      "phase": "Phase 3",
+      "focus": "Backend",
+      "prereqWeeks": [
+        42
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": [
+        {
+          "id": "p032",
+          "week": 43,
+          "title": "Coroutine Downloader",
+          "type": "Mini",
+          "stack": [
+            "Kotlin",
+            "Coroutines"
+          ],
+          "description": "Concurrent downloads with cancellation.",
+          "outcome": "Convert Week 43 concepts into demonstrable engineering evidence."
+        }
+      ]
+    },
+    {
+      "week": 44,
+      "month": 9,
+      "weekInMonth": 4,
+      "title": "Backend Capstone",
+      "topics": "Node; MySQL; Redis; auth; REST; WebSocket; tests; logging",
+      "prereq": "Auth & Security Basics; Realtime & Queues",
+      "deliverable": "Production-style backend",
+      "phase": "Phase 3",
+      "focus": "Project",
+      "prereqWeeks": [
+        41,
+        43
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": [
+        {
+          "id": "p033",
+          "week": 44,
+          "title": "Compose Profile App",
+          "type": "Mini",
+          "stack": [
+            "Kotlin",
+            "Compose"
+          ],
+          "description": "State, navigation and Material UI.",
+          "outcome": "Convert Week 44 concepts into demonstrable engineering evidence."
+        }
+      ]
+    },
+    {
+      "week": 45,
+      "month": 10,
+      "weekInMonth": 1,
+      "title": "Kotlin Core",
+      "topics": "Variables; nullable types; functions; lambdas; collections; data classes; enum; sealed class",
+      "prereq": "Dart OOP II",
+      "deliverable": "Kotlin exercises",
+      "phase": "Phase 4",
+      "focus": "Android",
+      "prereqWeeks": [],
+      "questions": [],
+      "problemTopic": null,
+      "projects": []
+    },
+    {
+      "week": 46,
+      "month": 10,
+      "weekInMonth": 2,
+      "title": "Kotlin Advanced",
+      "topics": "Generics; scope functions; extensions; object; companion object; higher-order functions",
+      "prereq": "Kotlin Core",
+      "deliverable": "Kotlin utility project",
+      "phase": "Phase 4",
+      "focus": "Android",
+      "prereqWeeks": [
+        45
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": [
+        {
+          "id": "p034",
+          "week": 46,
+          "title": "Compose Expense Tracker",
+          "type": "Mini",
+          "stack": [
+            "Compose",
+            "ViewModel"
+          ],
+          "description": "UDF + ViewModel state-driven app.",
+          "outcome": "Convert Week 46 concepts into demonstrable engineering evidence."
+        }
+      ]
+    },
+    {
+      "week": 47,
+      "month": 10,
+      "weekInMonth": 3,
+      "title": "Coroutines & Flow",
+      "topics": "suspend; CoroutineScope; Dispatchers; structured concurrency; Flow; StateFlow; SharedFlow",
+      "prereq": "Kotlin Advanced",
+      "deliverable": "Coroutine/Flow demo",
+      "phase": "Phase 4",
+      "focus": "Android",
+      "prereqWeeks": [
+        46
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": [
+        {
+          "id": "p035",
+          "week": 47,
+          "title": "Room Notes",
+          "type": "Mini",
+          "stack": [
+            "Room",
+            "Compose"
+          ],
+          "description": "Offline notes with DAO and reactive state.",
+          "outcome": "Convert Week 47 concepts into demonstrable engineering evidence."
+        }
+      ]
+    },
+    {
+      "week": 48,
+      "month": 10,
+      "weekInMonth": 4,
+      "title": "Android Fundamentals",
+      "topics": "Activity; lifecycle; Intent; Context; resources; permissions; configuration changes",
+      "prereq": "Coroutines & Flow",
+      "deliverable": "Multi-screen Android app",
+      "phase": "Phase 4",
+      "focus": "Android",
+      "prereqWeeks": [
+        47
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": [
+        {
+          "id": "p036",
+          "week": 48,
+          "title": "Retrofit API Client",
+          "type": "Mini",
+          "stack": [
+            "Retrofit",
+            "OkHttp"
+          ],
+          "description": "Interceptors, serialization and error mapping.",
+          "outcome": "Convert Week 48 concepts into demonstrable engineering evidence."
+        }
+      ]
+    },
+    {
+      "week": 49,
+      "month": 11,
+      "weekInMonth": 1,
+      "title": "Jetpack Compose I",
+      "topics": "Composable; state; remember; rememberSaveable; recomposition; modifiers",
+      "prereq": "Android Fundamentals",
+      "deliverable": "Compose UI screens",
+      "phase": "Phase 4",
+      "focus": "Android",
+      "prereqWeeks": [
+        48
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": [
+        {
+          "id": "p037",
+          "week": 49,
+          "title": "Hilt Clean App",
+          "type": "Architecture",
+          "stack": [
+            "Hilt",
+            "Clean",
+            "Architecture"
+          ],
+          "description": "Refactor into data/domain/presentation.",
+          "outcome": "Convert Week 49 concepts into demonstrable engineering evidence."
+        }
+      ]
+    },
+    {
+      "week": 50,
+      "month": 11,
+      "weekInMonth": 2,
+      "title": "Compose II",
+      "topics": "State hoisting; LazyColumn; navigation; Material; UI architecture",
+      "prereq": "Jetpack Compose I",
+      "deliverable": "Navigation flow",
+      "phase": "Phase 4",
+      "focus": "Android",
+      "prereqWeeks": [
+        49
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": []
+    },
+    {
+      "week": 51,
+      "month": 11,
+      "weekInMonth": 3,
+      "title": "ViewModel & UI State",
+      "topics": "ViewModel; StateFlow; UI state; events; UDF",
+      "prereq": "Compose II",
+      "deliverable": "MVVM screen",
+      "phase": "Phase 4",
+      "focus": "Android",
+      "prereqWeeks": [
+        50
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": []
+    },
+    {
+      "week": 52,
+      "month": 11,
+      "weekInMonth": 4,
+      "title": "Room",
+      "topics": "Entity; DAO; Database; queries; migrations; relationships",
+      "prereq": "ViewModel & UI State",
+      "deliverable": "Offline Room feature",
+      "phase": "Phase 4",
+      "focus": "Android",
+      "prereqWeeks": [
+        51
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": [
+        {
+          "id": "p038",
+          "week": 52,
+          "title": "Native Android Capstone",
+          "type": "Major",
+          "stack": [
+            "Kotlin",
+            "Compose",
+            "Room",
+            "Retrofit",
+            "Hilt"
+          ],
+          "description": "Complete native app with offline data and API.",
+          "outcome": "Convert Week 52 concepts into demonstrable engineering evidence."
+        }
+      ]
+    },
+    {
+      "week": 53,
+      "month": 12,
+      "weekInMonth": 1,
+      "title": "Retrofit & OkHttp",
+      "topics": "Retrofit; OkHttp; interceptors; serialization; API errors",
+      "prereq": "Room",
+      "deliverable": "Remote data module",
+      "phase": "Phase 4",
+      "focus": "Android",
+      "prereqWeeks": [
+        52
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": []
+    },
+    {
+      "week": 54,
+      "month": 12,
+      "weekInMonth": 2,
+      "title": "Hilt & Clean Architecture",
+      "topics": "DI; Hilt; modules; repository; use case; clean layers",
+      "prereq": "Retrofit & OkHttp",
+      "deliverable": "Clean architecture setup",
+      "phase": "Phase 4",
+      "focus": "Android",
+      "prereqWeeks": [
+        53
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": []
+    },
+    {
+      "week": 55,
+      "month": 12,
+      "weekInMonth": 3,
+      "title": "Android Production",
+      "topics": "WorkManager; DataStore; notifications; deep links; background work",
+      "prereq": "Hilt & Clean Architecture",
+      "deliverable": "Production features",
+      "phase": "Phase 4",
+      "focus": "Android",
+      "prereqWeeks": [
+        54
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": []
+    },
+    {
+      "week": 56,
+      "month": 12,
+      "weekInMonth": 4,
+      "title": "Android Capstone",
+      "topics": "Compose; ViewModel; Room; Retrofit; Hilt; Clean Architecture",
+      "prereq": "Android Production",
+      "deliverable": "Complete Android app",
+      "phase": "Phase 4",
+      "focus": "Project",
+      "prereqWeeks": [
+        55
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": []
+    },
+    {
+      "week": 57,
+      "month": 13,
+      "weekInMonth": 1,
+      "title": "Internet Fundamentals",
+      "topics": "Client/server; IP; MAC; DNS; DHCP; router; ports",
+      "prereq": "Backend Capstone",
+      "deliverable": "Network request flow notes",
+      "phase": "Phase 5",
+      "focus": "Networking",
+      "prereqWeeks": [
+        44
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": []
+    },
+    {
+      "week": 58,
+      "month": 13,
+      "weekInMonth": 2,
+      "title": "TCP & UDP",
+      "topics": "TCP; UDP; handshake; reliability; flow control; packets",
+      "prereq": "Internet Fundamentals",
+      "deliverable": "TCP/UDP comparison lab",
+      "phase": "Phase 5",
+      "focus": "Networking",
+      "prereqWeeks": [
+        57
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": []
+    },
+    {
+      "week": 59,
+      "month": 13,
+      "weekInMonth": 3,
+      "title": "HTTP Deep Dive",
+      "topics": "Methods; headers; status codes; cookies; sessions; REST; HTTP/1.1",
+      "prereq": "TCP & UDP",
+      "deliverable": "HTTP lifecycle document",
+      "phase": "Phase 5",
+      "focus": "Networking",
+      "prereqWeeks": [
+        58
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": []
+    },
+    {
+      "week": 60,
+      "month": 13,
+      "weekInMonth": 4,
+      "title": "HTTPS & Modern Web",
+      "topics": "TLS; certificates; encryption; HTTP/2; HTTP/3; CDN; reverse proxy",
+      "prereq": "HTTP Deep Dive",
+      "deliverable": "HTTPS request analysis",
+      "phase": "Phase 5",
+      "focus": "Networking",
+      "prereqWeeks": [
+        59
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": []
+    },
+    {
+      "week": 61,
+      "month": 14,
+      "weekInMonth": 1,
+      "title": "OS Fundamentals",
+      "topics": "Kernel; processes; threads; context switching; system calls",
+      "prereq": "Dart Async; Kotlin Coroutines",
+      "deliverable": "OS notes",
+      "phase": "Phase 5",
+      "focus": "OS",
+      "prereqWeeks": [],
+      "questions": [],
+      "problemTopic": null,
+      "projects": [
+        {
+          "id": "p039",
+          "week": 61,
+          "title": "Graph Explorer",
+          "type": "DSA Project",
+          "stack": [
+            "Dart",
+            "Graphs"
+          ],
+          "description": "BFS, DFS and connected-component explorer.",
+          "outcome": "Convert Week 61 concepts into demonstrable engineering evidence."
+        }
+      ]
+    },
+    {
+      "week": 62,
+      "month": 14,
+      "weekInMonth": 2,
+      "title": "Memory",
+      "topics": "Stack; heap; virtual memory; paging; allocation; garbage collection",
+      "prereq": "OS Fundamentals",
+      "deliverable": "Memory model notes",
+      "phase": "Phase 5",
+      "focus": "OS",
+      "prereqWeeks": [
+        61
+      ],
+      "questions": [
+        {
+          "platform": "Codeforces",
+          "name": "Data structure practice",
+          "url": "https://codeforces.com/problemset?tags=data+structures"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Heap practice",
+          "url": "https://codeforces.com/problemset?tags=data+structures"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Priority queue practice",
+          "url": "https://codeforces.com/problemset?tags=data+structures"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Tree practice",
+          "url": "https://codeforces.com/problemset?tags=trees"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Segment/data structures practice",
+          "url": "https://codeforces.com/problemset?tags=data+structures"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "QHEAP1",
+          "url": "https://www.hackerrank.com/challenges/qheap1/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Jesse and Cookies",
+          "url": "https://www.hackerrank.com/challenges/jesse-and-cookies/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "BST Lowest Common Ancestor",
+          "url": "https://www.hackerrank.com/challenges/binary-search-tree-lowest-common-ancestor/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "BST Insertion",
+          "url": "https://www.hackerrank.com/challenges/binary-search-tree-insertion/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Is This a BST",
+          "url": "https://www.hackerrank.com/challenges/is-binary-search-tree/problem"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Kth Largest Element",
+          "url": "https://leetcode.com/problems/kth-largest-element-in-an-array/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Top K Frequent Elements",
+          "url": "https://leetcode.com/problems/top-k-frequent-elements/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Kth Smallest Element in a BST",
+          "url": "https://leetcode.com/problems/kth-smallest-element-in-a-bst/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Validate BST",
+          "url": "https://leetcode.com/problems/validate-binary-search-tree/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Lowest Common Ancestor of BST",
+          "url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/"
+        }
+      ],
+      "problemTopic": "BST & Heap",
+      "projects": []
+    },
+    {
+      "week": 63,
+      "month": 14,
+      "weekInMonth": 3,
+      "title": "Concurrency",
+      "topics": "Race conditions; mutex; semaphore; deadlock; synchronization",
+      "prereq": "Memory",
+      "deliverable": "Concurrency demos",
+      "phase": "Phase 5",
+      "focus": "OS",
+      "prereqWeeks": [
+        62
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": []
+    },
+    {
+      "week": 64,
+      "month": 14,
+      "weekInMonth": 4,
+      "title": "Scheduling & Linux",
+      "topics": "CPU scheduling; I/O; filesystems; Linux process basics",
+      "prereq": "Concurrency",
+      "deliverable": "Linux command lab",
+      "phase": "Phase 5",
+      "focus": "OS/Linux",
+      "prereqWeeks": [
+        63
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": [
+        {
+          "id": "p040",
+          "week": 64,
+          "title": "Shortest Path Simulator",
+          "type": "DSA Project",
+          "stack": [
+            "Dart",
+            "Graphs"
+          ],
+          "description": "Weighted graph simulator with Dijkstra.",
+          "outcome": "Convert Week 64 concepts into demonstrable engineering evidence."
+        }
+      ]
+    },
+    {
+      "week": 65,
+      "month": 15,
+      "weekInMonth": 1,
+      "title": "Trees",
+      "topics": "Binary tree; traversal; DFS; BFS; preorder; inorder; postorder",
+      "prereq": "Linked List & Recursion",
+      "deliverable": "15 tree problems",
+      "phase": "Phase 5",
+      "focus": "DSA",
+      "prereqWeeks": [
+        14
+      ],
+      "questions": [
+        {
+          "platform": "Codeforces",
+          "name": "Tree tag practice",
+          "url": "https://codeforces.com/problemset?tags=trees"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "DFS tree practice",
+          "url": "https://codeforces.com/problemset?tags=dfs+and+similar"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Subtree practice",
+          "url": "https://codeforces.com/problemset?tags=trees"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Tree queries",
+          "url": "https://codeforces.com/problemset?tags=trees"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Binary tree practice",
+          "url": "https://codeforces.com/problemset?tags=trees"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Tree Preorder",
+          "url": "https://www.hackerrank.com/challenges/tree-preorder-traversal/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Tree Inorder",
+          "url": "https://www.hackerrank.com/challenges/tree-inorder-traversal/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Tree Postorder",
+          "url": "https://www.hackerrank.com/challenges/tree-postorder-traversal/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Tree Height",
+          "url": "https://www.hackerrank.com/challenges/tree-height-of-a-binary-tree/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "BST Lowest Common Ancestor",
+          "url": "https://www.hackerrank.com/challenges/binary-search-tree-lowest-common-ancestor/problem"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Binary Tree Preorder Traversal",
+          "url": "https://leetcode.com/problems/binary-tree-preorder-traversal/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Maximum Depth of Binary Tree",
+          "url": "https://leetcode.com/problems/maximum-depth-of-binary-tree/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Invert Binary Tree",
+          "url": "https://leetcode.com/problems/invert-binary-tree/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Diameter of Binary Tree",
+          "url": "https://leetcode.com/problems/diameter-of-binary-tree/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Binary Tree Level Order Traversal",
+          "url": "https://leetcode.com/problems/binary-tree-level-order-traversal/"
+        }
+      ],
+      "problemTopic": "Trees",
+      "projects": []
+    },
+    {
+      "week": 66,
+      "month": 15,
+      "weekInMonth": 2,
+      "title": "BST & Heap",
+      "topics": "BST search/insert/delete; min/max heap; priority queue",
+      "prereq": "Trees",
+      "deliverable": "15 BST/heap problems",
+      "phase": "Phase 5",
+      "focus": "DSA",
+      "prereqWeeks": [
+        65
+      ],
+      "questions": [
+        {
+          "platform": "Codeforces",
+          "name": "Data structure practice",
+          "url": "https://codeforces.com/problemset?tags=data+structures"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Heap practice",
+          "url": "https://codeforces.com/problemset?tags=data+structures"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Priority queue practice",
+          "url": "https://codeforces.com/problemset?tags=data+structures"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Tree practice",
+          "url": "https://codeforces.com/problemset?tags=trees"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Segment/data structures practice",
+          "url": "https://codeforces.com/problemset?tags=data+structures"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "QHEAP1",
+          "url": "https://www.hackerrank.com/challenges/qheap1/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Jesse and Cookies",
+          "url": "https://www.hackerrank.com/challenges/jesse-and-cookies/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "BST Lowest Common Ancestor",
+          "url": "https://www.hackerrank.com/challenges/binary-search-tree-lowest-common-ancestor/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "BST Insertion",
+          "url": "https://www.hackerrank.com/challenges/binary-search-tree-insertion/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Is This a BST",
+          "url": "https://www.hackerrank.com/challenges/is-binary-search-tree/problem"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Kth Largest Element",
+          "url": "https://leetcode.com/problems/kth-largest-element-in-an-array/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Top K Frequent Elements",
+          "url": "https://leetcode.com/problems/top-k-frequent-elements/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Kth Smallest Element in a BST",
+          "url": "https://leetcode.com/problems/kth-smallest-element-in-a-bst/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Validate BST",
+          "url": "https://leetcode.com/problems/validate-binary-search-tree/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Lowest Common Ancestor of BST",
+          "url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/"
+        }
+      ],
+      "problemTopic": "BST & Heap",
+      "projects": []
+    },
+    {
+      "week": 67,
+      "month": 15,
+      "weekInMonth": 3,
+      "title": "Graphs",
+      "topics": "Graph representation; BFS; DFS; connected components",
+      "prereq": "Trees",
+      "deliverable": "15 graph problems",
+      "phase": "Phase 5",
+      "focus": "DSA",
+      "prereqWeeks": [
+        65
+      ],
+      "questions": [
+        {
+          "platform": "Codeforces",
+          "name": "Graph tag practice",
+          "url": "https://codeforces.com/problemset?tags=graphs"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "DFS graph practice",
+          "url": "https://codeforces.com/problemset?tags=dfs+and+similar"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "BFS graph practice",
+          "url": "https://codeforces.com/problemset?tags=graphs"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Connected components practice",
+          "url": "https://codeforces.com/problemset?tags=dfs+and+similar"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Graph traversal practice",
+          "url": "https://codeforces.com/problemset?tags=graphs"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "BFS Shortest Reach",
+          "url": "https://www.hackerrank.com/challenges/bfsshortreach/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Roads and Libraries",
+          "url": "https://www.hackerrank.com/challenges/torque-and-development/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Journey to the Moon",
+          "url": "https://www.hackerrank.com/challenges/journey-to-the-moon/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Components in Graph",
+          "url": "https://www.hackerrank.com/challenges/components-in-graph/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Snakes and Ladders",
+          "url": "https://www.hackerrank.com/challenges/the-quickest-way-up/problem"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Number of Islands",
+          "url": "https://leetcode.com/problems/number-of-islands/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Clone Graph",
+          "url": "https://leetcode.com/problems/clone-graph/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Course Schedule",
+          "url": "https://leetcode.com/problems/course-schedule/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Rotting Oranges",
+          "url": "https://leetcode.com/problems/rotting-oranges/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Pacific Atlantic Water Flow",
+          "url": "https://leetcode.com/problems/pacific-atlantic-water-flow/"
+        }
+      ],
+      "problemTopic": "Graphs",
+      "projects": []
+    },
+    {
+      "week": 68,
+      "month": 15,
+      "weekInMonth": 4,
+      "title": "Shortest Path & Topological Sort",
+      "topics": "Dijkstra; topological sorting; DAG; dependency graphs",
+      "prereq": "Graphs",
+      "deliverable": "10 graph problems",
+      "phase": "Phase 5",
+      "focus": "DSA",
+      "prereqWeeks": [
+        67
+      ],
+      "questions": [
+        {
+          "platform": "Codeforces",
+          "name": "Shortest path tag practice",
+          "url": "https://codeforces.com/problemset?tags=shortest+paths"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Dijkstra practice",
+          "url": "https://codeforces.com/problemset?tags=shortest+paths"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Graph shortest path",
+          "url": "https://codeforces.com/problemset?tags=shortest+paths"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Graph tag",
+          "url": "https://codeforces.com/problemset?tags=graphs"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Weighted graph practice",
+          "url": "https://codeforces.com/problemset?tags=shortest+paths"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Dijkstra Shortest Reach 2",
+          "url": "https://www.hackerrank.com/challenges/dijkstrashortreach/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Kruskal MST",
+          "url": "https://www.hackerrank.com/challenges/kruskalmstrsub/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Prim MST",
+          "url": "https://www.hackerrank.com/challenges/prims-mst-special-subtree/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Even Tree",
+          "url": "https://www.hackerrank.com/challenges/even-tree/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Nearest Clone",
+          "url": "https://www.hackerrank.com/challenges/find-the-nearest-clone/problem"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Network Delay Time",
+          "url": "https://leetcode.com/problems/network-delay-time/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Cheapest Flights",
+          "url": "https://leetcode.com/problems/cheapest-flights-within-k-stops/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Course Schedule II",
+          "url": "https://leetcode.com/problems/course-schedule-ii/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Min Cost Connect Points",
+          "url": "https://leetcode.com/problems/min-cost-to-connect-all-points/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Reconstruct Itinerary",
+          "url": "https://leetcode.com/problems/reconstruct-itinerary/"
+        }
+      ],
+      "problemTopic": "Shortest Path & Topological Sort",
+      "projects": [
+        {
+          "id": "p041",
+          "week": 68,
+          "title": "DP Pattern Notebook",
+          "type": "DSA Project",
+          "stack": [
+            "Dart",
+            "DP"
+          ],
+          "description": "Classic DP implementations with state/transition notes.",
+          "outcome": "Convert Week 68 concepts into demonstrable engineering evidence."
+        }
+      ]
+    },
+    {
+      "week": 69,
+      "month": 16,
+      "weekInMonth": 1,
+      "title": "Greedy & Intervals",
+      "topics": "Greedy choice; intervals; scheduling; heap-based greedy",
+      "prereq": "Sorting; Heap",
+      "deliverable": "15 problems",
+      "phase": "Phase 6",
+      "focus": "DSA",
+      "prereqWeeks": [],
+      "questions": [
+        {
+          "platform": "Codeforces",
+          "name": "Greedy practice 1",
+          "url": "https://codeforces.com/problemset?tags=greedy"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Greedy practice 2",
+          "url": "https://codeforces.com/problemset?tags=greedy"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Greedy practice 3",
+          "url": "https://codeforces.com/problemset?tags=greedy"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Greedy practice 4",
+          "url": "https://codeforces.com/problemset?tags=greedy"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Greedy practice 5",
+          "url": "https://codeforces.com/problemset?tags=greedy"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Greedy Florist",
+          "url": "https://www.hackerrank.com/challenges/greedy-florist/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Max Min",
+          "url": "https://www.hackerrank.com/challenges/angry-children/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Luck Balance",
+          "url": "https://www.hackerrank.com/challenges/luck-balance/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Minimum Absolute Difference",
+          "url": "https://www.hackerrank.com/challenges/minimum-absolute-difference-in-an-array/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Reverse Shuffle Merge",
+          "url": "https://www.hackerrank.com/challenges/reverse-shuffle-merge/problem"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Jump Game",
+          "url": "https://leetcode.com/problems/jump-game/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Merge Intervals",
+          "url": "https://leetcode.com/problems/merge-intervals/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Insert Interval",
+          "url": "https://leetcode.com/problems/insert-interval/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Non-overlapping Intervals",
+          "url": "https://leetcode.com/problems/non-overlapping-intervals/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Partition Labels",
+          "url": "https://leetcode.com/problems/partition-labels/"
+        }
+      ],
+      "problemTopic": "Greedy & Intervals",
+      "projects": []
+    },
+    {
+      "week": 70,
+      "month": 16,
+      "weekInMonth": 2,
+      "title": "Backtracking",
+      "topics": "Subsets; permutations; combinations; recursion trees",
+      "prereq": "Recursion",
+      "deliverable": "15 problems",
+      "phase": "Phase 6",
+      "focus": "DSA",
+      "prereqWeeks": [],
+      "questions": [
+        {
+          "platform": "Codeforces",
+          "name": "Recursion practice",
+          "url": "https://codeforces.com/problemset?tags=dfs+and+similar"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Linked list tag practice",
+          "url": "https://codeforces.com/problemset?tags=linked+list"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Construct the String",
+          "url": "https://codeforces.com/problemset/problem/1335/A"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Sequence practice",
+          "url": "https://codeforces.com/problemset?tags=constructive+algorithms"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "DFS recursion practice",
+          "url": "https://codeforces.com/problemset?tags=dfs+and+similar"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Print in Reverse",
+          "url": "https://www.hackerrank.com/challenges/print-the-elements-of-a-linked-list-in-reverse/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Reverse a linked list",
+          "url": "https://www.hackerrank.com/challenges/reverse-a-linked-list/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Get Node Value",
+          "url": "https://www.hackerrank.com/challenges/get-the-value-of-the-node-at-a-specific-position-from-the-tail/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Compare two linked lists",
+          "url": "https://www.hackerrank.com/challenges/compare-two-linked-lists/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Recursive Digit Sum",
+          "url": "https://www.hackerrank.com/challenges/recursive-digit-sum/problem"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Reverse Linked List",
+          "url": "https://leetcode.com/problems/reverse-linked-list/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Merge Two Sorted Lists",
+          "url": "https://leetcode.com/problems/merge-two-sorted-lists/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Linked List Cycle",
+          "url": "https://leetcode.com/problems/linked-list-cycle/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Middle of the Linked List",
+          "url": "https://leetcode.com/problems/middle-of-the-linked-list/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Remove Nth Node From End",
+          "url": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/"
+        }
+      ],
+      "problemTopic": "Linked List & Recursion",
+      "projects": []
+    },
+    {
+      "week": 71,
+      "month": 16,
+      "weekInMonth": 3,
+      "title": "Dynamic Programming I",
+      "topics": "Memoization; tabulation; state; transition; base case",
+      "prereq": "Recursion; Arrays",
+      "deliverable": "10 DP problems",
+      "phase": "Phase 6",
+      "focus": "DSA",
+      "prereqWeeks": [],
+      "questions": [
+        {
+          "platform": "Codeforces",
+          "name": "DP tag practice",
+          "url": "https://codeforces.com/problemset?tags=dp"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "DP practice 2",
+          "url": "https://codeforces.com/problemset?tags=dp"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Knapsack DP",
+          "url": "https://codeforces.com/problemset?tags=dp"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Grid DP",
+          "url": "https://codeforces.com/problemset?tags=dp"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Sequence DP",
+          "url": "https://codeforces.com/problemset?tags=dp"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Max Array Sum",
+          "url": "https://www.hackerrank.com/challenges/max-array-sum/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Candies",
+          "url": "https://www.hackerrank.com/challenges/candies/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Abbreviation",
+          "url": "https://www.hackerrank.com/challenges/abbr/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Sherlock and Cost",
+          "url": "https://www.hackerrank.com/challenges/sherlock-and-cost/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Sam and Substrings",
+          "url": "https://www.hackerrank.com/challenges/sam-and-substrings/problem"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Climbing Stairs",
+          "url": "https://leetcode.com/problems/climbing-stairs/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "House Robber",
+          "url": "https://leetcode.com/problems/house-robber/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Coin Change",
+          "url": "https://leetcode.com/problems/coin-change/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Unique Paths",
+          "url": "https://leetcode.com/problems/unique-paths/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Partition Equal Subset Sum",
+          "url": "https://leetcode.com/problems/partition-equal-subset-sum/"
+        }
+      ],
+      "problemTopic": "Dynamic Programming I",
+      "projects": []
+    },
+    {
+      "week": 72,
+      "month": 16,
+      "weekInMonth": 4,
+      "title": "Dynamic Programming II",
+      "topics": "Knapsack; coin change; LCS; LIS concepts",
+      "prereq": "Dynamic Programming I",
+      "deliverable": "10 DP problems",
+      "phase": "Phase 6",
+      "focus": "DSA",
+      "prereqWeeks": [
+        71
+      ],
+      "questions": [
+        {
+          "platform": "Codeforces",
+          "name": "Advanced DP 1",
+          "url": "https://codeforces.com/problemset?tags=dp"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Advanced DP 2",
+          "url": "https://codeforces.com/problemset?tags=dp"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "LCS/LIS practice",
+          "url": "https://codeforces.com/problemset?tags=dp"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Knapsack practice",
+          "url": "https://codeforces.com/problemset?tags=dp"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Interval DP practice",
+          "url": "https://codeforces.com/problemset?tags=dp"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Common Child",
+          "url": "https://www.hackerrank.com/challenges/common-child/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Equal",
+          "url": "https://www.hackerrank.com/challenges/equal/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Abbreviation",
+          "url": "https://www.hackerrank.com/challenges/abbr/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Kingdom Division",
+          "url": "https://www.hackerrank.com/challenges/kingdom-division/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Sam and Substrings",
+          "url": "https://www.hackerrank.com/challenges/sam-and-substrings/problem"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Longest Common Subsequence",
+          "url": "https://leetcode.com/problems/longest-common-subsequence/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Longest Increasing Subsequence",
+          "url": "https://leetcode.com/problems/longest-increasing-subsequence/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Word Break",
+          "url": "https://leetcode.com/problems/word-break/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Edit Distance",
+          "url": "https://leetcode.com/problems/edit-distance/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Decode Ways",
+          "url": "https://leetcode.com/problems/decode-ways/"
+        }
+      ],
+      "problemTopic": "Dynamic Programming II",
+      "projects": [
+        {
+          "id": "p042",
+          "week": 72,
+          "title": "URL Shortener",
+          "type": "System Design",
+          "stack": [
+            "Node",
+            "MySQL",
+            "Redis"
+          ],
+          "description": "Prototype plus scalable architecture.",
+          "outcome": "Convert Week 72 concepts into demonstrable engineering evidence."
+        }
+      ]
+    },
+    {
+      "week": 73,
+      "month": 17,
+      "weekInMonth": 1,
+      "title": "System Design Basics",
+      "topics": "Scalability; availability; latency; throughput; reliability",
+      "prereq": "Networking; Database",
+      "deliverable": "Design checklist",
+      "phase": "Phase 6",
+      "focus": "System Design",
+      "prereqWeeks": [],
+      "questions": [],
+      "problemTopic": null,
+      "projects": [
+        {
+          "id": "p043",
+          "week": 73,
+          "title": "Scalable Chat Design",
+          "type": "System Design",
+          "stack": [
+            "WebSocket"
+          ],
+          "description": "Capacity, persistence, fan-out and failure modes.",
+          "outcome": "Convert Week 73 concepts into demonstrable engineering evidence."
+        }
+      ]
+    },
+    {
+      "week": 74,
+      "month": 17,
+      "weekInMonth": 2,
+      "title": "Load Balancing & Caching",
+      "topics": "Horizontal/vertical scaling; load balancer; statelessness; Redis; CDN",
+      "prereq": "System Design Basics; Redis & Caching",
+      "deliverable": "Design URL shortener",
+      "phase": "Phase 6",
+      "focus": "System Design",
+      "prereqWeeks": [
+        73,
+        42
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": [
+        {
+          "id": "p044",
+          "week": 74,
+          "title": "Social Feed Design",
+          "type": "System Design",
+          "stack": [
+            "Redis"
+          ],
+          "description": "Feed generation, caching and pagination.",
+          "outcome": "Convert Week 74 concepts into demonstrable engineering evidence."
+        }
+      ]
+    },
+    {
+      "week": 75,
+      "month": 17,
+      "weekInMonth": 3,
+      "title": "Databases at Scale",
+      "topics": "Replication; read replicas; sharding; partitioning; consistency",
+      "prereq": "Indexes & Query Plans; Transactions",
+      "deliverable": "Design scalable DB",
+      "phase": "Phase 6",
+      "focus": "System Design",
+      "prereqWeeks": [
+        38,
+        39
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": [
+        {
+          "id": "p045",
+          "week": 75,
+          "title": "Delivery Platform Design",
+          "type": "System Design",
+          "stack": [
+            "Distributed",
+            "Systems"
+          ],
+          "description": "Location, matching, queues and data flows.",
+          "outcome": "Convert Week 75 concepts into demonstrable engineering evidence."
+        }
+      ]
+    },
+    {
+      "week": 76,
+      "month": 17,
+      "weekInMonth": 4,
+      "title": "Queues & Distributed Systems",
+      "topics": "Message queues; workers; Kafka basics; CAP theorem; consistency",
+      "prereq": "Realtime & Queues; System Design Basics",
+      "deliverable": "Design async processing system",
+      "phase": "Phase 6",
+      "focus": "System Design",
+      "prereqWeeks": [
+        43,
+        73
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": []
+    },
+    {
+      "week": 77,
+      "month": 18,
+      "weekInMonth": 1,
+      "title": "System Design: Chat",
+      "topics": "WebSocket; presence; delivery; persistence; fan-out",
+      "prereq": "Realtime & Queues; System Design Basics",
+      "deliverable": "Design chat system",
+      "phase": "Phase 6",
+      "focus": "System Design",
+      "prereqWeeks": [
+        43,
+        73
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": []
+    },
+    {
+      "week": 78,
+      "month": 18,
+      "weekInMonth": 2,
+      "title": "System Design: Feed",
+      "topics": "Feed generation; ranking concept; caching; pagination; fan-out",
+      "prereq": "Queues & Distributed Systems",
+      "deliverable": "Design social feed",
+      "phase": "Phase 6",
+      "focus": "System Design",
+      "prereqWeeks": [
+        76
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": []
+    },
+    {
+      "week": 79,
+      "month": 18,
+      "weekInMonth": 3,
+      "title": "System Design: Delivery",
+      "topics": "Location updates; matching; queues; geospatial concepts",
+      "prereq": "System Design: Feed",
+      "deliverable": "Design delivery platform",
+      "phase": "Phase 6",
+      "focus": "System Design",
+      "prereqWeeks": [
+        78
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": []
+    },
+    {
+      "week": 80,
+      "month": 18,
+      "weekInMonth": 4,
+      "title": "System Design Review",
+      "topics": "Capacity estimation; bottlenecks; trade-offs; API design; failure modes",
+      "prereq": "All System Design weeks",
+      "deliverable": "3 timed designs",
+      "phase": "Phase 6",
+      "focus": "System Design",
+      "prereqWeeks": [],
+      "questions": [],
+      "problemTopic": null,
+      "projects": [
+        {
+          "id": "p046",
+          "week": 80,
+          "title": "Dockerized Backend",
+          "type": "DevOps",
+          "stack": [
+            "Docker",
+            "Node",
+            "MySQL"
+          ],
+          "description": "Containerized reproducible backend stack.",
+          "outcome": "Convert Week 80 concepts into demonstrable engineering evidence."
+        }
+      ]
+    },
+    {
+      "week": 81,
+      "month": 19,
+      "weekInMonth": 1,
+      "title": "Linux Engineering",
+      "topics": "Processes; signals; permissions; logs; grep; awk/sed basics; curl; ssh",
+      "prereq": "Scheduling & Linux",
+      "deliverable": "Linux troubleshooting checklist",
+      "phase": "Phase 7",
+      "focus": "Linux",
+      "prereqWeeks": [
+        64
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": [
+        {
+          "id": "p047",
+          "week": 81,
+          "title": "CI Pipeline",
+          "type": "DevOps",
+          "stack": [
+            "CI/CD"
+          ],
+          "description": "Automated lint/test/build pipeline.",
+          "outcome": "Convert Week 81 concepts into demonstrable engineering evidence."
+        }
+      ]
+    },
+    {
+      "week": 82,
+      "month": 19,
+      "weekInMonth": 2,
+      "title": "Docker",
+      "topics": "Images; containers; Dockerfile; volumes; networks; Compose",
+      "prereq": "Linux Engineering",
+      "deliverable": "Containerize backend + DB",
+      "phase": "Phase 7",
+      "focus": "DevOps",
+      "prereqWeeks": [
+        81
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": []
+    },
+    {
+      "week": 83,
+      "month": 19,
+      "weekInMonth": 3,
+      "title": "CI/CD",
+      "topics": "Pipelines; build; test; artifact; deployment; environment secrets",
+      "prereq": "Docker",
+      "deliverable": "CI pipeline",
+      "phase": "Phase 7",
+      "focus": "DevOps",
+      "prereqWeeks": [
+        82
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": []
+    },
+    {
+      "week": 84,
+      "month": 19,
+      "weekInMonth": 4,
+      "title": "Cloud Fundamentals",
+      "topics": "VM; object storage; managed DB; IAM; networking; regions; availability zones",
+      "prereq": "Docker; CI/CD",
+      "deliverable": "Deploy a small service",
+      "phase": "Phase 7",
+      "focus": "Cloud",
+      "prereqWeeks": [
+        82,
+        83
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": [
+        {
+          "id": "p048",
+          "week": 84,
+          "title": "Observable API",
+          "type": "Production",
+          "stack": [
+            "Node",
+            "Observability"
+          ],
+          "description": "Logs, health checks and basic metrics.",
+          "outcome": "Convert Week 84 concepts into demonstrable engineering evidence."
+        }
+      ]
+    },
+    {
+      "week": 85,
+      "month": 20,
+      "weekInMonth": 1,
+      "title": "Observability",
+      "topics": "Logs; metrics; traces; health checks; alerts; SLI/SLO basics",
+      "prereq": "Cloud Fundamentals",
+      "deliverable": "Observability dashboard concept",
+      "phase": "Phase 7",
+      "focus": "Production",
+      "prereqWeeks": [
+        84
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": []
+    },
+    {
+      "week": 86,
+      "month": 20,
+      "weekInMonth": 2,
+      "title": "Web Security",
+      "topics": "OWASP Top 10 overview; SQL injection; XSS; CSRF; CORS; secrets",
+      "prereq": "Auth & Security Basics",
+      "deliverable": "Security checklist + fixes",
+      "phase": "Phase 7",
+      "focus": "Security",
+      "prereqWeeks": [
+        41
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": [
+        {
+          "id": "p049",
+          "week": 86,
+          "title": "Security Hardening Lab",
+          "type": "Security",
+          "stack": [
+            "Node",
+            "OWASP"
+          ],
+          "description": "Fix common web vulnerabilities in a deliberately unsafe API.",
+          "outcome": "Convert Week 86 concepts into demonstrable engineering evidence."
+        }
+      ]
+    },
+    {
+      "week": 87,
+      "month": 20,
+      "weekInMonth": 3,
+      "title": "Performance Engineering",
+      "topics": "Profiling; latency; caching; DB tuning; memory; load testing",
+      "prereq": "Indexes & Query Plans; Observability",
+      "deliverable": "Benchmark and optimize API",
+      "phase": "Phase 7",
+      "focus": "Performance",
+      "prereqWeeks": [
+        38,
+        85
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": []
+    },
+    {
+      "week": 88,
+      "month": 20,
+      "weekInMonth": 4,
+      "title": "Reliability",
+      "topics": "Retries; idempotency; timeouts; circuit breakers; graceful degradation",
+      "prereq": "Performance Engineering",
+      "deliverable": "Failure-mode exercise",
+      "phase": "Phase 7",
+      "focus": "Reliability",
+      "prereqWeeks": [
+        87
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": [
+        {
+          "id": "p050",
+          "week": 88,
+          "title": "Load Test Lab",
+          "type": "Performance",
+          "stack": [
+            "Node",
+            "Performance"
+          ],
+          "description": "Benchmark, identify bottleneck, optimize and compare.",
+          "outcome": "Convert Week 88 concepts into demonstrable engineering evidence."
+        }
+      ]
+    },
+    {
+      "week": 89,
+      "month": 21,
+      "weekInMonth": 1,
+      "title": "Architecture Patterns",
+      "topics": "Layered; Clean; Hexagonal; modular monolith; trade-offs",
+      "prereq": "System Design Review",
+      "deliverable": "Architecture decision record",
+      "phase": "Phase 7",
+      "focus": "Architecture",
+      "prereqWeeks": [
+        80
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": []
+    },
+    {
+      "week": 90,
+      "month": 21,
+      "weekInMonth": 2,
+      "title": "Code Quality",
+      "topics": "SOLID; DRY; KISS; YAGNI; refactoring; code smells",
+      "prereq": "OOP II & Async",
+      "deliverable": "Refactor old module",
+      "phase": "Phase 7",
+      "focus": "Engineering",
+      "prereqWeeks": [
+        4
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": []
+    },
+    {
+      "week": 91,
+      "month": 21,
+      "weekInMonth": 3,
+      "title": "Testing Strategy",
+      "topics": "Unit; integration; contract; end-to-end; test pyramid; mocking trade-offs",
+      "prereq": "Flutter Testing; Backend Capstone",
+      "deliverable": "Test strategy document",
+      "phase": "Phase 7",
+      "focus": "Testing",
+      "prereqWeeks": [
+        24,
+        44
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": [
+        {
+          "id": "p051",
+          "week": 91,
+          "title": "Engineering Capstone Refactor",
+          "type": "Major",
+          "stack": [
+            "Flutter",
+            "Node",
+            "MySQL",
+            "Redis"
+          ],
+          "description": "Refactor old capstone with tests, docs and observability.",
+          "outcome": "Convert Week 91 concepts into demonstrable engineering evidence."
+        }
+      ]
+    },
+    {
+      "week": 92,
+      "month": 21,
+      "weekInMonth": 4,
+      "title": "Engineering Capstone II",
+      "topics": "Flutter + Node + MySQL + Redis + Android integration where useful",
+      "prereq": "Architecture Patterns; Testing Strategy",
+      "deliverable": "Polished portfolio project",
+      "phase": "Phase 7",
+      "focus": "Project",
+      "prereqWeeks": [
+        89,
+        91
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": []
+    },
+    {
+      "week": 93,
+      "month": 22,
+      "weekInMonth": 1,
+      "title": "Interview DSA I",
+      "topics": "Arrays; strings; hash; two pointers; sliding window",
+      "prereq": "DSA all prior",
+      "deliverable": "20 timed problems",
+      "phase": "Phase 8",
+      "focus": "Interview",
+      "prereqWeeks": [],
+      "questions": [
+        {
+          "platform": "Codeforces",
+          "name": "Books",
+          "url": "https://codeforces.com/problemset/problem/279/B"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Kuriyama Mirai's Stones",
+          "url": "https://codeforces.com/problemset/problem/433/B"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Number of Segments with Small Sum",
+          "url": "https://codeforces.com/problemset/problem/616/D"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Array Cloning Technique",
+          "url": "https://codeforces.com/problemset/problem/1665/B"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Yet Another Problem On a Subsequence",
+          "url": "https://codeforces.com/problemset/problem/1301/A"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Subarray Division",
+          "url": "https://www.hackerrank.com/challenges/the-birthday-bar/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Max Min",
+          "url": "https://www.hackerrank.com/challenges/angry-children/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Minimum Swaps 2",
+          "url": "https://www.hackerrank.com/challenges/minimum-swaps-2/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Special String Again",
+          "url": "https://www.hackerrank.com/challenges/special-palindrome-again/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Max Array Sum",
+          "url": "https://www.hackerrank.com/challenges/max-array-sum/problem"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Longest Substring Without Repeating Characters",
+          "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Longest Repeating Character Replacement",
+          "url": "https://leetcode.com/problems/longest-repeating-character-replacement/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Permutation in String",
+          "url": "https://leetcode.com/problems/permutation-in-string/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Minimum Size Subarray Sum",
+          "url": "https://leetcode.com/problems/minimum-size-subarray-sum/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Longest Subarray of 1s After Deleting One Element",
+          "url": "https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/"
+        }
+      ],
+      "problemTopic": "Two Pointers & Sliding Window",
+      "projects": []
+    },
+    {
+      "week": 94,
+      "month": 22,
+      "weekInMonth": 2,
+      "title": "Interview DSA II",
+      "topics": "Stack; queue; linked list; binary search; trees",
+      "prereq": "DSA all prior",
+      "deliverable": "20 timed problems",
+      "phase": "Phase 8",
+      "focus": "Interview",
+      "prereqWeeks": [],
+      "questions": [
+        {
+          "platform": "Codeforces",
+          "name": "Recursion practice",
+          "url": "https://codeforces.com/problemset?tags=dfs+and+similar"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Linked list tag practice",
+          "url": "https://codeforces.com/problemset?tags=linked+list"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Construct the String",
+          "url": "https://codeforces.com/problemset/problem/1335/A"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Sequence practice",
+          "url": "https://codeforces.com/problemset?tags=constructive+algorithms"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "DFS recursion practice",
+          "url": "https://codeforces.com/problemset?tags=dfs+and+similar"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Print in Reverse",
+          "url": "https://www.hackerrank.com/challenges/print-the-elements-of-a-linked-list-in-reverse/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Reverse a linked list",
+          "url": "https://www.hackerrank.com/challenges/reverse-a-linked-list/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Get Node Value",
+          "url": "https://www.hackerrank.com/challenges/get-the-value-of-the-node-at-a-specific-position-from-the-tail/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Compare two linked lists",
+          "url": "https://www.hackerrank.com/challenges/compare-two-linked-lists/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Recursive Digit Sum",
+          "url": "https://www.hackerrank.com/challenges/recursive-digit-sum/problem"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Reverse Linked List",
+          "url": "https://leetcode.com/problems/reverse-linked-list/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Merge Two Sorted Lists",
+          "url": "https://leetcode.com/problems/merge-two-sorted-lists/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Linked List Cycle",
+          "url": "https://leetcode.com/problems/linked-list-cycle/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Middle of the Linked List",
+          "url": "https://leetcode.com/problems/middle-of-the-linked-list/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Remove Nth Node From End",
+          "url": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/"
+        }
+      ],
+      "problemTopic": "Linked List & Recursion",
+      "projects": [
+        {
+          "id": "p052",
+          "week": 94,
+          "title": "Interview Coding Repo",
+          "type": "Interview",
+          "stack": [
+            "DSA"
+          ],
+          "description": "Pattern-based solutions with explanations and tests.",
+          "outcome": "Convert Week 94 concepts into demonstrable engineering evidence."
+        }
+      ]
+    },
+    {
+      "week": 95,
+      "month": 22,
+      "weekInMonth": 3,
+      "title": "Interview DSA III",
+      "topics": "Heap; graph; greedy; intervals",
+      "prereq": "Advanced DSA",
+      "deliverable": "20 timed problems",
+      "phase": "Phase 8",
+      "focus": "Interview",
+      "prereqWeeks": [],
+      "questions": [
+        {
+          "platform": "Codeforces",
+          "name": "Data structure practice",
+          "url": "https://codeforces.com/problemset?tags=data+structures"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Heap practice",
+          "url": "https://codeforces.com/problemset?tags=data+structures"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Priority queue practice",
+          "url": "https://codeforces.com/problemset?tags=data+structures"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Tree practice",
+          "url": "https://codeforces.com/problemset?tags=trees"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Segment/data structures practice",
+          "url": "https://codeforces.com/problemset?tags=data+structures"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "QHEAP1",
+          "url": "https://www.hackerrank.com/challenges/qheap1/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Jesse and Cookies",
+          "url": "https://www.hackerrank.com/challenges/jesse-and-cookies/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "BST Lowest Common Ancestor",
+          "url": "https://www.hackerrank.com/challenges/binary-search-tree-lowest-common-ancestor/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "BST Insertion",
+          "url": "https://www.hackerrank.com/challenges/binary-search-tree-insertion/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Is This a BST",
+          "url": "https://www.hackerrank.com/challenges/is-binary-search-tree/problem"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Kth Largest Element",
+          "url": "https://leetcode.com/problems/kth-largest-element-in-an-array/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Top K Frequent Elements",
+          "url": "https://leetcode.com/problems/top-k-frequent-elements/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Kth Smallest Element in a BST",
+          "url": "https://leetcode.com/problems/kth-smallest-element-in-a-bst/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Validate BST",
+          "url": "https://leetcode.com/problems/validate-binary-search-tree/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Lowest Common Ancestor of BST",
+          "url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/"
+        }
+      ],
+      "problemTopic": "BST & Heap",
+      "projects": []
+    },
+    {
+      "week": 96,
+      "month": 22,
+      "weekInMonth": 4,
+      "title": "Interview DSA IV",
+      "topics": "Backtracking; DP; mixed patterns",
+      "prereq": "Advanced DSA",
+      "deliverable": "20 timed problems",
+      "phase": "Phase 8",
+      "focus": "Interview",
+      "prereqWeeks": [],
+      "questions": [
+        {
+          "platform": "Codeforces",
+          "name": "Brute force practice",
+          "url": "https://codeforces.com/problemset?tags=brute+force"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "DFS practice",
+          "url": "https://codeforces.com/problemset?tags=dfs+and+similar"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Constructive practice",
+          "url": "https://codeforces.com/problemset?tags=constructive+algorithms"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "Brute force 2",
+          "url": "https://codeforces.com/problemset?tags=brute+force"
+        },
+        {
+          "platform": "Codeforces",
+          "name": "DFS 2",
+          "url": "https://codeforces.com/problemset?tags=dfs+and+similar"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Password Cracker",
+          "url": "https://www.hackerrank.com/challenges/password-cracker/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Crossword Puzzle",
+          "url": "https://www.hackerrank.com/challenges/crossword-puzzle/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "K Factorization",
+          "url": "https://www.hackerrank.com/challenges/k-factorization/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Recursive Digit Sum",
+          "url": "https://www.hackerrank.com/challenges/recursive-digit-sum/problem"
+        },
+        {
+          "platform": "HackerRank",
+          "name": "Special Multiple",
+          "url": "https://www.hackerrank.com/challenges/special-multiple/problem"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Subsets",
+          "url": "https://leetcode.com/problems/subsets/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Permutations",
+          "url": "https://leetcode.com/problems/permutations/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Combination Sum",
+          "url": "https://leetcode.com/problems/combination-sum/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Generate Parentheses",
+          "url": "https://leetcode.com/problems/generate-parentheses/"
+        },
+        {
+          "platform": "LeetCode",
+          "name": "Word Search",
+          "url": "https://leetcode.com/problems/word-search/"
+        }
+      ],
+      "problemTopic": "Backtracking",
+      "projects": []
+    },
+    {
+      "week": 97,
+      "month": 23,
+      "weekInMonth": 1,
+      "title": "System Design Interviews",
+      "topics": "Requirement clarification; capacity estimation; APIs; data model",
+      "prereq": "System Design Review",
+      "deliverable": "2 timed designs",
+      "phase": "Phase 8",
+      "focus": "Interview",
+      "prereqWeeks": [
+        80
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": [
+        {
+          "id": "p053",
+          "week": 97,
+          "title": "System Design Notebook",
+          "type": "Interview",
+          "stack": [
+            "System",
+            "Design"
+          ],
+          "description": "Five concise architecture case studies.",
+          "outcome": "Convert Week 97 concepts into demonstrable engineering evidence."
+        }
+      ]
+    },
+    {
+      "week": 98,
+      "month": 23,
+      "weekInMonth": 2,
+      "title": "Behavioral & Communication",
+      "topics": "STAR; project storytelling; conflict; failure; ownership; trade-offs",
+      "prereq": "Engineering Capstone II",
+      "deliverable": "10 recorded answers",
+      "phase": "Phase 8",
+      "focus": "Interview",
+      "prereqWeeks": [
+        92
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": []
+    },
+    {
+      "week": 99,
+      "month": 23,
+      "weekInMonth": 3,
+      "title": "Resume & Portfolio",
+      "topics": "Resume; GitHub; portfolio; project case studies; impact statements",
+      "prereq": "Engineering Capstone II",
+      "deliverable": "Final resume + portfolio",
+      "phase": "Phase 8",
+      "focus": "Career",
+      "prereqWeeks": [
+        92
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": []
+    },
+    {
+      "week": 100,
+      "month": 23,
+      "weekInMonth": 4,
+      "title": "Mock Interviews",
+      "topics": "Coding; system design; behavioral; project deep dive",
+      "prereq": "Interview DSA; System Design Interviews",
+      "deliverable": "4 mock sessions",
+      "phase": "Phase 8",
+      "focus": "Interview",
+      "prereqWeeks": [
+        97
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": [
+        {
+          "id": "p054",
+          "week": 100,
+          "title": "Final Portfolio Polish",
+          "type": "Career",
+          "stack": [
+            "GitHub",
+            "Documentation"
+          ],
+          "description": "Architecture diagrams, screenshots, tests and deployment docs.",
+          "outcome": "Convert Week 100 concepts into demonstrable engineering evidence."
+        }
+      ]
+    },
+    {
+      "week": 101,
+      "month": 24,
+      "weekInMonth": 1,
+      "title": "Gap Analysis",
+      "topics": "Review weak DSA topics; CS gaps; project gaps",
+      "prereq": "Mock Interviews",
+      "deliverable": "Personal gap list",
+      "phase": "Phase 8",
+      "focus": "Review",
+      "prereqWeeks": [
+        100
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": []
+    },
+    {
+      "week": 102,
+      "month": 24,
+      "weekInMonth": 2,
+      "title": "Target Company Preparation",
+      "topics": "Company-style coding patterns; role requirements; application tracker",
+      "prereq": "Resume & Portfolio",
+      "deliverable": "Target-company matrix",
+      "phase": "Phase 8",
+      "focus": "Career",
+      "prereqWeeks": [
+        99
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": []
+    },
+    {
+      "week": 103,
+      "month": 24,
+      "weekInMonth": 3,
+      "title": "Final Capstone Polish",
+      "topics": "Performance; testing; docs; deployment; architecture diagrams",
+      "prereq": "Engineering Capstone II; Gap Analysis",
+      "deliverable": "Production-ready showcase",
+      "phase": "Phase 8",
+      "focus": "Project",
+      "prereqWeeks": [
+        92,
+        101
+      ],
+      "questions": [],
+      "problemTopic": null,
+      "projects": []
+    },
+    {
+      "week": 104,
+      "month": 24,
+      "weekInMonth": 4,
+      "title": "Launch & Continuous Loop",
+      "topics": "Applications; mock loops; weekly DSA; system design maintenance",
+      "prereq": "All prior",
+      "deliverable": "90-day continuation plan",
+      "phase": "Phase 8",
+      "focus": "Career",
+      "prereqWeeks": [],
+      "questions": [],
+      "problemTopic": null,
+      "projects": []
+    }
+  ],
+  "months": [
+    {
+      "month": 1,
+      "title": "Month 1",
+      "weeks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "phase": "Phase 1",
+      "summary": "Variables; types; null safety; operators; control flow; loops"
+    },
+    {
+      "month": 2,
+      "title": "Month 2",
+      "weeks": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "phase": "Phase 1",
+      "summary": "Future chaining; Future.wait; try/catch; exceptions; Stream basics; StreamController"
+    },
+    {
+      "month": 3,
+      "title": "Month 3",
+      "weeks": [
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "phase": "Phase 1",
+      "summary": "HashMap; HashSet; frequency counting; lookup optimization; duplicate detection"
+    },
+    {
+      "month": 4,
+      "title": "Month 4",
+      "weeks": [
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "phase": "Phase 2",
+      "summary": "Widget; Element; RenderObject; widget tree; element tree; render tree; build/layout/paint"
+    },
+    {
+      "month": 5,
+      "title": "Month 5",
+      "weeks": [
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "phase": "Phase 2",
+      "summary": "HTTP; REST; Dio; interceptors; serialization; timeout; retry; error mapping"
+    },
+    {
+      "month": 6,
+      "title": "Month 6",
+      "weeks": [
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "phase": "Phase 2",
+      "summary": "const; rebuild profiling; ListView.builder; image optimization; memory; frame budget"
+    },
+    {
+      "month": 7,
+      "title": "Month 7",
+      "weeks": [
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "phase": "Phase 3",
+      "summary": "Scope; let/const; objects; prototypes; classes; destructuring; spread/rest; modules"
+    },
+    {
+      "month": 8,
+      "title": "Month 8",
+      "weeks": [
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "phase": "Phase 3",
+      "summary": "SELECT; WHERE; ORDER BY; GROUP BY; HAVING; JOIN; subqueries; CTE"
+    },
+    {
+      "month": 9,
+      "title": "Month 9",
+      "weeks": [
+        41,
+        42,
+        43,
+        44
+      ],
+      "phase": "Phase 3",
+      "summary": "Password hashing; JWT; access/refresh tokens; RBAC; validation; OWASP basics"
+    },
+    {
+      "month": 10,
+      "title": "Month 10",
+      "weeks": [
+        45,
+        46,
+        47,
+        48
+      ],
+      "phase": "Phase 4",
+      "summary": "Variables; nullable types; functions; lambdas; collections; data classes; enum; sealed class"
+    },
+    {
+      "month": 11,
+      "title": "Month 11",
+      "weeks": [
+        49,
+        50,
+        51,
+        52
+      ],
+      "phase": "Phase 4",
+      "summary": "Composable; state; remember; rememberSaveable; recomposition; modifiers"
+    },
+    {
+      "month": 12,
+      "title": "Month 12",
+      "weeks": [
+        53,
+        54,
+        55,
+        56
+      ],
+      "phase": "Phase 4",
+      "summary": "Retrofit; OkHttp; interceptors; serialization; API errors"
+    },
+    {
+      "month": 13,
+      "title": "Month 13",
+      "weeks": [
+        57,
+        58,
+        59,
+        60
+      ],
+      "phase": "Phase 5",
+      "summary": "Client/server; IP; MAC; DNS; DHCP; router; ports"
+    },
+    {
+      "month": 14,
+      "title": "Month 14",
+      "weeks": [
+        61,
+        62,
+        63,
+        64
+      ],
+      "phase": "Phase 5",
+      "summary": "Kernel; processes; threads; context switching; system calls"
+    },
+    {
+      "month": 15,
+      "title": "Month 15",
+      "weeks": [
+        65,
+        66,
+        67,
+        68
+      ],
+      "phase": "Phase 5",
+      "summary": "Binary tree; traversal; DFS; BFS; preorder; inorder; postorder"
+    },
+    {
+      "month": 16,
+      "title": "Month 16",
+      "weeks": [
+        69,
+        70,
+        71,
+        72
+      ],
+      "phase": "Phase 6",
+      "summary": "Greedy choice; intervals; scheduling; heap-based greedy"
+    },
+    {
+      "month": 17,
+      "title": "Month 17",
+      "weeks": [
+        73,
+        74,
+        75,
+        76
+      ],
+      "phase": "Phase 6",
+      "summary": "Scalability; availability; latency; throughput; reliability"
+    },
+    {
+      "month": 18,
+      "title": "Month 18",
+      "weeks": [
+        77,
+        78,
+        79,
+        80
+      ],
+      "phase": "Phase 6",
+      "summary": "WebSocket; presence; delivery; persistence; fan-out"
+    },
+    {
+      "month": 19,
+      "title": "Month 19",
+      "weeks": [
+        81,
+        82,
+        83,
+        84
+      ],
+      "phase": "Phase 7",
+      "summary": "Processes; signals; permissions; logs; grep; awk/sed basics; curl; ssh"
+    },
+    {
+      "month": 20,
+      "title": "Month 20",
+      "weeks": [
+        85,
+        86,
+        87,
+        88
+      ],
+      "phase": "Phase 7",
+      "summary": "Logs; metrics; traces; health checks; alerts; SLI/SLO basics"
+    },
+    {
+      "month": 21,
+      "title": "Month 21",
+      "weeks": [
+        89,
+        90,
+        91,
+        92
+      ],
+      "phase": "Phase 7",
+      "summary": "Layered; Clean; Hexagonal; modular monolith; trade-offs"
+    },
+    {
+      "month": 22,
+      "title": "Month 22",
+      "weeks": [
+        93,
+        94,
+        95,
+        96
+      ],
+      "phase": "Phase 8",
+      "summary": "Arrays; strings; hash; two pointers; sliding window"
+    },
+    {
+      "month": 23,
+      "title": "Month 23",
+      "weeks": [
+        97,
+        98,
+        99,
+        100
+      ],
+      "phase": "Phase 8",
+      "summary": "Requirement clarification; capacity estimation; APIs; data model"
+    },
+    {
+      "month": 24,
+      "title": "Month 24",
+      "weeks": [
+        101,
+        102,
+        103,
+        104
+      ],
+      "phase": "Phase 8",
+      "summary": "Review weak DSA topics; CS gaps; project gaps"
+    }
+  ],
+  "miniProjects": [
+    {
+      "id": "p001",
+      "week": 1,
+      "title": "Dart CLI Calculator",
+      "type": "Mini",
+      "stack": [
+        "Dart"
+      ],
+      "description": "CLI calculator with validation, operators and tests.",
+      "outcome": "Convert Week 1 concepts into demonstrable engineering evidence."
+    },
+    {
+      "id": "p002",
+      "week": 2,
+      "title": "Collection Analyzer",
+      "type": "Mini",
+      "stack": [
+        "Dart"
+      ],
+      "description": "Frequency, unique values, min/max and collection transformations.",
+      "outcome": "Convert Week 2 concepts into demonstrable engineering evidence."
+    },
+    {
+      "id": "p003",
+      "week": 3,
+      "title": "Library Domain Model",
+      "type": "Mini",
+      "stack": [
+        "Dart",
+        "OOP"
+      ],
+      "description": "Books, members, loans and composition.",
+      "outcome": "Convert Week 3 concepts into demonstrable engineering evidence."
+    },
+    {
+      "id": "p004",
+      "week": 4,
+      "title": "Async Task Runner",
+      "type": "Mini",
+      "stack": [
+        "Dart",
+        "Async"
+      ],
+      "description": "Concurrent fake network tasks with failure handling.",
+      "outcome": "Convert Week 4 concepts into demonstrable engineering evidence."
+    },
+    {
+      "id": "p005",
+      "week": 5,
+      "title": "Event Stream Monitor",
+      "type": "Mini",
+      "stack": [
+        "Dart",
+        "Streams"
+      ],
+      "description": "StreamController-based event monitor with filters.",
+      "outcome": "Convert Week 5 concepts into demonstrable engineering evidence."
+    },
+    {
+      "id": "p006",
+      "week": 6,
+      "title": "Personal Budget CLI",
+      "type": "Mini",
+      "stack": [
+        "Dart"
+      ],
+      "description": "Income, expense, category and monthly summary engine.",
+      "outcome": "Convert Week 6 concepts into demonstrable engineering evidence."
+    },
+    {
+      "id": "p007",
+      "week": 7,
+      "title": "Algorithm Playground",
+      "type": "Mini",
+      "stack": [
+        "Dart",
+        "DSA"
+      ],
+      "description": "Run common algorithms and print operation counts.",
+      "outcome": "Convert Week 7 concepts into demonstrable engineering evidence."
+    },
+    {
+      "id": "p008",
+      "week": 8,
+      "title": "Hash Index Simulator",
+      "type": "Mini",
+      "stack": [
+        "Dart",
+        "DSA"
+      ],
+      "description": "Compare hash lookup and linear search.",
+      "outcome": "Convert Week 8 concepts into demonstrable engineering evidence."
+    },
+    {
+      "id": "p009",
+      "week": 9,
+      "title": "Sliding Window Visualizer",
+      "type": "Mini",
+      "stack": [
+        "Dart",
+        "DSA"
+      ],
+      "description": "Print active windows while solving subarray problems.",
+      "outcome": "Convert Week 9 concepts into demonstrable engineering evidence."
+    },
+    {
+      "id": "p010",
+      "week": 10,
+      "title": "Undo/Redo Engine",
+      "type": "Mini",
+      "stack": [
+        "Dart",
+        "Stack"
+      ],
+      "description": "Editor-style undo/redo with two stacks.",
+      "outcome": "Convert Week 10 concepts into demonstrable engineering evidence."
+    },
+    {
+      "id": "p011",
+      "week": 11,
+      "title": "Linked List Playground",
+      "type": "Mini",
+      "stack": [
+        "Dart",
+        "DSA"
+      ],
+      "description": "CRUD, reverse and cycle detection playground.",
+      "outcome": "Convert Week 11 concepts into demonstrable engineering evidence."
+    },
+    {
+      "id": "p012",
+      "week": 13,
+      "title": "Flutter API Explorer",
+      "type": "Mini",
+      "stack": [
+        "Flutter",
+        "Dio"
+      ],
+      "description": "REST API with loading, error, empty and success states.",
+      "outcome": "Convert Week 13 concepts into demonstrable engineering evidence."
+    },
+    {
+      "id": "p013",
+      "week": 14,
+      "title": "Auth Flow Lab",
+      "type": "Mini",
+      "stack": [
+        "Flutter",
+        "Auth"
+      ],
+      "description": "Login/logout/refresh-token simulation.",
+      "outcome": "Convert Week 14 concepts into demonstrable engineering evidence."
+    },
+    {
+      "id": "p014",
+      "week": 15,
+      "title": "Offline Notes",
+      "type": "Mini",
+      "stack": [
+        "Flutter",
+        "Storage"
+      ],
+      "description": "Cached notes with offline read/write.",
+      "outcome": "Convert Week 15 concepts into demonstrable engineering evidence."
+    },
+    {
+      "id": "p015",
+      "week": 16,
+      "title": "Flutter Testing Lab",
+      "type": "Mini",
+      "stack": [
+        "Flutter",
+        "Testing"
+      ],
+      "description": "Unit, widget and integration tests for one feature.",
+      "outcome": "Convert Week 16 concepts into demonstrable engineering evidence."
+    },
+    {
+      "id": "p016",
+      "week": 17,
+      "title": "Flutter Performance Lab",
+      "type": "Mini",
+      "stack": [
+        "Flutter",
+        "DevTools"
+      ],
+      "description": "Create and fix rebuild/list/image performance problems.",
+      "outcome": "Convert Week 17 concepts into demonstrable engineering evidence."
+    },
+    {
+      "id": "p017",
+      "week": 18,
+      "title": "Notification Deep-Link Demo",
+      "type": "Mini",
+      "stack": [
+        "Flutter",
+        "FCM"
+      ],
+      "description": "Notifications that navigate into app content.",
+      "outcome": "Convert Week 18 concepts into demonstrable engineering evidence."
+    },
+    {
+      "id": "p018",
+      "week": 20,
+      "title": "Feature-First Flutter Starter",
+      "type": "Architecture",
+      "stack": [
+        "Flutter",
+        "Bloc",
+        "Clean",
+        "Architecture"
+      ],
+      "description": "Reusable feature module with repository/use-case/DI.",
+      "outcome": "Convert Week 20 concepts into demonstrable engineering evidence."
+    },
+    {
+      "id": "p019",
+      "week": 24,
+      "title": "Course App Capstone",
+      "type": "Major",
+      "stack": [
+        "Flutter",
+        "Bloc",
+        "Dio",
+        "Testing"
+      ],
+      "description": "Auth, courses, purchase simulation, profile, cache and tests.",
+      "outcome": "Convert Week 24 concepts into demonstrable engineering evidence."
+    },
+    {
+      "id": "p020",
+      "week": 25,
+      "title": "JavaScript Expense API",
+      "type": "Mini",
+      "stack": [
+        "Node.js"
+      ],
+      "description": "CRUD API with validation and clean errors.",
+      "outcome": "Convert Week 25 concepts into demonstrable engineering evidence."
+    },
+    {
+      "id": "p021",
+      "week": 27,
+      "title": "Node Event Loop Lab",
+      "type": "Mini",
+      "stack": [
+        "Node.js"
+      ],
+      "description": "Experiments with timers, promises and microtasks.",
+      "outcome": "Convert Week 27 concepts into demonstrable engineering evidence."
+    },
+    {
+      "id": "p022",
+      "week": 28,
+      "title": "Express Blog API",
+      "type": "Mini",
+      "stack": [
+        "Express"
+      ],
+      "description": "Controllers, services, repositories and validation.",
+      "outcome": "Convert Week 28 concepts into demonstrable engineering evidence."
+    },
+    {
+      "id": "p023",
+      "week": 29,
+      "title": "SQL Practice Database",
+      "type": "Mini",
+      "stack": [
+        "MySQL"
+      ],
+      "description": "E-commerce schema plus 50 query exercises.",
+      "outcome": "Convert Week 29 concepts into demonstrable engineering evidence."
+    },
+    {
+      "id": "p024",
+      "week": 31,
+      "title": "Query Optimization Lab",
+      "type": "Mini",
+      "stack": [
+        "MySQL"
+      ],
+      "description": "EXPLAIN slow queries and add targeted indexes.",
+      "outcome": "Convert Week 31 concepts into demonstrable engineering evidence."
+    },
+    {
+      "id": "p025",
+      "week": 32,
+      "title": "Transaction Checkout",
+      "type": "Mini",
+      "stack": [
+        "Node",
+        "MySQL"
+      ],
+      "description": "Atomic order checkout with rollback.",
+      "outcome": "Convert Week 32 concepts into demonstrable engineering evidence."
+    },
+    {
+      "id": "p026",
+      "week": 33,
+      "title": "Secure Auth Service",
+      "type": "Mini",
+      "stack": [
+        "Node",
+        "JWT"
+      ],
+      "description": "Access/refresh tokens, roles and validation.",
+      "outcome": "Convert Week 33 concepts into demonstrable engineering evidence."
+    },
+    {
+      "id": "p027",
+      "week": 34,
+      "title": "Redis Cache Layer",
+      "type": "Mini",
+      "stack": [
+        "Node",
+        "Redis"
+      ],
+      "description": "Cache-aside reads, TTL and invalidation.",
+      "outcome": "Convert Week 34 concepts into demonstrable engineering evidence."
+    },
+    {
+      "id": "p028",
+      "week": 35,
+      "title": "Realtime Chat Server",
+      "type": "Mini",
+      "stack": [
+        "Node",
+        "Socket.IO"
+      ],
+      "description": "Rooms, presence and one-to-one messaging.",
+      "outcome": "Convert Week 35 concepts into demonstrable engineering evidence."
+    },
+    {
+      "id": "p029",
+      "week": 36,
+      "title": "Job Queue Worker",
+      "type": "Mini",
+      "stack": [
+        "Node",
+        "Redis"
+      ],
+      "description": "Async jobs, retries and worker processing.",
+      "outcome": "Convert Week 36 concepts into demonstrable engineering evidence."
+    },
+    {
+      "id": "p030",
+      "week": 38,
+      "title": "Backend Capstone",
+      "type": "Major",
+      "stack": [
+        "Node",
+        "Express",
+        "MySQL",
+        "Redis",
+        "Socket.IO"
+      ],
+      "description": "Auth, SQL, cache, realtime and background jobs.",
+      "outcome": "Convert Week 38 concepts into demonstrable engineering evidence."
+    },
+    {
+      "id": "p031",
+      "week": 41,
+      "title": "Kotlin Habit Tracker",
+      "type": "Mini",
+      "stack": [
+        "Kotlin"
+      ],
+      "description": "Native CRUD app with idiomatic Kotlin.",
+      "outcome": "Convert Week 41 concepts into demonstrable engineering evidence."
+    },
+    {
+      "id": "p032",
+      "week": 43,
+      "title": "Coroutine Downloader",
+      "type": "Mini",
+      "stack": [
+        "Kotlin",
+        "Coroutines"
+      ],
+      "description": "Concurrent downloads with cancellation.",
+      "outcome": "Convert Week 43 concepts into demonstrable engineering evidence."
+    },
+    {
+      "id": "p033",
+      "week": 44,
+      "title": "Compose Profile App",
+      "type": "Mini",
+      "stack": [
+        "Kotlin",
+        "Compose"
+      ],
+      "description": "State, navigation and Material UI.",
+      "outcome": "Convert Week 44 concepts into demonstrable engineering evidence."
+    },
+    {
+      "id": "p034",
+      "week": 46,
+      "title": "Compose Expense Tracker",
+      "type": "Mini",
+      "stack": [
+        "Compose",
+        "ViewModel"
+      ],
+      "description": "UDF + ViewModel state-driven app.",
+      "outcome": "Convert Week 46 concepts into demonstrable engineering evidence."
+    },
+    {
+      "id": "p035",
+      "week": 47,
+      "title": "Room Notes",
+      "type": "Mini",
+      "stack": [
+        "Room",
+        "Compose"
+      ],
+      "description": "Offline notes with DAO and reactive state.",
+      "outcome": "Convert Week 47 concepts into demonstrable engineering evidence."
+    },
+    {
+      "id": "p036",
+      "week": 48,
+      "title": "Retrofit API Client",
+      "type": "Mini",
+      "stack": [
+        "Retrofit",
+        "OkHttp"
+      ],
+      "description": "Interceptors, serialization and error mapping.",
+      "outcome": "Convert Week 48 concepts into demonstrable engineering evidence."
+    },
+    {
+      "id": "p037",
+      "week": 49,
+      "title": "Hilt Clean App",
+      "type": "Architecture",
+      "stack": [
+        "Hilt",
+        "Clean",
+        "Architecture"
+      ],
+      "description": "Refactor into data/domain/presentation.",
+      "outcome": "Convert Week 49 concepts into demonstrable engineering evidence."
+    },
+    {
+      "id": "p038",
+      "week": 52,
+      "title": "Native Android Capstone",
+      "type": "Major",
+      "stack": [
+        "Kotlin",
+        "Compose",
+        "Room",
+        "Retrofit",
+        "Hilt"
+      ],
+      "description": "Complete native app with offline data and API.",
+      "outcome": "Convert Week 52 concepts into demonstrable engineering evidence."
+    },
+    {
+      "id": "p039",
+      "week": 61,
+      "title": "Graph Explorer",
+      "type": "DSA Project",
+      "stack": [
+        "Dart",
+        "Graphs"
+      ],
+      "description": "BFS, DFS and connected-component explorer.",
+      "outcome": "Convert Week 61 concepts into demonstrable engineering evidence."
+    },
+    {
+      "id": "p040",
+      "week": 64,
+      "title": "Shortest Path Simulator",
+      "type": "DSA Project",
+      "stack": [
+        "Dart",
+        "Graphs"
+      ],
+      "description": "Weighted graph simulator with Dijkstra.",
+      "outcome": "Convert Week 64 concepts into demonstrable engineering evidence."
+    },
+    {
+      "id": "p041",
+      "week": 68,
+      "title": "DP Pattern Notebook",
+      "type": "DSA Project",
+      "stack": [
+        "Dart",
+        "DP"
+      ],
+      "description": "Classic DP implementations with state/transition notes.",
+      "outcome": "Convert Week 68 concepts into demonstrable engineering evidence."
+    },
+    {
+      "id": "p042",
+      "week": 72,
+      "title": "URL Shortener",
+      "type": "System Design",
+      "stack": [
+        "Node",
+        "MySQL",
+        "Redis"
+      ],
+      "description": "Prototype plus scalable architecture.",
+      "outcome": "Convert Week 72 concepts into demonstrable engineering evidence."
+    },
+    {
+      "id": "p043",
+      "week": 73,
+      "title": "Scalable Chat Design",
+      "type": "System Design",
+      "stack": [
+        "WebSocket"
+      ],
+      "description": "Capacity, persistence, fan-out and failure modes.",
+      "outcome": "Convert Week 73 concepts into demonstrable engineering evidence."
+    },
+    {
+      "id": "p044",
+      "week": 74,
+      "title": "Social Feed Design",
+      "type": "System Design",
+      "stack": [
+        "Redis"
+      ],
+      "description": "Feed generation, caching and pagination.",
+      "outcome": "Convert Week 74 concepts into demonstrable engineering evidence."
+    },
+    {
+      "id": "p045",
+      "week": 75,
+      "title": "Delivery Platform Design",
+      "type": "System Design",
+      "stack": [
+        "Distributed",
+        "Systems"
+      ],
+      "description": "Location, matching, queues and data flows.",
+      "outcome": "Convert Week 75 concepts into demonstrable engineering evidence."
+    },
+    {
+      "id": "p046",
+      "week": 80,
+      "title": "Dockerized Backend",
+      "type": "DevOps",
+      "stack": [
+        "Docker",
+        "Node",
+        "MySQL"
+      ],
+      "description": "Containerized reproducible backend stack.",
+      "outcome": "Convert Week 80 concepts into demonstrable engineering evidence."
+    },
+    {
+      "id": "p047",
+      "week": 81,
+      "title": "CI Pipeline",
+      "type": "DevOps",
+      "stack": [
+        "CI/CD"
+      ],
+      "description": "Automated lint/test/build pipeline.",
+      "outcome": "Convert Week 81 concepts into demonstrable engineering evidence."
+    },
+    {
+      "id": "p048",
+      "week": 84,
+      "title": "Observable API",
+      "type": "Production",
+      "stack": [
+        "Node",
+        "Observability"
+      ],
+      "description": "Logs, health checks and basic metrics.",
+      "outcome": "Convert Week 84 concepts into demonstrable engineering evidence."
+    },
+    {
+      "id": "p049",
+      "week": 86,
+      "title": "Security Hardening Lab",
+      "type": "Security",
+      "stack": [
+        "Node",
+        "OWASP"
+      ],
+      "description": "Fix common web vulnerabilities in a deliberately unsafe API.",
+      "outcome": "Convert Week 86 concepts into demonstrable engineering evidence."
+    },
+    {
+      "id": "p050",
+      "week": 88,
+      "title": "Load Test Lab",
+      "type": "Performance",
+      "stack": [
+        "Node",
+        "Performance"
+      ],
+      "description": "Benchmark, identify bottleneck, optimize and compare.",
+      "outcome": "Convert Week 88 concepts into demonstrable engineering evidence."
+    },
+    {
+      "id": "p051",
+      "week": 91,
+      "title": "Engineering Capstone Refactor",
+      "type": "Major",
+      "stack": [
+        "Flutter",
+        "Node",
+        "MySQL",
+        "Redis"
+      ],
+      "description": "Refactor old capstone with tests, docs and observability.",
+      "outcome": "Convert Week 91 concepts into demonstrable engineering evidence."
+    },
+    {
+      "id": "p052",
+      "week": 94,
+      "title": "Interview Coding Repo",
+      "type": "Interview",
+      "stack": [
+        "DSA"
+      ],
+      "description": "Pattern-based solutions with explanations and tests.",
+      "outcome": "Convert Week 94 concepts into demonstrable engineering evidence."
+    },
+    {
+      "id": "p053",
+      "week": 97,
+      "title": "System Design Notebook",
+      "type": "Interview",
+      "stack": [
+        "System",
+        "Design"
+      ],
+      "description": "Five concise architecture case studies.",
+      "outcome": "Convert Week 97 concepts into demonstrable engineering evidence."
+    },
+    {
+      "id": "p054",
+      "week": 100,
+      "title": "Final Portfolio Polish",
+      "type": "Career",
+      "stack": [
+        "GitHub",
+        "Documentation"
+      ],
+      "description": "Architecture diagrams, screenshots, tests and deployment docs.",
+      "outcome": "Convert Week 100 concepts into demonstrable engineering evidence."
+    }
+  ]
+}
