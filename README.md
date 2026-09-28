@@ -1,4 +1,4 @@
-# 🚀 Rafi's 2-Year Software Engineering Operating System (v2.0)
+# 2-Year Software Engineering Operating System
 
 > **"Learn it. Build it. Prove it."**  
 > A disciplined, production-grade 24-month roadmap designed to master Mobile, Backend, Android, CS Core, System Design, and Production Engineering — with protected rest and demonstrable proof of competence.
