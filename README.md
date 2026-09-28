@@ -111,29 +111,55 @@ Open **`http://127.0.0.1:8080`** in your browser.
 
 ---
 
+## 🚀 Free Hosting on GitHub Pages (1-Click Deployment)
+
+This project is **100% static & browser-native** (Zero build tools required). You can deploy it to GitHub Pages in 3 easy steps:
+
+1. **Push your code to GitHub:**
+   ```bash
+   git add .
+   git commit -m "feat: complete engineering roadmap with 1230+ problems & 63 projects"
+   git push origin main
+   ```
+2. **Enable GitHub Pages:**
+   - Go to your repository on **GitHub** → Click **Settings** (⚙️).
+   - In the left sidebar, click **Pages** (under Code and automation).
+   - Under **Build and deployment** → **Source**, select **`Deploy from a branch`**.
+   - Under **Branch**, select **`main`** and folder **`/ (root)`**, then click **Save**.
+3. **Done!**
+   - GitHub will generate a live URL within 1–2 minutes:  
+     `https://<your-username>.github.io/<your-repo-name>/`
+   - Progress is automatically saved in `localStorage` and you can export/import `progress.json` anytime!
+
+---
+
 ## 📂 Project Architecture
 
 ```text
 ├── index.html               # Semantic HTML5 Application Shell
 ├── styles.css               # Obsidian Slate Minimalist Design System & CSS Variables
 ├── README.md                # Engineering OS Documentation
+├── package.json             # Native ES Module Metadata
+├── .nojekyll                # GitHub Pages direct static assets bypass
 ├── data/
-│   ├── curriculum.json      # 104 Weeks, 54 Projects & 225+ Problems Database
-│   └── progress.json        # User progress tracking source of truth
+│   ├── curriculum.json      # 104 Weeks, 63 Projects & 1,230+ Curated Problems Database
+│   ├── progress.json        # User progress tracking source of truth
+│   ├── progress.example.json# Reference schema backup
+│   └── build_dataset.py     # Dataset generator pipeline
 └── js/
-    ├── app.js               # Application Orchestrator & Bootloader
+    ├── app.js               # Application Bootstrapper & View Router
     ├── state.js             # Central State Store (C, P, Filters, Search)
     ├── utils.js             # Helpers, Formatters, Category Badges & Storage Sync
     ├── events.js            # DOM Event Handlers & Keyboard Shortcuts
     ├── modals/
-    │   ├── workspaceModal.js# 4-Step Weekly Workspace Popup (Problem links & notes)
+    │   ├── workspaceModal.js# 3-Step Weekly Workspace (Syllabus, DSA Banks, Projects)
     │   └── projectModal.js  # Dedicated 4-Point Project Feature & Architecture Modal
     └── views/
         ├── dashboard.js     # Metrics, Hero Target & Full-width Phase Map
         ├── roadmap.js       # 24-Month Roadmap Journey
         ├── weekly.js        # Weekly Planner & Filter Toolbar
-        ├── practice.js      # DSA Problem-Solving Bank by Topic
-        ├── projects.js      # Build Track / Projects Grid
+        ├── practice.js      # 20 Topic Tiered DSA Bank (30 to 100+ Problems)
+        ├── projects.js      # 63 Production Project Gallery
         ├── dependencies.js  # Prerequisites & Dependencies Table
         └── strategy.js      # Rules, Philosophy & Weekly Rhythm
 ```
@@ -144,7 +170,7 @@ Open **`http://127.0.0.1:8080`** in your browser.
 
 1. Check off completed DSA questions, projects, and weeks as you progress.
 2. Your progress is saved automatically to your browser storage.
-3. Periodically click **"Save progress.json"** in the sidebar to download a timestamped backup.
+3. Periodically click **"Save progress.json"** in the sidebar to download a backup.
 4. When switching machines or browsers, click **"Import progress.json"** to restore your complete history.
 
 ---
