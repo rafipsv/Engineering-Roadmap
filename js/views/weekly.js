@@ -208,7 +208,7 @@ export function renderWeekly() {
                   <!-- 2. DSA / Practice pill -->
                   ${
                     qCount
-                      ? `<div class="glance-pill ${qSolved === qCount ? "glance-done" : ""}" title="15 DSA Problems on ${esc(w.problemTopic)}">
+                      ? `<div class="glance-pill ${qSolved === qCount ? "glance-done" : ""}" title="${qCount} DSA Problems on ${esc(w.problemTopic)}">
                           <span class="glance-icon">🧩</span>
                           <span class="glance-text">${qSolved}/${qCount} DSA</span>
                         </div>`

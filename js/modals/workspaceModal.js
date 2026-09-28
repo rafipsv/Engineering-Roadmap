@@ -98,7 +98,7 @@ export function openWorkspaceModal(id) {
             <div class="modal-section-head">
               <div>
                 <h4>🧩 DSA Practice Bank: <span class="topic-highlight">${esc(w.problemTopic || "Problem Solving")}</span></h4>
-                <p class="modal-section-sub">15 questions (5 Codeforces + 5 HackerRank + 5 LeetCode). Click link to solve & check the box when done.</p>
+                <p class="modal-section-sub">${totalQuestions} curated problems (${cfQuestions.length} Codeforces + ${hrQuestions.length} HackerRank + ${lcQuestions.length} LeetCode). Click link to solve & check the box when done.</p>
               </div>
               <div class="solved-counter-badge" id="modalSolvedCounter">
                 ${solvedQuestions}/${totalQuestions} Solved (${pct(solvedQuestions, totalQuestions)}%)

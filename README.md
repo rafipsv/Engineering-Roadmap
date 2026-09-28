@@ -8,8 +8,8 @@
 ![Roadmap Version](https://img.shields.io/badge/Version-2.0_Modular-indigo)
 ![Duration](https://img.shields.io/badge/Duration-24_Months_/_104_Weeks-blue)
 ![Phases](https://img.shields.io/badge/Phases-8_Phases-emerald)
-![Projects](https://img.shields.io/badge/Build_Track-54_Projects-purple)
-![DSA Practice](https://img.shields.io/badge/DSA_Practice-225+_Problems-amber)
+![Projects](https://img.shields.io/badge/Build_Track-63_Projects-purple)
+![DSA Practice](https://img.shields.io/badge/DSA_Practice-1220+_Problems-amber)
 ![Friday Policy](https://img.shields.io/badge/Friday-Protected_OFF_Day-green)
 
 ---
@@ -47,15 +47,20 @@ The accompanying interactive dashboard is built with **modern ES Modules, zero b
 - 📅 **Weekly Planner:**
   - 104 individual week cards with clean, non-overwhelming summary pills (`📖 Topics`, `🧩 DSA Solved`, `🚀 Project`, `🏆 Deliverable`).
   - Interactive **Dropdown Filters** (Filter by Phase with completion %, Month with %, and Status).
-- 🧩 **DSA Problem-Solving Bank:**
-  - Every DSA topic contains **15 curated problems** with direct clickable links:
-    - 5 **Codeforces** problems
-    - 5 **HackerRank** problems
-    - 5 **LeetCode** problems
-  - Individual checkboxes with real-time progress calculation.
-- 🚀 **54 In-Depth Project Specifications:**
-  - Clickable project names across all views opening a dedicated **Project Details Modal**.
-  - Includes **4-item key feature checklists**, **recommended architecture**, and **expected deliverables**.
+- 🧩 **Progressive DSA Bank (1,220+ Curated Problems across 20 Topics):**
+  - Problems are strictly tiered by complexity:
+    - **Foundational Topics (Math, Complexity):** 30 problems each
+    - **Bitwise & State Masking:** 40 problems
+    - **Core Structures (Hashing, Linked List):** 50 problems each
+    - **Standard Patterns (Arrays, Binary Search, Two Pointers, Stack/Queue, Trees, Heap, Trie, DSU, Greedy, Backtracking):** 60 problems each
+    - **Hard Algorithms (Shortest Path, Graphs, Segment Trees):** 70–80 problems each
+    - **Deep Dynamic Programming (DP I & DP II):** 100 problems each
+  - Every problem features a verified direct link to **Codeforces**, **HackerRank**, or **LeetCode**.
+  - Individual checkboxes with automatic `localStorage` synchronization and progress tracking.
+- 🚀 **63 In-Depth Project Specifications:**
+  - Clickable project links across all views opening a dedicated **Project Details Modal**.
+  - Includes full specification: **4-item key feature checklists**, **recommended architecture**, **technology stack**, and **expected deliverables**.
+  - Covers modern real-world systems: **AI/LLM Semantic Vector Search (pgvector & RAG)**, **Distributed Rate Limiter & Caching (Redis)**, **OpenTelemetry Observability Stack**, **Event-Driven Message Queues (Kafka/RabbitMQ)**, and algorithmic engines.
 - 📋 **Dependencies & Prerequisites Matrix:**
   - Clean prerequisite tracking table ensuring foundational skills are solidified before advanced topics.
 - 💾 **Local Persistence & Backup:**

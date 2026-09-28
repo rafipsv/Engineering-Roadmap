@@ -116,7 +116,7 @@ export function renderDashboard() {
           <h2>⚡ The Execution Formula</h2>
         </div>
         <div class="callout exec-callout">
-          <strong>Topic → 15 Problems → Mini-Project → Demonstrable Deliverable.</strong>
+          <strong>Topic → Progressive Problem Bank (30–100+ Problems) → Mini-Project → Demonstrable Deliverable.</strong>
           <p>Don't stop at watching videos. Real engineering skill comes from solving and shipping.</p>
         </div>
         <div class="exec-steps">
@@ -129,7 +129,7 @@ export function renderDashboard() {
           <div class="exec-step-item">
             <span class="exec-icon">🧩</span>
             <div>
-              <b>Rigorous Problem Solving:</b> 5 Codeforces + 5 HackerRank + 5 LeetCode problems every DSA topic.
+              <b>Rigorous Problem Solving:</b> Scaled problem banks (30 to 100+ problems per topic) across Codeforces, HackerRank & LeetCode.
             </div>
           </div>
           <div class="exec-step-item">

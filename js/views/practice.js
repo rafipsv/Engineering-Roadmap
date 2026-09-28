@@ -14,12 +14,16 @@ export function renderPractice() {
   let topic = activeTopic || Object.keys(groups)[0],
     q = groups[topic] || [];
 
+  const cfCount = q.filter((x) => x.platform === "Codeforces").length;
+  const hrCount = q.filter((x) => x.platform === "HackerRank").length;
+  const lcCount = q.filter((x) => x.platform === "LeetCode").length;
+
   $("#practiceView").innerHTML = `
     <div class="hero">
       <div>
         <div class="eyebrow">DSA + PROBLEM SOLVING</div>
-        <h1>15 questions per topic.</h1>
-        <p>Every topic has 5 Codeforces + 5 HackerRank + 5 LeetCode problems with direct links.</p>
+        <h1>Tiered Practice Bank (30–100+ Problems)</h1>
+        <p>Curated problem sets across 20 DSA topics — scaled strictly by complexity from foundations (30 problems) to advanced & complex topics (40 to 100 problems) on Codeforces, HackerRank, and LeetCode.</p>
       </div>
     </div>
     <div class="practice-layout">
@@ -28,7 +32,7 @@ export function renderPractice() {
           .map(
             (t) =>
               `<button data-topic="${esc(t)}" class="${t === topic ? "active" : ""}">
-                ${esc(t)} <span style="float:right">15</span>
+                ${esc(t)} <span style="float:right">${(groups[t] || []).length}</span>
               </button>`,
           )
           .join("")}
@@ -36,7 +40,7 @@ export function renderPractice() {
       <div class="card">
         <div class="section-title">
           <h2>${esc(topic)}</h2>
-          <span>5 CF + 5 HR + 5 LC</span>
+          <span>${cfCount} CF + ${hrCount} HR + ${lcCount} LC (${q.length} Problems)</span>
         </div>
         <div class="problem-grid">
           ${q
